@@ -1,0 +1,54 @@
+{% if site.data.settings.organizers.enable == true %}
+<!-- begin testimonials -->
+<div class="container">
+  <section class="section testimonials animate">
+    <div class="row">
+      <div class="col col-12">
+        <div class="section__info">
+          <div class="section__head">
+            <h2 class="section__title">{{ site.data.settings.organizers__title }}</h2>
+          </div>
+          {% if site.data.settings.organizers__description %}
+           <p class="section__description">{{ site.data.settings.organizers__description }}</p>
+          {% endif %}
+        </div>
+
+        <div class="row">
+        {% for organizers__item in site.data.settings.organizers__items %}
+          <div class="testimonial-item col col-4 col-d-6 col-t-12">
+            <div class="testimonial-content">
+              <div class="client-meta">
+                {% if organizers__item.image %}
+                  <div class="image-container">
+                    <img class="client-avatar lazy" data-src="{{ organizers__item.image | relative_url }}" alt="{{ organizers__item.name }}" loading="lazy">
+                  </div>
+                {% endif %}
+                <div class="client-info">
+                  {% if organizers__item.name %}
+                    <h3 class="client-name">
+                      {% if organizers__item.link %}
+                        <a href="{{organizers__item.link}}" target="_blank" rel="noopener">{{ organizers__item.name }}</a>
+                      {% else %}
+                        {{ organizers__item.name }}
+                      {% endif %}
+                    </h3>
+                  {% endif %}
+                  {% if organizers__item.designation %}
+                    <p class="client-designation">{{ organizers__item.designation }}</p>
+                  {% endif %}
+                </div>
+              </div>
+              {% if organizers__item.content %}
+                <p class="client-text">{{ organizers__item.content }}</p>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+        </div>
+
+      </div>
+    </div>
+  </section>
+</div>
+<!-- end testimonials -->
+{% endif %}

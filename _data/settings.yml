@@ -1,0 +1,323 @@
+#-------------------------------
+# Site Settings
+title: GENOML 
+logo: 'https://static-00.iconduck.com/assets.00/dna-emoji-2048x2026-zhdjmaa2.png'
+description: GENOML Workshop @ NEURIPS'24
+color_scheme: light  # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+
+
+#-------------------------------
+# Navigation Settings
+menu__settings:
+  menu__items:
+    - title: 'Home'
+      url: '/'
+    - title: 'Submissions'
+      url: '/submissions/'
+  #  - title: 'Prizes'
+  #    url: '/prizes/'
+    - title: 'Speakers'
+      url: '/work/'
+    - title: 'Agenda'
+      url: '/agenda/'
+#    - title: 'Organizers'
+#      url: '/committees/'
+
+
+#      submenu:
+#      - url: '/contact/'
+#        title: 'Steering Committee'
+#      - url: '/elements/'
+#        title: 'Organizing Committee'
+#      - url: '/elements/'
+#        title: 'Program Committee'
+
+
+#-------------------------------
+# Author Settings
+author:
+  author__name: GENOML 
+  author__bio: GENOML aims to facilitate discussions among ML researchers on various topics within Genomics and related fields, including target and drug discovery, agronomy, and synthetic biology
+  author__avatar: '/images/logo_chem.png'
+
+social:
+#- {icon: "ion-logo-twitter", link: "https://twitter.com"}
+#- {icon: "ion-logo-facebook", link: "https://facebook.com"}
+#- {icon: "ion-logo-instagram", link: "https://instagram.com"}
+#- {icon: "ion-logo-pinterest", link: "https://pinterest.com"}
+#- {icon: "ion-logo-github", link: "https://github.com"}
+#- {icon: "ion-logo-vimeo", link: "https://vimeo.com"}
+
+# Example of adding a new link to the footer - {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
+# Other icons can be found at https://ionicons.com/v4/
+
+
+#-------------------------------
+# Hero Settings
+hero:
+  enable: true
+  hero__title: GENOML Workshop
+  hero__workshopname: 'Genomics & Machine Learning Workshop'
+  hero__subtitle: NEURIPS'24 - DEC (TBC)th, Vancouver, Canada
+  hero__description: GENOML aims to facilitate discussions among ML researchers on various topics within Genomics and related fields, including target and drug discovery, agronomy, and synthetic biology
+  hero__image: "https://wallpaper.forfun.com/fetch/b4/b477aa17c628ebc4cf68cbdc091e9b0d.jpeg"
+
+
+#-------------------------------
+# Logos Settings
+logos:
+  enable: true
+  logos__title: Thank you to our sponsors!
+
+logo__items:
+  - name: TBC
+    link: https://thumbs.dreamstime.com/b/to-be-announced-red-rubber-stamp-over-white-background-86701643.jpg
+    image: https://thumbs.dreamstime.com/b/to-be-announced-red-rubber-stamp-over-white-background-86701643.jpg
+  
+  - name: TBC
+    link: https://thumbs.dreamstime.com/b/to-be-announced-red-rubber-stamp-over-white-background-86701643.jpg
+    image: https://thumbs.dreamstime.com/b/to-be-announced-red-rubber-stamp-over-white-background-86701643.jpg
+
+  - name: TBC
+    link: https://thumbs.dreamstime.com/b/to-be-announced-red-rubber-stamp-over-white-background-86701643.jpg
+    image: https://thumbs.dreamstime.com/b/to-be-announced-red-rubber-stamp-over-white-background-86701643.jpg
+
+  - name: TBC
+    link: https://thumbs.dreamstime.com/b/to-be-announced-red-rubber-stamp-over-white-background-86701643.jpg
+    image: https://thumbs.dreamstime.com/b/to-be-announced-red-rubber-stamp-over-white-background-86701643.jpg
+
+#-------------------------------
+# Newsletter
+mailchimp:
+  enable: true
+  mailchimp__identifier: https://bio.us22.list-manage.com/subscribe/post?u=c11b5cdfac933324ba6b81e53&amp;id=b2be655647&amp;f_id=0045cbe1f0 # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
+  mailchimp__input__text: Your email address...
+  mailchimp__button__text: Register Interest
+
+
+#-------------------------------
+# Work Settings
+work:
+  enable: true
+  work__title: Featured Speakers
+  work__description: Leading researchers from Industry and Academia will be at the workshop.
+
+
+#-------------------------------
+# Testimonials Section
+testimonials:
+  enable: true
+
+testimonial__title: Steering Committee
+testimonial__description: Rallies the community, establishes and maintains event credibility by endorsing the workshop and setting the scope and vision as senior advisors.
+
+testimonial__items:
+  - name: Prof. Dr. Aviv Regev
+    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+    designation: Genentech - Vice President and Head of Research and Early Development, member at the Broad Institute of MIT and Harvard (on leave), Professor at MIT (on leave)
+    link: "#"
+    content: Prof. Dr. Aviv Regev is Vice President and Head of Research and Early Development at Genentech. She is also a member at the Broad Institute of MIT and Harvard (on leave) and a Professor at MIT (on leave).
+
+  - name: Prof. Dr. Tina Hernandez-Boussard
+    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+    designation: Stanford University - Associate Dean of Research and Professor of Medicine, Biomedical Data Sciences, Surgery and Epidemiology & Population Health (by courtesy)
+    link: "#"
+    content: Prof. Dr. Tina Hernandez-Boussard is the Associate Dean of Research and Professor of Medicine, Biomedical Data Sciences, Surgery and Epidemiology & Population Health (by courtesy) at Stanford University.
+
+  - name: Prof. Dr. Jill P. Mesirov
+    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+    designation: UC San Diego - Associate Vice Chancellor for Computational Health Sciences and Professor of Medicine
+    link: "#"
+    content: Prof. Dr. Jill P. Mesirov is the Associate Vice Chancellor for Computational Health Sciences and Professor of Medicine at UC San Diego.
+
+  - name: Prof. Dr. Sandrine Dudoit
+    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+    designation: UC Berkeley - Professor of Biostatistics and Statistics and Chair of the Graduate Group in Biostatistics
+    link: "#"
+    content: Prof. Dr. Sandrine Dudoit is a Professor of Biostatistics and Statistics and Chair of the Graduate Group in Biostatistics at UC Berkeley.
+
+  - name: Prof. Dr. Ester Sabino
+    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+    designation: University of Sao Paulo - Professor, Department of Pathology at University of Sao Paulo Medical School
+    link: "#"
+    content: Prof. Dr. Ester Sabino is a Professor in the Department of Pathology at the University of Sao Paulo Medical School.
+
+  - name: Prof. Dr. Daphne Koller
+    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+    designation: Insitro - CEO & Co-Founder, Adjunct Computer Science Professor at Stanford
+    link: "#"
+    content: Prof. Dr. Daphne Koller is the CEO & Co-Founder of Insitro and an Adjunct Computer Science Professor at Stanford.
+
+  - name: Prof. Dr. Abdoulaye Banire Diallo
+    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+    designation: U. du Québec à Montréal - Professor, Director of the Bioinformatics Lab
+    link: "#"
+    content: Prof. Dr. Abdoulaye Banire Diallo is a Professor and Director of the Bioinformatics Lab at the University of Québec à Montréal.
+
+  - name: Dr. Anthony Costa
+    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+    designation: NVIDIA - Director of Digital Biology & Life Sciences Group Lead
+    link: "#"
+    content: Dr. Anthony Costa is the Director of Digital Biology & Life Sciences Group Lead at NVIDIA.
+
+  - name: Prof. Dr. Rajeev Varshney
+    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+    designation: Murdoch University - Professor, Food Futures Institute, Centre for Crop & Food Innovation
+    link: "#"
+    content: Prof. Dr. Rajeev Varshney is a Professor at the Food Futures Institute, Centre for Crop & Food Innovation at Murdoch University.
+
+  - name: Dr. Lindsay Edwards
+    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+    designation: Relation Therapeutics - Vice President of Platform & CTO
+    link: "#"
+    content: Dr. Lindsay Edwards is the Vice President of Platform & CTO at Relation Therapeutics.
+
+  - name: Dr. Tommaso Biancalani
+    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+    designation: Genentech - Sr Director & Head Of AI For Research Biology, AI/ML, Computational Science
+    link: "#"
+    content: Dr. Tommaso Biancalani is the Senior Director & Head Of AI For Research Biology, AI/ML, Computational Science at Genentech.
+
+# Ogranizers Section
+organizers:
+  enable: true
+
+organizers__title: Organizing Committee
+organizers__description: Dedicated to community outreach, workshop logistics, and managing submissions & reviews.
+
+organizers__items:
+  - name: Maria Brbić
+    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+    designation: EPFL
+    link: "#"
+    content: Maria is an Assistant Professor of Computer Science and Life Sciences at EPFL, affiliated with the EPFL Institute of Bioengineering. Her research focuses on machine learning for biomedical research. She co-organized the ICLR’24 Workshop on Machine Learning for Genomics Explorations, ICML’23 Workshop on Computational Biology, and NeurIPS ‘23 Workshop on AI for Science. Maria will mainly handle the Overleaf/Doc template, submission guidelines, and speaker relations.
+
+  - name: Aïcha BenTaieb
+    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+    designation: GENENTECH
+    link: "#"
+    content: Research interests include machine learning for target identification and clinical trial design. As Director of ML for Clinical Sciences at Genentech, her group focuses on multimodal foundation models for biology using real-world data and ML methods for clinical simulations. Aïcha organized the first ML for Genomics Exploration workshop at ICLR’24. She can contribute mainly with submission guidelines, speaker relations, and communications with NeurIPS organizers.
+
+  - name: Emine Kucukbenli
+    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+    designation: NVIDIA
+    link: "#"
+    content: Emine is a Research Manager at NVIDIA and an Associate at Harvard School of Engineering and Applied Sciences. Known for research in computational modeling and neural networks for atomistic simulations, they lead geometric deep learning research within BioNeMo, NVIDIA’s drug discovery platform. Emine has organized and chaired multiple ML-focused symposia at the APS March Meeting since 2020 and the NeurIPS ML & Physical Sciences workshop since 2021. Emine will mainly handle submission guidelines, speaker relations, and the Open Review assignment process.
+
+  - name: Alfonsina Milito
+    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+    designation: CENTER FOR RESEARCH IN AGRICULTURAL GENOMICS
+    link: "#"
+    content: Alfonsina Milito currently works at the Centre for Research in Agricultural Genomics in the Computational and Synthetic Biology Group. Her current project aims at the development of microalgae as bioengineering platforms, by a synthetic biology approach. Alfonsina will contribute mainly with Submission Guidelines, Managing the Program Committee, Open Review Assignment Process.
+
+  - name: Nathan Frey
+    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+    designation: PRESCIENT/GENENTECH
+    link: "#"
+    content: Research interests in machine learning for biological sequence design. The Frey Lab at Genentech focuses on discrete generative modeling, black box optimization, interpretability, and foundation models for biology. Nathan served on the program committee for the ML4LMS workshop at ICML ‘24, and is co-organizing a workshop on interpretable ML methods for NeurIPS ‘24. Nathan will contribute with Overleaf/Doc templates, Submission Guidelines, Community Support (e.g., via Email).
+
+  - name: Chris Dallago
+    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+    designation: NVIDIA
+    link: "#"
+    content: A computer scientist turned bioinformatician, Chris models biological mechanisms using machine learning. He advanced bio-sequence representation learning, notably in transformer models. Dedicated to solving scarce data problems, such as designing proteins for therapeutic and industrial applications. He contributed to the first representation learning in biology workshop for ISMB and ML for life and material sciences for ICML. Chris will mainly handle the Overleaf/Doc template, website, submission guidelines, community support (e.g., email), and communications with NeurIPS organizers.
+
+  - name: Francesca-Zhoufan Li
+    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+    designation: CALTECH
+    link: "#"
+    content: Research interest in applying AI to science and engineering problems, I am currently focusing on machine learning-assisted protein engineering as a Bioengineering Ph.D. student at Caltech. Francesca-Zhoufan was one of the co-organizers of the Generative and Experimental Perspectives for Biomolecular Design at ICLR’24. Francesca will contribute with submission and review guidelines, OpenReview assignment and community communication.
+
+  - name: Bruno Trentini
+    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+    designation: NVIDIA
+    link: "#"
+    content: Research interests include Geometric Deep Learning and Graph Representation Learning for Life Sciences. Bruno is a Member of the Steering Committee of the Friends of University College London Computer Science, Co-organizer of scientific meet-ups and workshops including the ML4LMS workshop at ICML’24 and the NVIDIA LifeSciences Developer Summit 2022. Bruno will contribute mainly with the Overleaf/Doc template, Website, Program Committee communications, Sponsor Relations and Open Review Assignment Process (Match making).
+
+  - name: Steven Kothen-Hill
+    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+    designation: NVIDIA
+    link: "#"
+    content: Steven is a Research Scientist at NVIDIA with research interests in using deep learning for bioinformatics and computational biology. He has worked at the intersection of plant breeding, plant genomics, cancer genomics, and Machine Learning since 2024. This work includes the assembly of the Hop genome and early work in using cfDNA for cancer screening. Steven’s interests are pushing computer scientists and machine learning researchers to work on topics in Genomics. Steven will contribute mainly with Overleaf/Doc template, Submission Guidelines, Speaker Relations and Program Committee management.
+
+  - name: Sepideh Maleki
+    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+    designation: GENENTECH
+    link: "#"
+    content: Postdoctoral Fellow at Genentech, specializing in drug discovery with a specific emphasis on molecular perturbation. Ph.D. in Computer Science at the University of Texas, Austin where Sepideh conducted research in machine learning and analytics on graphs, particularly designing efficient and effective machine learning methods for large-scale hypergraph structured data. Sepideh will contribute mainly with Overleaf/Doc template, Managing the Program Committee, Open Review Assignment Process (Match making).
+
+  - name: Lucas P. de Lima Camillo
+    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+    designation: SHIFT BIOSCIENCE
+    link: "#"
+    content: Research interests in Single-Cell Foundation Models and Genetic Perturbation Models, particularly applied to the field of longevity. As Head of ML at Shift, he brings real-world experience on how to apply novel genomics models in a startup environment. Lucas will contribute mainly with the website, Submission Guidelines, Sponsor Relations, Community Support (e.g., Email).
+
+  - name: William Chow
+    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+    designation: BASECAMP RESEARCH
+    link: "#"
+    content: Experience in the assembly, finishing and annotation world of large scale genome projects from the humble beginnings of WGS in reference genomes (clone by clone) to NGS to third generation projects involving long reads and related technologies. William Chow will contribute mainly with managing the program committee, community support (e.g., Email) and Open Review assignment process.
+
+  - name: James Opzoomer
+    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+    designation: RELATION THERAPEUTICS
+    link: "#"
+    content: James is a computational scientist at the interface of experimental and computational biology, combining single-cell technologies with machine learning for target and drug discovery in the Genomics Innovation Lab at Relation Therapeutics. James will contribute with the website, managing the program committee and sponsor relations.
+
+  - name: Alice Del Vecchio
+    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+    designation: RELATION THERAPEUTICS
+    link: "#"
+    content: Alice is a Machine Learning Scientist at Relation Therapeutics, where she has worked on DNA sequence models and single cell perturbation modeling. She has a Master's in Systems Biology from the University of Cambridge, where her research focused on applying graph neural networks to study antibody-antigen binding. Alice will contribute with the website, sponsor relations and communications with the NeurIPS organization.
+
+  - name: Federica Di Palma
+    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+    designation: GENOME BC
+    link: "#"
+    content: Federica’s previous experience includes her roles as the Assistant Director, Vertebrate Genome Biology at the Broad Institute of Harvard, a Senior Research Scientist and Service Centre Manager at the Hubbard Centre for Genome Studies at the University of New Hampshire, Durham, and a Fogarty Fellow, National Institutes of Health. Federica will contribute with Speaker Relations, Community Outreach, and Overseeing submissions and review guidelines.
+
+#-------------------------------
+# Program Committee Section
+programs:
+  enable: true
+
+programs__title: Program Committee
+programs__description: Contributing to defining speakers, sponsors, the website and reviewing submissions.
+
+
+#-------------------------------
+# Blog Section
+blog:
+  enable: true
+
+blog__settings:
+  blog__title: Agenda
+  blog__description: To be added here
+
+
+
+
+#-------------------------------
+# Footer Settings
+footer__background__image: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Vancouver_banner_Downtown_at_dusk.jpg"
+
+#-------------------------------
+# Contact Settings
+contact:
+  email: workshop@ml4lms.bio # Add your form_id
+  description: If you have any questions, please do reach out to the organizers # Add a description of your form
+
+# NOTE
+# Akio theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus:
+  enable: false
+  disqus__identifier: anvod-studio-test # Add your shortname for Disqus Comment. For example anvod-studio-test
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your GA Tracking Id

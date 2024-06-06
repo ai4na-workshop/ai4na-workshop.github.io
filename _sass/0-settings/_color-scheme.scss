@@ -1,0 +1,84 @@
+/* Color Scheme */
+
+:root {
+  --primary-color: #eb2d37;
+  --white: #fff;
+  --light-gray: #f5f5f5;
+  --lighten-gray: #e7e7e7;
+  --light-blue: #afB5bd;
+  --blue-gray: #687385;
+  --gray: #e0e0e0;
+  --dark: #080227;
+
+  // Background Color
+  --background-color: var(--white);
+  --background-alt-color: var(--light-gray);
+
+  // Body Color
+  --text-color: var(--dark);
+  --text-alt-color: var(--blue-gray);
+  --text-alt-color-2: var(--light-blue);
+
+  // Heading
+  --heading-font-color: var(--dark);
+
+  // Link
+  --link-color: var(--dark);
+  --link-color-hover: var(--dark);
+
+  // Button
+  --button-color: var(--white);
+  --button-background-color: var(--primary-color);
+  --button-background-hover: #4d35c8;
+
+  // Border
+  --border-color: var(--gray);
+  --border-alt-color: var(--lighten-gray);
+
+  // Table
+  --th-color: var(--light-gray);
+  --tr-color: var(--light-gray);
+
+  // Syntax Highlighting
+  --syntax-highlighting-background: #f3f3f3;
+}
+
+:root[dark] {
+  --primary-color: #2a757f;
+  --white: #fff;
+  --light-gray: #f0f0f0;
+  --gray: #9e9e9e;
+  --dark: #111016;
+
+  // Background Color
+  --background-color: var(--dark);
+  --background-alt-color: #1d1d23;
+
+  // Body Color
+  --text-color: var(--gray);
+  --text-alt-color: var(--gray);
+  --text-alt-color-2: var(--gray);
+
+  // Heading
+  --heading-font-color: var(--light-gray);
+
+  // Link
+  --link-color: var(--light-gray);
+  --link-color-hover: var(--light-gray);
+
+  // Button
+  --button-color: var(--white);
+  --button-background-color: var(--primary-color);
+  --button-background-hover: #1c5e67;
+
+  // Border
+  --border-color: #252629;
+  --border-alt-color: #080b12;
+
+  // Table
+  --th-color: #18181d;;
+  --tr-color: #080b12;
+
+  // Syntax Highlighting
+  --syntax-highlighting-background: #080b12;
+}
