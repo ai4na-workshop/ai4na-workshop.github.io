@@ -1,8 +1,8 @@
 #-------------------------------
 # Site Settings
-title: GENOML 
+title: GEML 
 logo: 'https://static-00.iconduck.com/assets.00/dna-emoji-2048x2026-zhdjmaa2.png'
-description: GENOML Workshop @ NEURIPS'24
+description: GEML Workshop @ NEURIPS'24
 color_scheme: light  # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 
@@ -20,8 +20,8 @@ menu__settings:
       url: '/work/'
     - title: 'Agenda'
       url: '/agenda/'
-#    - title: 'Organizers'
-#      url: '/committees/'
+    - title: 'Breakout Notes'
+      url: '/breakout/'
 
 
 #      submenu:
@@ -36,8 +36,8 @@ menu__settings:
 #-------------------------------
 # Author Settings
 author:
-  author__name: GENOML 
-  author__bio: GENOML aims to facilitate discussions among ML researchers on various topics within Genomics and related fields, including target and drug discovery, agronomy, and synthetic biology
+  author__name: GEML 
+  author__bio: GEML aims to facilitate discussions among ML researchers on various topics within Genomics and related fields, including target and drug discovery, agronomy, and synthetic biology
   author__avatar: '/images/logo_chem.png'
 
 social:
@@ -56,10 +56,10 @@ social:
 # Hero Settings
 hero:
   enable: true
-  hero__title: GENOML Workshop
+  hero__title: GEML Workshop 
   hero__workshopname: 'Genomics & Machine Learning Workshop'
   hero__subtitle: NEURIPS'24 - DEC (TBC)th, Vancouver, Canada
-  hero__description: GENOML aims to facilitate discussions among ML researchers on various topics within Genomics and related fields, including target and drug discovery, agronomy, and synthetic biology
+  hero__description: GEML aims to facilitate discussions among ML researchers on various topics within Genomics and related fields, including target and drug discovery, agronomy, and synthetic biology
   hero__image: "https://wallpaper.forfun.com/fetch/b4/b477aa17c628ebc4cf68cbdc091e9b0d.jpeg"
 
 

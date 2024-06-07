@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 🔒 Submissions to open soon!
-description: The GENOML Workshop will accept submissions if we get accepted at NeurIPS
+description: The GEML Workshop will accept submissions if we get accepted at NeurIPS
 permalink: /submissions/
 #image: '/images/01-2.jpg'
 # image_caption: 'Photo by [Bruce Dixon](https://unsplash.com/photos/3M9WJQVHzog) on [Unsplash](https://unsplash.com/)'
@@ -48,7 +48,7 @@ permalink: /submissions/
 If you select the Overleaf template, you will need to download the project zip file for now and upload it as a new project. 
 
 ### What's the workshop topic?
-> GENOML aims to facilitate discussions among ML researchers on various topics within Genomics and related fields, including target and drug discovery, agronomy, and synthetic biology
+> GEML aims to facilitate discussions among ML researchers on various topics within Genomics and related fields, including target and drug discovery, agronomy, and synthetic biology
 
 We welcome a broad range of submissions, from dataset curation, analysis and benchmarking work highlighting opportunities and pitfalls of current ML applications in health and materials, to novel models and algorithms unlocking unprecedented capabilities.
 
@@ -59,9 +59,9 @@ Lastly, we aim to integrate two areas - Genomics and Machine Learning – as ML 
 Need more inspiration? Have a look at the schedule to see who we invited, and our organizing committes to find out the people behind the workshop.
 
 #### Where do I submit?
-Submission to the GENOML 2024 workshop  will be entirely electronic, via OpenReview. 
+Submission to the GEML 2024 workshop  will be entirely electronic, via OpenReview. 
 
-Do it via the [GENOML venue via OpenReview](#)
+Do it via the [GEML venue via OpenReview](#)
 
 ### What can I submit?
 - You can submit either a poster or free text (e.g. long abstract, summary style, or short paper).
