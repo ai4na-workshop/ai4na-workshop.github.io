@@ -2,7 +2,7 @@
 layout: post
 schedule: 09:50-10:10
 date: 2022-07-26 09:00:00 +0300
-image: 'https://thesource.sa.ua.edu/wp-content/uploads/sites/57/2021/09/person-generic.jpeg' 
+# image: 'https://thesource.sa.ua.edu/wp-content/uploads/sites/57/2021/09/person-generic.jpeg' 
 title: Keynote Speaker
 author: Speaker
 description: Expert in Life Sciences

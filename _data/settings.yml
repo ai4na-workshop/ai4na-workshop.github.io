@@ -12,21 +12,31 @@ menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
+      submenu:
+      # - url: '/contact/'
+      #   title: 'Contact'
+      # - url: '/elements/'
+      #   title: 'Organizing Committee'
+      # - url: '/elements/'
+      #   title: 'Program Committee'
+    - title: 'Call for papers'
+      url: '/call_for_papers/'
+    - title: 'Organizers'
+      url: '/organizers/'
+    - title: 'Schedule'
+      url: '/agenda/'
+    - title: 'Accepted Papers'
+      url: '/accepted/'
     - title: 'Submissions'
       url: '/submissions/'
   #  - title: 'Prizes'
   #    url: '/prizes/'
     - title: 'Speakers'
       url: '/work/'
-      # url: '/panelist/'
-    - title: 'Agenda'
-      url: '/agenda/'
     - title: 'Breakout Notes'
       url: '/breakout/'
-    - title: 'Call for papers'
-      url: '/call_for_papers/'
-    - title: 'Organizers'
-      url: '/organizers/'
+
+
 
 #      submenu:
 #      - url: '/contact/'
@@ -103,8 +113,22 @@ mailchimp:
 # Work Settings
 work:
   enable: true
-  work__title: Featured Speakers
-  work__description: Leading researchers from Industry and Academia will be at the workshop (listed alphabetically).
+  work__title: Speakers and Panelists
+  work__description: Leading researchers from Industry and Academia will be at the workshop (listed alphabetically by the last name).
+
+#-------------------------------
+# Work Settings
+speakers:
+  enable: true
+  speakers__title: Speakers
+  speakers__description: Leading researchers from Industry and Academia will be at the workshop (listed alphabetically by the last name).
+
+#-------------------------------
+# Work Settings
+panelists:
+  enable: true
+  panelists__title: Panelists
+  panelists__description: Leading researchers from Industry and Academia will be at the workshop (listed alphabetically by the last name).
 
 
 #-------------------------------
@@ -283,8 +307,7 @@ organizers__items:
 #-------------------------------
 # Program Committee Section
 programs:
-  enable_main: false
-  enable_organizers: true
+  enable: true
 
 programs__title: Program Committee
 programs__description: Contributing to defining speakers, sponsors, the website and reviewing submissions.
@@ -309,8 +332,10 @@ footer__background__image: "https://upload.wikimedia.org/wikipedia/commons/e/ef/
 #-------------------------------
 # Contact Settings
 contact:
-  email: workshop@ml4lms.bio # Add your form_id
+  email: ai4na.workshop@gmail.com  # workshop@ml4lms.bio # Add your form_id
   description: If you have any questions, please do reach out to the organizers # Add a description of your form
+  title: Contact Us
+
 
 # NOTE
 # Akio theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
