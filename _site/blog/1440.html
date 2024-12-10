@@ -10,16 +10,16 @@
   <meta name='description' content='Expert in Life Sciences'>
 
   <link rel="canonical" href="http://localhost:4000/blog/1440">
-  <link rel="alternate" type="application/rss+xml" title="GEML" href="/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="AI4NA" href="/feed.xml">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Keynote Speaker – GEML">
+  <meta name="twitter:title" content="Keynote Speaker – AI4NA">
   <meta name="twitter:description" content="Expert in Life Sciences">
   <meta name="twitter:image:src" content="https://thesource.sa.ua.edu/wp-content/uploads/sites/57/2021/09/person-generic.jpeg">
 
   <!-- Facebook OpenGraph -->
-  <meta property="og:title" content="Keynote Speaker – GEML">
+  <meta property="og:title" content="Keynote Speaker – AI4NA">
   <meta property="og:description" content="Expert in Life Sciences">
   <meta property="og:image" content="https://thesource.sa.ua.edu/wp-content/uploads/sites/57/2021/09/person-generic.jpeg">
 
@@ -37,8 +37,10 @@
 
   <script>
     
-      document.documentElement.setAttribute("light", "");
-      document.documentElement.classList.add('light-mode');
+    if (localStorage.getItem("theme") === "dark") {
+      document.documentElement.setAttribute("dark", "");
+      document.documentElement.classList.add('dark-mode');
+    }
     
   </script>
 
@@ -63,7 +65,7 @@
         <div class="logo">
           <a class="logo__link" href="/">
           
-            <img class="logo__image" src="https://static-00.iconduck.com/assets.00/dna-emoji-2048x2026-zhdjmaa2.png" alt="GEML">
+            <img class="logo__image" src="https://static-00.iconduck.com/assets.00/dna-emoji-2048x2026-zhdjmaa2.png" alt="AI4NA">
           
           </a>
         </div>
@@ -103,6 +105,18 @@
                 </li>
                 
               
+                
+                <li class="nav__item">
+                  <a href="/call_for_papers/" class="nav__link">Call for papers</a>
+                </li>
+                
+              
+                
+                <li class="nav__item">
+                  <a href="/organizers/" class="nav__link">Organizers</a>
+                </li>
+                
+              
             </ul>
           </div>
         </nav>
@@ -112,8 +126,9 @@
             <div></div>
           </div>
           
-          <div class="toggle-theme theme-light">
-            <div class="toggle-sun" title="Light mode"><i class="ion ion-ios-sunny"></i></div>
+          <div class="toggle-theme toggle-theme-js">
+            <div class="toggle-moon" title="Enable dark mode"><i class="ion ion-ios-moon"></i></div>
+            <div class="toggle-sun" title="Enable light mode"><i class="ion ion-ios-sunny"></i></div>
           </div>
           
         </div>
@@ -126,6 +141,7 @@
 
   <!-- begin content -->
   <main class="content" aria-label="Content">
+    <h1>Debug: Main Content Starts</h1>
     <div class="container">
   <div class="post-head">
 
@@ -150,12 +166,12 @@
       <div class="post-meta">
         <div class="post-meta__left">
           <!--<a href="/about/" class="post-author-image">
-            <img class="lazy" data-src="/images/logo_chem.png" alt="GEML">
+            <img class="lazy" data-src="/images/logo_chem.png" alt="AI4NA">
           </a>-->
           <div class="post-meta__bottom"> 
-            <a class="post-author-name" href="/about/">GEML</a>
+            <a class="post-author-name" href="/about/">AI4NA</a>
             <!-- 
-              <span class="post-date"><time datetime="2022-07-26T03:00:00-03:00">26 Jul 2022</time> –   1 min read </span>
+              <span class="post-date"><time datetime="2022-07-26T14:00:00+08:00">26 Jul 2022</time> –   1 min read </span>
             -->
             </div>
         </div>
@@ -163,12 +179,12 @@
 
     </div>
 
-    
+    <!-- 
     <div class="post-image">
       <img class="lazy" data-src="https://thesource.sa.ua.edu/wp-content/uploads/sites/57/2021/09/person-generic.jpeg" alt="Keynote Speaker">
     </div>
     
-    
+     -->
 
   </div>
 </div>
@@ -383,6 +399,7 @@
 </div>
 <!-- end related posts -->
 
+    <h1>Debug: Main Content Ends</h1>
   </main>
   <!-- end content -->
 
@@ -396,9 +413,9 @@
     <div class="container">
       <div class="footer__author">
         <div class="footer__author-info">
-          <h3 class="footer__author-name">GEML</h3>
+          <h3 class="footer__author-name">AI4NA</h3>
           
-          <p class="footer__author-bio">GEML aims to facilitate discussions among ML researchers on various topics within Genomics and related fields, including target and drug discovery, agronomy, and synthetic biology</p>
+          <p class="footer__author-bio">AI4NA aims to facilitate discussions among ML researchers on various topics within Genomics and related fields, including target and drug discovery, agronomy, and synthetic biology</p>
         </div>
       </div>
     </div>
@@ -409,7 +426,7 @@
   <div class="container">
     <div class="row">
       <div class="col col-12">
-        <div class="copyright">2024 &copy; <a href="/">GEML</a>. Published with <a href="https://jekyllrb.com/">Jekyll</a>. Assets by <a href="https://jekyllthemes.io/developers/artem-sheludko">Artem Sheludko</a>.</div>
+        <div class="copyright">2024 &copy; <a href="/">AI4NA</a>. Published with <a href="https://jekyllrb.com/">Jekyll</a>. Assets by <a href="https://jekyllthemes.io/developers/artem-sheludko">Artem Sheludko</a>.</div>
       </div>
     </div>
   </div>

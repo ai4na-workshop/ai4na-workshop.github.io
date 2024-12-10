@@ -6,20 +6,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>GEML</title>
-  <meta name='description' content='GEML Workshop @ NEURIPS'24'>
+  <title>AI4NA</title>
+  <meta name='description' content='AI4NA Workshop @ ICLR'25'>
 
   <link rel="canonical" href="http://localhost:4000/blog/page/2/">
-  <link rel="alternate" type="application/rss+xml" title="GEML" href="/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="AI4NA" href="/feed.xml">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content=" – GEML">
+  <meta name="twitter:title" content=" – AI4NA">
   <meta name="twitter:description" content="">
   <meta name="twitter:image:src" content="http://localhost:4000/images/icml.png">
 
   <!-- Facebook OpenGraph -->
-  <meta property="og:title" content=" – GEML">
+  <meta property="og:title" content=" – AI4NA">
   <meta property="og:description" content="">
   <meta property="og:image" content="http://localhost:4000/images/icml.png">
 
@@ -37,8 +37,10 @@
 
   <script>
     
-      document.documentElement.setAttribute("light", "");
-      document.documentElement.classList.add('light-mode');
+    if (localStorage.getItem("theme") === "dark") {
+      document.documentElement.setAttribute("dark", "");
+      document.documentElement.classList.add('dark-mode');
+    }
     
   </script>
 
@@ -63,7 +65,7 @@
         <div class="logo">
           <a class="logo__link" href="/">
           
-            <img class="logo__image" src="https://static-00.iconduck.com/assets.00/dna-emoji-2048x2026-zhdjmaa2.png" alt="GEML">
+            <img class="logo__image" src="https://static-00.iconduck.com/assets.00/dna-emoji-2048x2026-zhdjmaa2.png" alt="AI4NA">
           
           </a>
         </div>
@@ -103,6 +105,18 @@
                 </li>
                 
               
+                
+                <li class="nav__item">
+                  <a href="/call_for_papers/" class="nav__link">Call for papers</a>
+                </li>
+                
+              
+                
+                <li class="nav__item">
+                  <a href="/organizers/" class="nav__link">Organizers</a>
+                </li>
+                
+              
             </ul>
           </div>
         </nav>
@@ -112,8 +126,9 @@
             <div></div>
           </div>
           
-          <div class="toggle-theme theme-light">
-            <div class="toggle-sun" title="Light mode"><i class="ion ion-ios-sunny"></i></div>
+          <div class="toggle-theme toggle-theme-js">
+            <div class="toggle-moon" title="Enable dark mode"><i class="ion ion-ios-moon"></i></div>
+            <div class="toggle-sun" title="Enable light mode"><i class="ion ion-ios-sunny"></i></div>
           </div>
           
         </div>
@@ -126,7 +141,8 @@
 
   <!-- begin content -->
   <main class="content" aria-label="Content">
-    
+    <h1>Debug: Main Content Starts</h1>
+    <!-- 
 
 <style>
   a.myLink {
@@ -172,18 +188,18 @@
         <div class="hero__left">
         <!--  
           <div class="hero__avatar">
-            <img class="lazy" data-src="/images/logo_chem.png" alt="GEML">
+            <img class="lazy" data-src="/images/logo_chem.png" alt="AI4NA">
           </div>-->
           
-          <h1 class="hero__description">Genomics & Machine Learning Workshop</h1> 
+          <h1 class="hero__description">Artificial Intelligence for Nucleic Acids</h1> 
 
-          <h2 class="hero__title">GEML Workshop</h2>
+          <h2 class="hero__title">AI4NA Workshop</h2>
 
 
-         <h4 style="color: #eb2d37;">NEURIPS'24 - DEC (TBC)th, Vancouver, Canada          </h4> 
-        <!-- <h3 class="hero__description">NEURIPS'24 - DEC (TBC)th, Vancouver, Canada</h3> 
+         <h4 style="color: #eb2d37;">ICLR'25 - APR (TBC)th, Singapore          </h4> 
+        <!-- <h3 class="hero__description">ICLR'25 - Apr (TBC)th, Singapore</h3> 
         -->
-          <p class="hero__description">GEML aims to facilitate discussions among ML researchers on various topics within Genomics and related fields, including target and drug discovery, agronomy, and synthetic biology</p>
+          <p class="hero__description">AI4NA aims to facilitate discussions among ML researchers on various topics within Genomics and related fields, including target and drug discovery, agronomy, and synthetic biology</p>
 
           <div class="hero__subscribe">
 
@@ -262,7 +278,7 @@
       <div class="col col-5 col-d-12">
         <div class="hero__right">
           <div class="hero__image">
-            <img class="lazy" data-src="https://wallpaper.forfun.com/fetch/b4/b477aa17c628ebc4cf68cbdc091e9b0d.jpeg" alt="GEML's Picture">
+            <img class="lazy" data-src="https://wallpaper.forfun.com/fetch/b4/b477aa17c628ebc4cf68cbdc091e9b0d.jpeg" alt="AI4NA's Picture">
           </div>
         </div>
       </div>
@@ -408,7 +424,7 @@
         <div class="section__info">
           <h2 class="section__title">Featured Speakers</h2>
           
-          <p class="section__description">Leading researchers from Industry and Academia will be at the workshop.</p>
+          <p class="section__description">Leading researchers from Industry and Academia will be at the workshop (listed alphabetically).</p>
           
           <a href="/work" class="section__link">See all speakers<i class="ion ion-md-arrow-forward"></i></a>
         </div>
@@ -420,14 +436,14 @@
           
           <article class="work col col-6 col-d-12">
             <div class="work__content">
-              <a href="/work/anne-copy-2" class="work__image">
-                <img class="lazy" data-src="https://t4.ftcdn.net/jpg/06/03/31/43/360_F_603314378_1Wn5GwH4M3tZOFjn9uMSUUtjxZaRrKAw.jpg" alt="SPEAKER">
+              <a href="/work/schwab-p" class="work__image">
+                <img class="lazy" data-src="https://t4.ftcdn.net/jpg/06/03/31/43/360_F_603314378_1Wn5GwH4M3tZOFjn9uMSUUtjxZaRrKAw.jpg" alt="Patrick Schwab">
               </a>
               <div class="work__info">
                 
-                <div class="work__category">Specialty</div>
+                <div class="work__category">Panelist</div>
                 
-                <h3 class="work__title"><a href="/work/anne-copy-2">SPEAKER</a></h3>
+                <h3 class="work__title"><a href="/work/schwab-p">Patrick Schwab</a></h3>
                 
                 <p class="work__description">Description</p>
                 
@@ -437,14 +453,14 @@
           
           <article class="work col col-6 col-d-12">
             <div class="work__content">
-              <a href="/work/anne-copy-3" class="work__image">
-                <img class="lazy" data-src="https://www.theladders.com/wp-content/uploads/business-conference-190730.jpg" alt="SPEAKER">
+              <a href="/work/eismann-s" class="work__image">
+                <img class="lazy" data-src="https://t4.ftcdn.net/jpg/06/03/31/43/360_F_603314378_1Wn5GwH4M3tZOFjn9uMSUUtjxZaRrKAw.jpg" alt="Stephan Eismann">
               </a>
               <div class="work__info">
                 
-                <div class="work__category">Specialty</div>
+                <div class="work__category">Speaker</div>
                 
-                <h3 class="work__title"><a href="/work/anne-copy-3">SPEAKER</a></h3>
+                <h3 class="work__title"><a href="/work/eismann-s">Stephan Eismann</a></h3>
                 
                 <p class="work__description">Description</p>
                 
@@ -454,14 +470,14 @@
           
           <article class="work col col-6 col-d-12">
             <div class="work__content">
-              <a href="/work/anne-copy-4" class="work__image">
-                <img class="lazy" data-src="https://www.theladders.com/wp-content/uploads/business-conference-190730.jpg" alt="SPEAKER">
+              <a href="/work/jin-w" class="work__image">
+                <img class="lazy" data-src="https://www.theladders.com/wp-content/uploads/business-conference-190730.jpg" alt="Wengong Jin">
               </a>
               <div class="work__info">
                 
-                <div class="work__category">Specialty</div>
+                <div class="work__category">Speaker</div>
                 
-                <h3 class="work__title"><a href="/work/anne-copy-4">SPEAKER</a></h3>
+                <h3 class="work__title"><a href="/work/jin-w">Wengong Jin</a></h3>
                 
                 <p class="work__description">Description</p>
                 
@@ -471,14 +487,14 @@
           
           <article class="work col col-6 col-d-12">
             <div class="work__content">
-              <a href="/work/anne-copy-5" class="work__image">
-                <img class="lazy" data-src="https://t4.ftcdn.net/jpg/06/03/31/43/360_F_603314378_1Wn5GwH4M3tZOFjn9uMSUUtjxZaRrKAw.jpg" alt="SPEAKER">
+              <a href="/work/bunne-c" class="work__image">
+                <img class="lazy" data-src="https://t4.ftcdn.net/jpg/06/03/31/43/360_F_603314378_1Wn5GwH4M3tZOFjn9uMSUUtjxZaRrKAw.jpg" alt="Charlotte Bunne">
               </a>
               <div class="work__info">
                 
-                <div class="work__category">Specialty</div>
+                <div class="work__category">Speaker</div>
                 
-                <h3 class="work__title"><a href="/work/anne-copy-5">SPEAKER</a></h3>
+                <h3 class="work__title"><a href="/work/bunne-c">Charlotte Bunne</a></h3>
                 
                 <p class="work__description">Description</p>
                 
@@ -591,828 +607,10 @@
 <!-- end blog -->
 
 
-
-<!-- begin testimonials -->
-<div class="container">
-  <section class="section testimonials animate">
-    <div class="row">
-      <div class="col col-12">
-
-        <div class="section__info">
-          <div class="section__head">
-            <h2 class="section__title">Steering Committee</h2>
-          </div>
-          
-           <p class="section__description">Rallies the community, establishes and maintains event credibility by endorsing the workshop and setting the scope and vision as senior advisors.</p>
-          
-        </div>
-
-        <div class="row">
-        
-          <div class="testimonial-item col col-4 col-d-6 col-t-12">
-            <div class="testimonial-content">
-              <div class="client-meta">
-                
-                 <!-- <div class="image-container">
-                    <img class="client-avatar lazy" data-src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" alt="Prof. Dr. Aviv Regev" loading="lazy" height="32px" width="32px">
-                  </div>--> 
-                
-                <div class="client-info">
-                  
-                    <h3 class="client-name">
-                      
-                        <a href="#" target="_blank" rel="noopener">Prof. Dr. Aviv Regev</a>
-                      
-                    </h3>
-                  
-                  
-                    <p class="client-designation">Genentech - Vice President and Head of Research and Early Development, member at the Broad Institute of MIT and Harvard (on leave), Professor at MIT (on leave)</p>
-                  
-                </div>
-              </div>
-              
-                <p class="client-text">Prof. Dr. Aviv Regev is Vice President and Head of Research and Early Development at Genentech. She is also a member at the Broad Institute of MIT and Harvard (on leave) and a Professor at MIT (on leave).</p>
-              
-            </div>
-          </div>
-        
-          <div class="testimonial-item col col-4 col-d-6 col-t-12">
-            <div class="testimonial-content">
-              <div class="client-meta">
-                
-                 <!-- <div class="image-container">
-                    <img class="client-avatar lazy" data-src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" alt="Prof. Dr. Tina Hernandez-Boussard" loading="lazy" height="32px" width="32px">
-                  </div>--> 
-                
-                <div class="client-info">
-                  
-                    <h3 class="client-name">
-                      
-                        <a href="#" target="_blank" rel="noopener">Prof. Dr. Tina Hernandez-Boussard</a>
-                      
-                    </h3>
-                  
-                  
-                    <p class="client-designation">Stanford University - Associate Dean of Research and Professor of Medicine, Biomedical Data Sciences, Surgery and Epidemiology & Population Health (by courtesy)</p>
-                  
-                </div>
-              </div>
-              
-                <p class="client-text">Prof. Dr. Tina Hernandez-Boussard is the Associate Dean of Research and Professor of Medicine, Biomedical Data Sciences, Surgery and Epidemiology & Population Health (by courtesy) at Stanford University.</p>
-              
-            </div>
-          </div>
-        
-          <div class="testimonial-item col col-4 col-d-6 col-t-12">
-            <div class="testimonial-content">
-              <div class="client-meta">
-                
-                 <!-- <div class="image-container">
-                    <img class="client-avatar lazy" data-src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" alt="Prof. Dr. Jill P. Mesirov" loading="lazy" height="32px" width="32px">
-                  </div>--> 
-                
-                <div class="client-info">
-                  
-                    <h3 class="client-name">
-                      
-                        <a href="#" target="_blank" rel="noopener">Prof. Dr. Jill P. Mesirov</a>
-                      
-                    </h3>
-                  
-                  
-                    <p class="client-designation">UC San Diego - Associate Vice Chancellor for Computational Health Sciences and Professor of Medicine</p>
-                  
-                </div>
-              </div>
-              
-                <p class="client-text">Prof. Dr. Jill P. Mesirov is the Associate Vice Chancellor for Computational Health Sciences and Professor of Medicine at UC San Diego.</p>
-              
-            </div>
-          </div>
-        
-          <div class="testimonial-item col col-4 col-d-6 col-t-12">
-            <div class="testimonial-content">
-              <div class="client-meta">
-                
-                 <!-- <div class="image-container">
-                    <img class="client-avatar lazy" data-src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" alt="Prof. Dr. Sandrine Dudoit" loading="lazy" height="32px" width="32px">
-                  </div>--> 
-                
-                <div class="client-info">
-                  
-                    <h3 class="client-name">
-                      
-                        <a href="#" target="_blank" rel="noopener">Prof. Dr. Sandrine Dudoit</a>
-                      
-                    </h3>
-                  
-                  
-                    <p class="client-designation">UC Berkeley - Professor of Biostatistics and Statistics and Chair of the Graduate Group in Biostatistics</p>
-                  
-                </div>
-              </div>
-              
-                <p class="client-text">Prof. Dr. Sandrine Dudoit is a Professor of Biostatistics and Statistics and Chair of the Graduate Group in Biostatistics at UC Berkeley.</p>
-              
-            </div>
-          </div>
-        
-          <div class="testimonial-item col col-4 col-d-6 col-t-12">
-            <div class="testimonial-content">
-              <div class="client-meta">
-                
-                 <!-- <div class="image-container">
-                    <img class="client-avatar lazy" data-src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" alt="Prof. Dr. Ester Sabino" loading="lazy" height="32px" width="32px">
-                  </div>--> 
-                
-                <div class="client-info">
-                  
-                    <h3 class="client-name">
-                      
-                        <a href="#" target="_blank" rel="noopener">Prof. Dr. Ester Sabino</a>
-                      
-                    </h3>
-                  
-                  
-                    <p class="client-designation">University of Sao Paulo - Professor, Department of Pathology at University of Sao Paulo Medical School</p>
-                  
-                </div>
-              </div>
-              
-                <p class="client-text">Prof. Dr. Ester Sabino is a Professor in the Department of Pathology at the University of Sao Paulo Medical School.</p>
-              
-            </div>
-          </div>
-        
-          <div class="testimonial-item col col-4 col-d-6 col-t-12">
-            <div class="testimonial-content">
-              <div class="client-meta">
-                
-                 <!-- <div class="image-container">
-                    <img class="client-avatar lazy" data-src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" alt="Prof. Dr. Daphne Koller" loading="lazy" height="32px" width="32px">
-                  </div>--> 
-                
-                <div class="client-info">
-                  
-                    <h3 class="client-name">
-                      
-                        <a href="#" target="_blank" rel="noopener">Prof. Dr. Daphne Koller</a>
-                      
-                    </h3>
-                  
-                  
-                    <p class="client-designation">Insitro - CEO & Co-Founder, Adjunct Computer Science Professor at Stanford</p>
-                  
-                </div>
-              </div>
-              
-                <p class="client-text">Prof. Dr. Daphne Koller is the CEO & Co-Founder of Insitro and an Adjunct Computer Science Professor at Stanford.</p>
-              
-            </div>
-          </div>
-        
-          <div class="testimonial-item col col-4 col-d-6 col-t-12">
-            <div class="testimonial-content">
-              <div class="client-meta">
-                
-                 <!-- <div class="image-container">
-                    <img class="client-avatar lazy" data-src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" alt="Prof. Dr. Abdoulaye Banire Diallo" loading="lazy" height="32px" width="32px">
-                  </div>--> 
-                
-                <div class="client-info">
-                  
-                    <h3 class="client-name">
-                      
-                        <a href="#" target="_blank" rel="noopener">Prof. Dr. Abdoulaye Banire Diallo</a>
-                      
-                    </h3>
-                  
-                  
-                    <p class="client-designation">U. du Québec à Montréal - Professor, Director of the Bioinformatics Lab</p>
-                  
-                </div>
-              </div>
-              
-                <p class="client-text">Prof. Dr. Abdoulaye Banire Diallo is a Professor and Director of the Bioinformatics Lab at the University of Québec à Montréal.</p>
-              
-            </div>
-          </div>
-        
-          <div class="testimonial-item col col-4 col-d-6 col-t-12">
-            <div class="testimonial-content">
-              <div class="client-meta">
-                
-                 <!-- <div class="image-container">
-                    <img class="client-avatar lazy" data-src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" alt="Dr. Anthony Costa" loading="lazy" height="32px" width="32px">
-                  </div>--> 
-                
-                <div class="client-info">
-                  
-                    <h3 class="client-name">
-                      
-                        <a href="#" target="_blank" rel="noopener">Dr. Anthony Costa</a>
-                      
-                    </h3>
-                  
-                  
-                    <p class="client-designation">NVIDIA - Director of Digital Biology & Life Sciences Group Lead</p>
-                  
-                </div>
-              </div>
-              
-                <p class="client-text">Dr. Anthony Costa is the Director of Digital Biology & Life Sciences Group Lead at NVIDIA.</p>
-              
-            </div>
-          </div>
-        
-          <div class="testimonial-item col col-4 col-d-6 col-t-12">
-            <div class="testimonial-content">
-              <div class="client-meta">
-                
-                 <!-- <div class="image-container">
-                    <img class="client-avatar lazy" data-src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" alt="Prof. Dr. Rajeev Varshney" loading="lazy" height="32px" width="32px">
-                  </div>--> 
-                
-                <div class="client-info">
-                  
-                    <h3 class="client-name">
-                      
-                        <a href="#" target="_blank" rel="noopener">Prof. Dr. Rajeev Varshney</a>
-                      
-                    </h3>
-                  
-                  
-                    <p class="client-designation">Murdoch University - Professor, Food Futures Institute, Centre for Crop & Food Innovation</p>
-                  
-                </div>
-              </div>
-              
-                <p class="client-text">Prof. Dr. Rajeev Varshney is a Professor at the Food Futures Institute, Centre for Crop & Food Innovation at Murdoch University.</p>
-              
-            </div>
-          </div>
-        
-          <div class="testimonial-item col col-4 col-d-6 col-t-12">
-            <div class="testimonial-content">
-              <div class="client-meta">
-                
-                 <!-- <div class="image-container">
-                    <img class="client-avatar lazy" data-src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" alt="Dr. Lindsay Edwards" loading="lazy" height="32px" width="32px">
-                  </div>--> 
-                
-                <div class="client-info">
-                  
-                    <h3 class="client-name">
-                      
-                        <a href="#" target="_blank" rel="noopener">Dr. Lindsay Edwards</a>
-                      
-                    </h3>
-                  
-                  
-                    <p class="client-designation">Relation Therapeutics - Vice President of Platform & CTO</p>
-                  
-                </div>
-              </div>
-              
-                <p class="client-text">Dr. Lindsay Edwards is the Vice President of Platform & CTO at Relation Therapeutics.</p>
-              
-            </div>
-          </div>
-        
-          <div class="testimonial-item col col-4 col-d-6 col-t-12">
-            <div class="testimonial-content">
-              <div class="client-meta">
-                
-                 <!-- <div class="image-container">
-                    <img class="client-avatar lazy" data-src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" alt="Dr. Tommaso Biancalani" loading="lazy" height="32px" width="32px">
-                  </div>--> 
-                
-                <div class="client-info">
-                  
-                    <h3 class="client-name">
-                      
-                        <a href="#" target="_blank" rel="noopener">Dr. Tommaso Biancalani</a>
-                      
-                    </h3>
-                  
-                  
-                    <p class="client-designation">Genentech - Sr Director & Head Of AI For Research Biology, AI/ML, Computational Science</p>
-                  
-                </div>
-              </div>
-              
-                <p class="client-text">Dr. Tommaso Biancalani is the Senior Director & Head Of AI For Research Biology, AI/ML, Computational Science at Genentech.</p>
-              
-            </div>
-          </div>
-        
-        </div>
-
-      </div>
-    </div>
-  </section>
-</div>
-<!-- end testimonials -->
+ -->
 
 
-
-<!-- begin testimonials -->
-<div class="container">
-  <section class="section testimonials animate">
-    <div class="row">
-      <div class="col col-12">
-        <div class="section__info">
-          <div class="section__head">
-            <h2 class="section__title">Organizing Committee</h2>
-          </div>
-          
-           <p class="section__description">Dedicated to community outreach, workshop logistics, and managing submissions & reviews.</p>
-          
-        </div>
-
-        <div class="row">
-        
-          <div class="testimonial-item col col-4 col-d-6 col-t-12">
-            <div class="testimonial-content">
-              <div class="client-meta">
-                
-                  <div class="image-container">
-                    <img class="client-avatar lazy" data-src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" alt="Maria Brbić" loading="lazy">
-                  </div>
-                
-                <div class="client-info">
-                  
-                    <h3 class="client-name">
-                      
-                        <a href="#" target="_blank" rel="noopener">Maria Brbić</a>
-                      
-                    </h3>
-                  
-                  
-                    <p class="client-designation">EPFL</p>
-                  
-                </div>
-              </div>
-              
-                <p class="client-text">Maria is an Assistant Professor of Computer Science and Life Sciences at EPFL, affiliated with the EPFL Institute of Bioengineering. Her research focuses on machine learning for biomedical research. She co-organized the ICLR’24 Workshop on Machine Learning for Genomics Explorations, ICML’23 Workshop on Computational Biology, and NeurIPS ‘23 Workshop on AI for Science. Maria will mainly handle the Overleaf/Doc template, submission guidelines, and speaker relations.</p>
-              
-            </div>
-          </div>
-        
-          <div class="testimonial-item col col-4 col-d-6 col-t-12">
-            <div class="testimonial-content">
-              <div class="client-meta">
-                
-                  <div class="image-container">
-                    <img class="client-avatar lazy" data-src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" alt="Aïcha BenTaieb" loading="lazy">
-                  </div>
-                
-                <div class="client-info">
-                  
-                    <h3 class="client-name">
-                      
-                        <a href="#" target="_blank" rel="noopener">Aïcha BenTaieb</a>
-                      
-                    </h3>
-                  
-                  
-                    <p class="client-designation">GENENTECH</p>
-                  
-                </div>
-              </div>
-              
-                <p class="client-text">Research interests include machine learning for target identification and clinical trial design. As Director of ML for Clinical Sciences at Genentech, her group focuses on multimodal foundation models for biology using real-world data and ML methods for clinical simulations. Aïcha organized the first ML for Genomics Exploration workshop at ICLR’24. She can contribute mainly with submission guidelines, speaker relations, and communications with NeurIPS organizers.</p>
-              
-            </div>
-          </div>
-        
-          <div class="testimonial-item col col-4 col-d-6 col-t-12">
-            <div class="testimonial-content">
-              <div class="client-meta">
-                
-                  <div class="image-container">
-                    <img class="client-avatar lazy" data-src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" alt="Emine Kucukbenli" loading="lazy">
-                  </div>
-                
-                <div class="client-info">
-                  
-                    <h3 class="client-name">
-                      
-                        <a href="#" target="_blank" rel="noopener">Emine Kucukbenli</a>
-                      
-                    </h3>
-                  
-                  
-                    <p class="client-designation">NVIDIA</p>
-                  
-                </div>
-              </div>
-              
-                <p class="client-text">Emine is a Research Manager at NVIDIA and an Associate at Harvard School of Engineering and Applied Sciences. Known for research in computational modeling and neural networks for atomistic simulations, they lead geometric deep learning research within BioNeMo, NVIDIA’s drug discovery platform. Emine has organized and chaired multiple ML-focused symposia at the APS March Meeting since 2020 and the NeurIPS ML & Physical Sciences workshop since 2021. Emine will mainly handle submission guidelines, speaker relations, and the Open Review assignment process.</p>
-              
-            </div>
-          </div>
-        
-          <div class="testimonial-item col col-4 col-d-6 col-t-12">
-            <div class="testimonial-content">
-              <div class="client-meta">
-                
-                  <div class="image-container">
-                    <img class="client-avatar lazy" data-src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" alt="Alfonsina Milito" loading="lazy">
-                  </div>
-                
-                <div class="client-info">
-                  
-                    <h3 class="client-name">
-                      
-                        <a href="#" target="_blank" rel="noopener">Alfonsina Milito</a>
-                      
-                    </h3>
-                  
-                  
-                    <p class="client-designation">CENTER FOR RESEARCH IN AGRICULTURAL GENOMICS</p>
-                  
-                </div>
-              </div>
-              
-                <p class="client-text">Alfonsina Milito currently works at the Centre for Research in Agricultural Genomics in the Computational and Synthetic Biology Group. Her current project aims at the development of microalgae as bioengineering platforms, by a synthetic biology approach. Alfonsina will contribute mainly with Submission Guidelines, Managing the Program Committee, Open Review Assignment Process.</p>
-              
-            </div>
-          </div>
-        
-          <div class="testimonial-item col col-4 col-d-6 col-t-12">
-            <div class="testimonial-content">
-              <div class="client-meta">
-                
-                  <div class="image-container">
-                    <img class="client-avatar lazy" data-src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" alt="Nathan Frey" loading="lazy">
-                  </div>
-                
-                <div class="client-info">
-                  
-                    <h3 class="client-name">
-                      
-                        <a href="#" target="_blank" rel="noopener">Nathan Frey</a>
-                      
-                    </h3>
-                  
-                  
-                    <p class="client-designation">PRESCIENT/GENENTECH</p>
-                  
-                </div>
-              </div>
-              
-                <p class="client-text">Research interests in machine learning for biological sequence design. The Frey Lab at Genentech focuses on discrete generative modeling, black box optimization, interpretability, and foundation models for biology. Nathan served on the program committee for the ML4LMS workshop at ICML ‘24, and is co-organizing a workshop on interpretable ML methods for NeurIPS ‘24. Nathan will contribute with Overleaf/Doc templates, Submission Guidelines, Community Support (e.g., via Email).</p>
-              
-            </div>
-          </div>
-        
-          <div class="testimonial-item col col-4 col-d-6 col-t-12">
-            <div class="testimonial-content">
-              <div class="client-meta">
-                
-                  <div class="image-container">
-                    <img class="client-avatar lazy" data-src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" alt="Chris Dallago" loading="lazy">
-                  </div>
-                
-                <div class="client-info">
-                  
-                    <h3 class="client-name">
-                      
-                        <a href="#" target="_blank" rel="noopener">Chris Dallago</a>
-                      
-                    </h3>
-                  
-                  
-                    <p class="client-designation">NVIDIA</p>
-                  
-                </div>
-              </div>
-              
-                <p class="client-text">A computer scientist turned bioinformatician, Chris models biological mechanisms using machine learning. He advanced bio-sequence representation learning, notably in transformer models. Dedicated to solving scarce data problems, such as designing proteins for therapeutic and industrial applications. He contributed to the first representation learning in biology workshop for ISMB and ML for life and material sciences for ICML. Chris will mainly handle the Overleaf/Doc template, website, submission guidelines, community support (e.g., email), and communications with NeurIPS organizers.</p>
-              
-            </div>
-          </div>
-        
-          <div class="testimonial-item col col-4 col-d-6 col-t-12">
-            <div class="testimonial-content">
-              <div class="client-meta">
-                
-                  <div class="image-container">
-                    <img class="client-avatar lazy" data-src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" alt="Francesca-Zhoufan Li" loading="lazy">
-                  </div>
-                
-                <div class="client-info">
-                  
-                    <h3 class="client-name">
-                      
-                        <a href="#" target="_blank" rel="noopener">Francesca-Zhoufan Li</a>
-                      
-                    </h3>
-                  
-                  
-                    <p class="client-designation">CALTECH</p>
-                  
-                </div>
-              </div>
-              
-                <p class="client-text">Research interest in applying AI to science and engineering problems, I am currently focusing on machine learning-assisted protein engineering as a Bioengineering Ph.D. student at Caltech. Francesca-Zhoufan was one of the co-organizers of the Generative and Experimental Perspectives for Biomolecular Design at ICLR’24. Francesca will contribute with submission and review guidelines, OpenReview assignment and community communication.</p>
-              
-            </div>
-          </div>
-        
-          <div class="testimonial-item col col-4 col-d-6 col-t-12">
-            <div class="testimonial-content">
-              <div class="client-meta">
-                
-                  <div class="image-container">
-                    <img class="client-avatar lazy" data-src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" alt="Bruno Trentini" loading="lazy">
-                  </div>
-                
-                <div class="client-info">
-                  
-                    <h3 class="client-name">
-                      
-                        <a href="#" target="_blank" rel="noopener">Bruno Trentini</a>
-                      
-                    </h3>
-                  
-                  
-                    <p class="client-designation">NVIDIA</p>
-                  
-                </div>
-              </div>
-              
-                <p class="client-text">Research interests include Geometric Deep Learning and Graph Representation Learning for Life Sciences. Bruno is a Member of the Steering Committee of the Friends of University College London Computer Science, Co-organizer of scientific meet-ups and workshops including the ML4LMS workshop at ICML’24 and the NVIDIA LifeSciences Developer Summit 2022. Bruno will contribute mainly with the Overleaf/Doc template, Website, Program Committee communications, Sponsor Relations and Open Review Assignment Process (Match making).</p>
-              
-            </div>
-          </div>
-        
-          <div class="testimonial-item col col-4 col-d-6 col-t-12">
-            <div class="testimonial-content">
-              <div class="client-meta">
-                
-                  <div class="image-container">
-                    <img class="client-avatar lazy" data-src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" alt="Steven Kothen-Hill" loading="lazy">
-                  </div>
-                
-                <div class="client-info">
-                  
-                    <h3 class="client-name">
-                      
-                        <a href="#" target="_blank" rel="noopener">Steven Kothen-Hill</a>
-                      
-                    </h3>
-                  
-                  
-                    <p class="client-designation">NVIDIA</p>
-                  
-                </div>
-              </div>
-              
-                <p class="client-text">Steven is a Research Scientist at NVIDIA with research interests in using deep learning for bioinformatics and computational biology. He has worked at the intersection of plant breeding, plant genomics, cancer genomics, and Machine Learning since 2024. This work includes the assembly of the Hop genome and early work in using cfDNA for cancer screening. Steven’s interests are pushing computer scientists and machine learning researchers to work on topics in Genomics. Steven will contribute mainly with Overleaf/Doc template, Submission Guidelines, Speaker Relations and Program Committee management.</p>
-              
-            </div>
-          </div>
-        
-          <div class="testimonial-item col col-4 col-d-6 col-t-12">
-            <div class="testimonial-content">
-              <div class="client-meta">
-                
-                  <div class="image-container">
-                    <img class="client-avatar lazy" data-src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" alt="Sepideh Maleki" loading="lazy">
-                  </div>
-                
-                <div class="client-info">
-                  
-                    <h3 class="client-name">
-                      
-                        <a href="#" target="_blank" rel="noopener">Sepideh Maleki</a>
-                      
-                    </h3>
-                  
-                  
-                    <p class="client-designation">GENENTECH</p>
-                  
-                </div>
-              </div>
-              
-                <p class="client-text">Postdoctoral Fellow at Genentech, specializing in drug discovery with a specific emphasis on molecular perturbation. Ph.D. in Computer Science at the University of Texas, Austin where Sepideh conducted research in machine learning and analytics on graphs, particularly designing efficient and effective machine learning methods for large-scale hypergraph structured data. Sepideh will contribute mainly with Overleaf/Doc template, Managing the Program Committee, Open Review Assignment Process (Match making).</p>
-              
-            </div>
-          </div>
-        
-          <div class="testimonial-item col col-4 col-d-6 col-t-12">
-            <div class="testimonial-content">
-              <div class="client-meta">
-                
-                  <div class="image-container">
-                    <img class="client-avatar lazy" data-src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" alt="Lucas P. de Lima Camillo" loading="lazy">
-                  </div>
-                
-                <div class="client-info">
-                  
-                    <h3 class="client-name">
-                      
-                        <a href="#" target="_blank" rel="noopener">Lucas P. de Lima Camillo</a>
-                      
-                    </h3>
-                  
-                  
-                    <p class="client-designation">SHIFT BIOSCIENCE</p>
-                  
-                </div>
-              </div>
-              
-                <p class="client-text">Research interests in Single-Cell Foundation Models and Genetic Perturbation Models, particularly applied to the field of longevity. As Head of ML at Shift, he brings real-world experience on how to apply novel genomics models in a startup environment. Lucas will contribute mainly with the website, Submission Guidelines, Sponsor Relations, Community Support (e.g., Email).</p>
-              
-            </div>
-          </div>
-        
-          <div class="testimonial-item col col-4 col-d-6 col-t-12">
-            <div class="testimonial-content">
-              <div class="client-meta">
-                
-                  <div class="image-container">
-                    <img class="client-avatar lazy" data-src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" alt="William Chow" loading="lazy">
-                  </div>
-                
-                <div class="client-info">
-                  
-                    <h3 class="client-name">
-                      
-                        <a href="#" target="_blank" rel="noopener">William Chow</a>
-                      
-                    </h3>
-                  
-                  
-                    <p class="client-designation">BASECAMP RESEARCH</p>
-                  
-                </div>
-              </div>
-              
-                <p class="client-text">Experience in the assembly, finishing and annotation world of large scale genome projects from the humble beginnings of WGS in reference genomes (clone by clone) to NGS to third generation projects involving long reads and related technologies. William Chow will contribute mainly with managing the program committee, community support (e.g., Email) and Open Review assignment process.</p>
-              
-            </div>
-          </div>
-        
-          <div class="testimonial-item col col-4 col-d-6 col-t-12">
-            <div class="testimonial-content">
-              <div class="client-meta">
-                
-                  <div class="image-container">
-                    <img class="client-avatar lazy" data-src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" alt="James Opzoomer" loading="lazy">
-                  </div>
-                
-                <div class="client-info">
-                  
-                    <h3 class="client-name">
-                      
-                        <a href="#" target="_blank" rel="noopener">James Opzoomer</a>
-                      
-                    </h3>
-                  
-                  
-                    <p class="client-designation">RELATION THERAPEUTICS</p>
-                  
-                </div>
-              </div>
-              
-                <p class="client-text">James is a computational scientist at the interface of experimental and computational biology, combining single-cell technologies with machine learning for target and drug discovery in the Genomics Innovation Lab at Relation Therapeutics. James will contribute with the website, managing the program committee and sponsor relations.</p>
-              
-            </div>
-          </div>
-        
-          <div class="testimonial-item col col-4 col-d-6 col-t-12">
-            <div class="testimonial-content">
-              <div class="client-meta">
-                
-                  <div class="image-container">
-                    <img class="client-avatar lazy" data-src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" alt="Alice Del Vecchio" loading="lazy">
-                  </div>
-                
-                <div class="client-info">
-                  
-                    <h3 class="client-name">
-                      
-                        <a href="#" target="_blank" rel="noopener">Alice Del Vecchio</a>
-                      
-                    </h3>
-                  
-                  
-                    <p class="client-designation">RELATION THERAPEUTICS</p>
-                  
-                </div>
-              </div>
-              
-                <p class="client-text">Alice is a Machine Learning Scientist at Relation Therapeutics, where she has worked on DNA sequence models and single cell perturbation modeling. She has a Master's in Systems Biology from the University of Cambridge, where her research focused on applying graph neural networks to study antibody-antigen binding. Alice will contribute with the website, sponsor relations and communications with the NeurIPS organization.</p>
-              
-            </div>
-          </div>
-        
-          <div class="testimonial-item col col-4 col-d-6 col-t-12">
-            <div class="testimonial-content">
-              <div class="client-meta">
-                
-                  <div class="image-container">
-                    <img class="client-avatar lazy" data-src="https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" alt="Federica Di Palma" loading="lazy">
-                  </div>
-                
-                <div class="client-info">
-                  
-                    <h3 class="client-name">
-                      
-                        <a href="#" target="_blank" rel="noopener">Federica Di Palma</a>
-                      
-                    </h3>
-                  
-                  
-                    <p class="client-designation">GENOME BC</p>
-                  
-                </div>
-              </div>
-              
-                <p class="client-text">Federica’s previous experience includes her roles as the Assistant Director, Vertebrate Genome Biology at the Broad Institute of Harvard, a Senior Research Scientist and Service Centre Manager at the Hubbard Centre for Genome Studies at the University of New Hampshire, Durham, and a Fogarty Fellow, National Institutes of Health. Federica will contribute with Speaker Relations, Community Outreach, and Overseeing submissions and review guidelines.</p>
-              
-            </div>
-          </div>
-        
-        </div>
-
-      </div>
-    </div>
-  </section>
-</div>
-<!-- end testimonials -->
-
-
-
-<!-- begin testimonials -->
-<div class="container">
-  <section class="section testimonials animate">
-    <div class="row">
-      <div class="col col-12">
-        <div class="section__info">
-          <div class="section__head">
-            <h2 class="section__title">Program Committee</h2>
-          </div>
-          
-           <p class="section__description">Contributing to defining speakers, sponsors, the website and reviewing submissions.</p>
-          
-        </div>
-
-        <div class="table-container">
-          <table>
-            <tr><th>Name</th><th>Affiliation</th></tr>
-            <tr><td>Krisztina Sinkovics</td><td>U. Cambridge</td></tr>
-            <tr><td>Chenyu Wang</td><td>MIT</td></tr>
-            <tr><td>Andre B. Wyzykowski</td><td>SENAI CIMATEC</td></tr>
-            <tr><td>Ken Chiu</td><td>U. Binghamton</td></tr>
-            <tr><td>Yanan Long</td><td>U. Chicago</td></tr>
-            <tr><td>Jenea Adams</td><td>U. Pennsylvania</td></tr>
-            <tr><td>Alexander Rubinsteyn</td><td>UNC at Chapel Hill</td></tr>
-            <tr><td>Daniel Schrider</td><td>UNC at Chapel Hill</td></tr>
-            <tr><td>Eric Nguyen</td><td>Stanford University</td></tr>
-            <tr><td>Jenna Ballard</td><td>U. Pennsylvania</td></tr>
-            <tr><td>Arjun Athreya</td><td>UI Urbana-Champaign</td></tr>
-            <tr><td>Giorgio Bini</td><td>U. Genova</td></tr>
-            <tr><td>Ryuji Hamamoto</td><td>RIKEN</td></tr>
-            <tr><td>Komatsu Masaaki</td><td>Jutendo University</td></tr>
-            <tr><td>Laurie A. Boyer</td><td>MIT</td></tr>
-            <tr><td>Johannes Birgmeier</td><td>Stanford University</td></tr>
-            <tr><td>Geraldene Munsamy</td><td>Basecamp Research</td></tr>
-            <tr><td>Emmanuel Noutahi</td><td>Valence Labs</td></tr>
-            <tr><td>Cristian Regep</td><td>Relation Tx</td></tr>
-            <tr><td>Nicolas Carranza</td><td>Instadeep</td></tr>
-            <tr><td>Thomas Gaudelet</td><td>Relation Tx</td></tr>
-            <tr><td>Agnieszka Dobrowolska</td><td>Relation Tx</td></tr>
-            <tr><td>Justin Barton</td><td>Alchemab</td></tr>
-            <tr><td>Michelle Gill</td><td>NVIDIA</td></tr>
-            <tr><td>George Vacek</td><td>NVIDIA</td></tr>
-            <tr><td>Jasleen Grewal</td><td>NVIDIA</td></tr>
-            <tr><td>Sajad Darabi</td><td>NVIDIA</td></tr>
-            <tr><td>Laksshman Sundaram</td><td>NVIDIA</td></tr>
-            <tr><td>Kieran Didi</td><td>NVIDIA</td></tr>
-            <tr><td>Harry Clifford</td><td>NVIDIA</td></tr>
-            <tr><td>John St John</td><td>NVIDIA</td></tr>
-            </table>            
-        </div>
-
-      </div>
-    </div>
-  </section>
-</div>
-<!-- end testimonials -->
-
-
-
-
-
-
-
-
-
-
+    <h1>Debug: Main Content Ends</h1>
   </main>
   <!-- end content -->
 
@@ -1426,9 +624,9 @@
     <div class="container">
       <div class="footer__author">
         <div class="footer__author-info">
-          <h3 class="footer__author-name">GEML</h3>
+          <h3 class="footer__author-name">AI4NA</h3>
           
-          <p class="footer__author-bio">GEML aims to facilitate discussions among ML researchers on various topics within Genomics and related fields, including target and drug discovery, agronomy, and synthetic biology</p>
+          <p class="footer__author-bio">AI4NA aims to facilitate discussions among ML researchers on various topics within Genomics and related fields, including target and drug discovery, agronomy, and synthetic biology</p>
         </div>
       </div>
     </div>
@@ -1439,7 +637,7 @@
   <div class="container">
     <div class="row">
       <div class="col col-12">
-        <div class="copyright">2024 &copy; <a href="/">GEML</a>. Published with <a href="https://jekyllrb.com/">Jekyll</a>. Assets by <a href="https://jekyllthemes.io/developers/artem-sheludko">Artem Sheludko</a>.</div>
+        <div class="copyright">2024 &copy; <a href="/">AI4NA</a>. Published with <a href="https://jekyllrb.com/">Jekyll</a>. Assets by <a href="https://jekyllthemes.io/developers/artem-sheludko">Artem Sheludko</a>.</div>
       </div>
     </div>
   </div>

@@ -1,9 +1,9 @@
 #-------------------------------
 # Site Settings
-title: GEML 
+title: AI4NA 
 logo: 'https://static-00.iconduck.com/assets.00/dna-emoji-2048x2026-zhdjmaa2.png'
-description: GEML Workshop @ NEURIPS'24
-color_scheme: light  # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+description: AI4NA Workshop @ ICLR'25
+color_scheme: auto  # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 
 #-------------------------------
@@ -18,11 +18,15 @@ menu__settings:
   #    url: '/prizes/'
     - title: 'Speakers'
       url: '/work/'
+      # url: '/panelist/'
     - title: 'Agenda'
       url: '/agenda/'
     - title: 'Breakout Notes'
       url: '/breakout/'
-
+    - title: 'Call for papers'
+      url: '/call_for_papers/'
+    - title: 'Organizers'
+      url: '/organizers/'
 
 #      submenu:
 #      - url: '/contact/'
@@ -36,8 +40,8 @@ menu__settings:
 #-------------------------------
 # Author Settings
 author:
-  author__name: GEML 
-  author__bio: GEML aims to facilitate discussions among ML researchers on various topics within Genomics and related fields, including target and drug discovery, agronomy, and synthetic biology
+  author__name: AI4NA 
+  author__bio: AI4NA aims to facilitate discussions among ML researchers on various topics within Genomics and related fields, including target and drug discovery, agronomy, and synthetic biology
   author__avatar: '/images/logo_chem.png'
 
 social:
@@ -56,10 +60,10 @@ social:
 # Hero Settings
 hero:
   enable: true
-  hero__title: GEML Workshop 
-  hero__workshopname: 'Genomics & Machine Learning Workshop'
-  hero__subtitle: NEURIPS'24 - DEC (TBC)th, Vancouver, Canada
-  hero__description: GEML aims to facilitate discussions among ML researchers on various topics within Genomics and related fields, including target and drug discovery, agronomy, and synthetic biology
+  hero__title: AI4NA Workshop 
+  hero__workshopname: 'Artificial Intelligence for Nucleic Acids'
+  hero__subtitle: ICLR'25 - Apr (TBC)th, Singapore
+  hero__description: AI4NA aims to facilitate discussions among ML researchers on various topics within Genomics and related fields, including target and drug discovery, agronomy, and synthetic biology
   hero__image: "https://wallpaper.forfun.com/fetch/b4/b477aa17c628ebc4cf68cbdc091e9b0d.jpeg"
 
 
@@ -100,7 +104,7 @@ mailchimp:
 work:
   enable: true
   work__title: Featured Speakers
-  work__description: Leading researchers from Industry and Academia will be at the workshop.
+  work__description: Leading researchers from Industry and Academia will be at the workshop (listed alphabetically).
 
 
 #-------------------------------
@@ -279,7 +283,8 @@ organizers__items:
 #-------------------------------
 # Program Committee Section
 programs:
-  enable: true
+  enable_main: false
+  enable_organizers: true
 
 programs__title: Program Committee
 programs__description: Contributing to defining speakers, sponsors, the website and reviewing submissions.
