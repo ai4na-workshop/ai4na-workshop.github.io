@@ -1,7 +1,7 @@
 #-------------------------------
 # Site Settings
 title: AI4NA 
-logo: 'https://static-00.iconduck.com/assets.00/dna-emoji-2048x2026-zhdjmaa2.png'
+logo: 'https://static-00.iconduck.com/assets.00/dna-emoji-2048x2026-zhdjmaa2.png'  # Top left corner logo
 description: AI4NA Workshop @ ICLR'25
 color_scheme: auto  # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
@@ -20,21 +20,21 @@ menu__settings:
       # - url: '/elements/'
       #   title: 'Program Committee'
     - title: 'Call for papers'
-      url: '/call_for_papers/'
+      url: '/submissions/'
     - title: 'Organizers'
       url: '/organizers/'
     - title: 'Schedule'
       url: '/agenda/'
     - title: 'Accepted Papers'
       url: '/accepted/'
-    - title: 'Submissions'
-      url: '/submissions/'
+    # - title: 'Submissions'
+    #   url: '/submissions/'
   #  - title: 'Prizes'
   #    url: '/prizes/'
-    - title: 'Speakers'
-      url: '/work/'
-    - title: 'Breakout Notes'
-      url: '/breakout/'
+    # - title: 'Speakers'
+    #   url: '/work/'
+    # - title: 'Breakout Notes'
+    #   url: '/breakout/'
 
 
 
@@ -50,7 +50,7 @@ menu__settings:
 #-------------------------------
 # Author Settings
 author:
-  author__name: AI4NA 
+  author__name: AI4NA
   author__bio: AI4NA aims to facilitate discussions among ML researchers on various topics within Genomics and related fields, including target and drug discovery, agronomy, and synthetic biology
   author__avatar: '/images/logo_chem.png'
 
