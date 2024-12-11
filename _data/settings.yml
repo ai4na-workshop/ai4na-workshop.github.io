@@ -74,7 +74,8 @@ hero:
   hero__workshopname: 'Artificial Intelligence for Nucleic Acids'
   hero__subtitle: ICLR'25 - Apr (TBC)th, Singapore
   hero__description: AI4NA aims to facilitate discussions among ML researchers on various topics within Genomics and related fields, including target and drug discovery, agronomy, and synthetic biology
-  hero__image: "https://wallpaper.forfun.com/fetch/b4/b477aa17c628ebc4cf68cbdc091e9b0d.jpeg"
+  hero__image: https://upload.wikimedia.org/wikipedia/commons/f/f1/Singapore_Merlion.jpg
+  # hero__image: "https://wallpaper.forfun.com/fetch/b4/b477aa17c628ebc4cf68cbdc091e9b0d.jpeg"
 
 
 #-------------------------------
@@ -84,21 +85,21 @@ logos:
   logos__title: Thank you to our sponsors!
 
 logo__items:
-  - name: TBC
-    link: https://thumbs.dreamstime.com/b/to-be-announced-red-rubber-stamp-over-white-background-86701643.jpg
-    image: https://thumbs.dreamstime.com/b/to-be-announced-red-rubber-stamp-over-white-background-86701643.jpg
+  - name: ONT
+    link: https://nanoporetech.com/
+    image: /images/sponsors/ONT.png
   
-  - name: TBC
-    link: https://thumbs.dreamstime.com/b/to-be-announced-red-rubber-stamp-over-white-background-86701643.jpg
-    image: https://thumbs.dreamstime.com/b/to-be-announced-red-rubber-stamp-over-white-background-86701643.jpg
+  - name: Nvidia
+    link: https://www.nvidia.com/
+    image: /images/sponsors/Nvidia_logo.jpeg
 
-  - name: TBC
-    link: https://thumbs.dreamstime.com/b/to-be-announced-red-rubber-stamp-over-white-background-86701643.jpg
-    image: https://thumbs.dreamstime.com/b/to-be-announced-red-rubber-stamp-over-white-background-86701643.jpg
+  # - name: TBC
+  #   link: https://thumbs.dreamstime.com/b/to-be-announced-red-rubber-stamp-over-white-background-86701643.jpg
+  #   image: https://thumbs.dreamstime.com/b/to-be-announced-red-rubber-stamp-over-white-background-86701643.jpg
 
-  - name: TBC
-    link: https://thumbs.dreamstime.com/b/to-be-announced-red-rubber-stamp-over-white-background-86701643.jpg
-    image: https://thumbs.dreamstime.com/b/to-be-announced-red-rubber-stamp-over-white-background-86701643.jpg
+  # - name: TBC
+  #   link: https://thumbs.dreamstime.com/b/to-be-announced-red-rubber-stamp-over-white-background-86701643.jpg
+  #   image: https://thumbs.dreamstime.com/b/to-be-announced-red-rubber-stamp-over-white-background-86701643.jpg
 
 #-------------------------------
 # Newsletter
@@ -117,14 +118,14 @@ work:
   work__description: Leading researchers from Industry and Academia will be at the workshop (listed alphabetically by the last name).
 
 #-------------------------------
-# Work Settings
+# Speakers Settings
 speakers:
   enable: true
   speakers__title: Speakers
   speakers__description: Leading researchers from Industry and Academia will be at the workshop (listed alphabetically by the last name).
 
 #-------------------------------
-# Work Settings
+# Panelists Settings
 panelists:
   enable: true
   panelists__title: Panelists
@@ -214,95 +215,167 @@ organizers__title: Organizing Committee
 organizers__description: Dedicated to community outreach, workshop logistics, and managing submissions & reviews.
 
 organizers__items:
+  - name: Agata Kilar
+    image: /images/organizers/Agata_Kilar.jpg
+    designation: 
+    link: "#"
+    content: content
+
+  - name: Bruno Trentini
+    image: /images/organizers/Bruno_Trentini.jpeg
+    designation: 
+    link: "#"
+    content: content
+
+  - name: Bryan Hooi
+    image: /images/organizers/Bryan_Hooi.jpg
+    designation: 
+    link: "#"
+    content: content
+
+  - name: Chaitanya Joshi
+    image: /images/organizers/Chaitanya_Joshi.jpeg
+    designation: 
+    link: "#"
+    content: content
+
+  - name: Elena Rivas
+    image: /images/organizers/Elena_Rivas_2.jpeg
+    designation: 
+    link: "#"
+    content: content
+
+  - name: Fran Supek
+    image: /images/organizers/Fran_Supek.jpeg
+    designation: 
+    link: "#"
+    content: content
+
+  - name: Ivona Martinovic
+    image: /images/organizers/Ivona_Martinovic.jpeg
+    designation: 
+    link: "#"
+    content: content
+
+  - name: Lovro Vrcek
+    image: /images/organizers/Lovro_Vrcek.jpeg
+    designation: 
+    link: "#"
+    content: content
+
   - name: Maria Brbić
-    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+    image: /images/organizers/Maria_Brbic.jpg
     designation: EPFL
     link: "#"
     content: Maria is an Assistant Professor of Computer Science and Life Sciences at EPFL, affiliated with the EPFL Institute of Bioengineering. Her research focuses on machine learning for biomedical research. She co-organized the ICLR’24 Workshop on Machine Learning for Genomics Explorations, ICML’23 Workshop on Computational Biology, and NeurIPS ‘23 Workshop on AI for Science. Maria will mainly handle the Overleaf/Doc template, submission guidelines, and speaker relations.
 
-  - name: Aïcha BenTaieb
-    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
-    designation: GENENTECH
+  - name: Max Ward
+    image: /images/organizers/Max_Ward.webp
+    designation: 
     link: "#"
-    content: Research interests include machine learning for target identification and clinical trial design. As Director of ML for Clinical Sciences at Genentech, her group focuses on multimodal foundation models for biology using real-world data and ML methods for clinical simulations. Aïcha organized the first ML for Genomics Exploration workshop at ICLR’24. She can contribute mainly with submission guidelines, speaker relations, and communications with NeurIPS organizers.
+    content: content
 
-  - name: Emine Kucukbenli
-    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
-    designation: NVIDIA
+  - name: Mile Sikic
+    image: /images/organizers/Mile_Sikic_2.png
+    designation: 
     link: "#"
-    content: Emine is a Research Manager at NVIDIA and an Associate at Harvard School of Engineering and Applied Sciences. Known for research in computational modeling and neural networks for atomistic simulations, they lead geometric deep learning research within BioNeMo, NVIDIA’s drug discovery platform. Emine has organized and chaired multiple ML-focused symposia at the APS March Meeting since 2020 and the NeurIPS ML & Physical Sciences workshop since 2021. Emine will mainly handle submission guidelines, speaker relations, and the Open Review assignment process.
+    content: content
 
-  - name: Alfonsina Milito
-    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
-    designation: CENTER FOR RESEARCH IN AGRICULTURAL GENOMICS
+  - name: Pietro Lio
+    image: /images/organizers/Pietro_Lio.jpeg
+    designation: 
     link: "#"
-    content: Alfonsina Milito currently works at the Centre for Research in Agricultural Genomics in the Computational and Synthetic Biology Group. Her current project aims at the development of microalgae as bioengineering platforms, by a synthetic biology approach. Alfonsina will contribute mainly with Submission Guidelines, Managing the Program Committee, Open Review Assignment Process.
+    content: content
 
-  - name: Nathan Frey
-    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
-    designation: PRESCIENT/GENENTECH
+  - name: Tin Vlasic
+    image: /images/organizers/Tin_Vlasic.jpg
+    designation: 
     link: "#"
-    content: Research interests in machine learning for biological sequence design. The Frey Lab at Genentech focuses on discrete generative modeling, black box optimization, interpretability, and foundation models for biology. Nathan served on the program committee for the ML4LMS workshop at ICML ‘24, and is co-organizing a workshop on interpretable ML methods for NeurIPS ‘24. Nathan will contribute with Overleaf/Doc templates, Submission Guidelines, Community Support (e.g., via Email).
+    content: content
 
-  - name: Chris Dallago
-    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
-    designation: NVIDIA
-    link: "#"
-    content: A computer scientist turned bioinformatician, Chris models biological mechanisms using machine learning. He advanced bio-sequence representation learning, notably in transformer models. Dedicated to solving scarce data problems, such as designing proteins for therapeutic and industrial applications. He contributed to the first representation learning in biology workshop for ISMB and ML for life and material sciences for ICML. Chris will mainly handle the Overleaf/Doc template, website, submission guidelines, community support (e.g., email), and communications with NeurIPS organizers.
+  # - name: Aïcha BenTaieb
+  #   image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+  #   designation: GENENTECH
+  #   link: "#"
+  #   content: Research interests include machine learning for target identification and clinical trial design. As Director of ML for Clinical Sciences at Genentech, her group focuses on multimodal foundation models for biology using real-world data and ML methods for clinical simulations. Aïcha organized the first ML for Genomics Exploration workshop at ICLR’24. She can contribute mainly with submission guidelines, speaker relations, and communications with NeurIPS organizers.
 
-  - name: Francesca-Zhoufan Li
-    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
-    designation: CALTECH
-    link: "#"
-    content: Research interest in applying AI to science and engineering problems, I am currently focusing on machine learning-assisted protein engineering as a Bioengineering Ph.D. student at Caltech. Francesca-Zhoufan was one of the co-organizers of the Generative and Experimental Perspectives for Biomolecular Design at ICLR’24. Francesca will contribute with submission and review guidelines, OpenReview assignment and community communication.
+  # - name: Emine Kucukbenli
+  #   image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+  #   designation: NVIDIA
+  #   link: "#"
+  #   content: Emine is a Research Manager at NVIDIA and an Associate at Harvard School of Engineering and Applied Sciences. Known for research in computational modeling and neural networks for atomistic simulations, they lead geometric deep learning research within BioNeMo, NVIDIA’s drug discovery platform. Emine has organized and chaired multiple ML-focused symposia at the APS March Meeting since 2020 and the NeurIPS ML & Physical Sciences workshop since 2021. Emine will mainly handle submission guidelines, speaker relations, and the Open Review assignment process.
 
-  - name: Bruno Trentini
-    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
-    designation: NVIDIA
-    link: "#"
-    content: Research interests include Geometric Deep Learning and Graph Representation Learning for Life Sciences. Bruno is a Member of the Steering Committee of the Friends of University College London Computer Science, Co-organizer of scientific meet-ups and workshops including the ML4LMS workshop at ICML’24 and the NVIDIA LifeSciences Developer Summit 2022. Bruno will contribute mainly with the Overleaf/Doc template, Website, Program Committee communications, Sponsor Relations and Open Review Assignment Process (Match making).
+  # - name: Alfonsina Milito
+  #   image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+  #   designation: CENTER FOR RESEARCH IN AGRICULTURAL GENOMICS
+  #   link: "#"
+  #   content: Alfonsina Milito currently works at the Centre for Research in Agricultural Genomics in the Computational and Synthetic Biology Group. Her current project aims at the development of microalgae as bioengineering platforms, by a synthetic biology approach. Alfonsina will contribute mainly with Submission Guidelines, Managing the Program Committee, Open Review Assignment Process.
 
-  - name: Steven Kothen-Hill
-    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
-    designation: NVIDIA
-    link: "#"
-    content: Steven is a Research Scientist at NVIDIA with research interests in using deep learning for bioinformatics and computational biology. He has worked at the intersection of plant breeding, plant genomics, cancer genomics, and Machine Learning since 2024. This work includes the assembly of the Hop genome and early work in using cfDNA for cancer screening. Steven’s interests are pushing computer scientists and machine learning researchers to work on topics in Genomics. Steven will contribute mainly with Overleaf/Doc template, Submission Guidelines, Speaker Relations and Program Committee management.
+  # - name: Nathan Frey
+  #   image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+  #   designation: PRESCIENT/GENENTECH
+  #   link: "#"
+  #   content: Research interests in machine learning for biological sequence design. The Frey Lab at Genentech focuses on discrete generative modeling, black box optimization, interpretability, and foundation models for biology. Nathan served on the program committee for the ML4LMS workshop at ICML ‘24, and is co-organizing a workshop on interpretable ML methods for NeurIPS ‘24. Nathan will contribute with Overleaf/Doc templates, Submission Guidelines, Community Support (e.g., via Email).
 
-  - name: Sepideh Maleki
-    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
-    designation: GENENTECH
-    link: "#"
-    content: Postdoctoral Fellow at Genentech, specializing in drug discovery with a specific emphasis on molecular perturbation. Ph.D. in Computer Science at the University of Texas, Austin where Sepideh conducted research in machine learning and analytics on graphs, particularly designing efficient and effective machine learning methods for large-scale hypergraph structured data. Sepideh will contribute mainly with Overleaf/Doc template, Managing the Program Committee, Open Review Assignment Process (Match making).
+  # - name: Chris Dallago
+  #   image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+  #   designation: NVIDIA
+  #   link: "#"
+  #   content: A computer scientist turned bioinformatician, Chris models biological mechanisms using machine learning. He advanced bio-sequence representation learning, notably in transformer models. Dedicated to solving scarce data problems, such as designing proteins for therapeutic and industrial applications. He contributed to the first representation learning in biology workshop for ISMB and ML for life and material sciences for ICML. Chris will mainly handle the Overleaf/Doc template, website, submission guidelines, community support (e.g., email), and communications with NeurIPS organizers.
 
-  - name: Lucas P. de Lima Camillo
-    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
-    designation: SHIFT BIOSCIENCE
-    link: "#"
-    content: Research interests in Single-Cell Foundation Models and Genetic Perturbation Models, particularly applied to the field of longevity. As Head of ML at Shift, he brings real-world experience on how to apply novel genomics models in a startup environment. Lucas will contribute mainly with the website, Submission Guidelines, Sponsor Relations, Community Support (e.g., Email).
+  # - name: Francesca-Zhoufan Li
+  #   image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+  #   designation: CALTECH
+  #   link: "#"
+  #   content: Research interest in applying AI to science and engineering problems, I am currently focusing on machine learning-assisted protein engineering as a Bioengineering Ph.D. student at Caltech. Francesca-Zhoufan was one of the co-organizers of the Generative and Experimental Perspectives for Biomolecular Design at ICLR’24. Francesca will contribute with submission and review guidelines, OpenReview assignment and community communication.
 
-  - name: William Chow
-    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
-    designation: BASECAMP RESEARCH
-    link: "#"
-    content: Experience in the assembly, finishing and annotation world of large scale genome projects from the humble beginnings of WGS in reference genomes (clone by clone) to NGS to third generation projects involving long reads and related technologies. William Chow will contribute mainly with managing the program committee, community support (e.g., Email) and Open Review assignment process.
+  # - name: Bruno Trentini
+  #   image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+  #   designation: NVIDIA
+  #   link: "#"
+  #   content: Research interests include Geometric Deep Learning and Graph Representation Learning for Life Sciences. Bruno is a Member of the Steering Committee of the Friends of University College London Computer Science, Co-organizer of scientific meet-ups and workshops including the ML4LMS workshop at ICML’24 and the NVIDIA LifeSciences Developer Summit 2022. Bruno will contribute mainly with the Overleaf/Doc template, Website, Program Committee communications, Sponsor Relations and Open Review Assignment Process (Match making).
 
-  - name: James Opzoomer
-    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
-    designation: RELATION THERAPEUTICS
-    link: "#"
-    content: James is a computational scientist at the interface of experimental and computational biology, combining single-cell technologies with machine learning for target and drug discovery in the Genomics Innovation Lab at Relation Therapeutics. James will contribute with the website, managing the program committee and sponsor relations.
+  # - name: Steven Kothen-Hill
+  #   image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+  #   designation: NVIDIA
+  #   link: "#"
+  #   content: Steven is a Research Scientist at NVIDIA with research interests in using deep learning for bioinformatics and computational biology. He has worked at the intersection of plant breeding, plant genomics, cancer genomics, and Machine Learning since 2024. This work includes the assembly of the Hop genome and early work in using cfDNA for cancer screening. Steven’s interests are pushing computer scientists and machine learning researchers to work on topics in Genomics. Steven will contribute mainly with Overleaf/Doc template, Submission Guidelines, Speaker Relations and Program Committee management.
 
-  - name: Alice Del Vecchio
-    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
-    designation: RELATION THERAPEUTICS
-    link: "#"
-    content: Alice is a Machine Learning Scientist at Relation Therapeutics, where she has worked on DNA sequence models and single cell perturbation modeling. She has a Master's in Systems Biology from the University of Cambridge, where her research focused on applying graph neural networks to study antibody-antigen binding. Alice will contribute with the website, sponsor relations and communications with the NeurIPS organization.
+  # - name: Sepideh Maleki
+  #   image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+  #   designation: GENENTECH
+  #   link: "#"
+  #   content: Postdoctoral Fellow at Genentech, specializing in drug discovery with a specific emphasis on molecular perturbation. Ph.D. in Computer Science at the University of Texas, Austin where Sepideh conducted research in machine learning and analytics on graphs, particularly designing efficient and effective machine learning methods for large-scale hypergraph structured data. Sepideh will contribute mainly with Overleaf/Doc template, Managing the Program Committee, Open Review Assignment Process (Match making).
 
-  - name: Federica Di Palma
-    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
-    designation: GENOME BC
-    link: "#"
-    content: Federica’s previous experience includes her roles as the Assistant Director, Vertebrate Genome Biology at the Broad Institute of Harvard, a Senior Research Scientist and Service Centre Manager at the Hubbard Centre for Genome Studies at the University of New Hampshire, Durham, and a Fogarty Fellow, National Institutes of Health. Federica will contribute with Speaker Relations, Community Outreach, and Overseeing submissions and review guidelines.
+  # - name: Lucas P. de Lima Camillo
+  #   image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+  #   designation: SHIFT BIOSCIENCE
+  #   link: "#"
+  #   content: Research interests in Single-Cell Foundation Models and Genetic Perturbation Models, particularly applied to the field of longevity. As Head of ML at Shift, he brings real-world experience on how to apply novel genomics models in a startup environment. Lucas will contribute mainly with the website, Submission Guidelines, Sponsor Relations, Community Support (e.g., Email).
+
+  # - name: William Chow
+  #   image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+  #   designation: BASECAMP RESEARCH
+  #   link: "#"
+  #   content: Experience in the assembly, finishing and annotation world of large scale genome projects from the humble beginnings of WGS in reference genomes (clone by clone) to NGS to third generation projects involving long reads and related technologies. William Chow will contribute mainly with managing the program committee, community support (e.g., Email) and Open Review assignment process.
+
+  # - name: James Opzoomer
+  #   image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+  #   designation: RELATION THERAPEUTICS
+  #   link: "#"
+  #   content: James is a computational scientist at the interface of experimental and computational biology, combining single-cell technologies with machine learning for target and drug discovery in the Genomics Innovation Lab at Relation Therapeutics. James will contribute with the website, managing the program committee and sponsor relations.
+
+  # - name: Alice Del Vecchio
+  #   image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+  #   designation: RELATION THERAPEUTICS
+  #   link: "#"
+  #   content: Alice is a Machine Learning Scientist at Relation Therapeutics, where she has worked on DNA sequence models and single cell perturbation modeling. She has a Master's in Systems Biology from the University of Cambridge, where her research focused on applying graph neural networks to study antibody-antigen binding. Alice will contribute with the website, sponsor relations and communications with the NeurIPS organization.
+
+  # - name: Federica Di Palma
+  #   image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+  #   designation: GENOME BC
+  #   link: "#"
+  #   content: Federica’s previous experience includes her roles as the Assistant Director, Vertebrate Genome Biology at the Broad Institute of Harvard, a Senior Research Scientist and Service Centre Manager at the Hubbard Centre for Genome Studies at the University of New Hampshire, Durham, and a Fogarty Fellow, National Institutes of Health. Federica will contribute with Speaker Relations, Community Outreach, and Overseeing submissions and review guidelines.
 
 #-------------------------------
 # Program Committee Section
@@ -327,7 +400,7 @@ blog__settings:
 
 #-------------------------------
 # Footer Settings
-footer__background__image: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Vancouver_banner_Downtown_at_dusk.jpg"
+footer__background__image: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Marina_Bay%2C_Financial_District_and_Singapore_River_%2835622190292%29.jpg"
 
 #-------------------------------
 # Contact Settings
