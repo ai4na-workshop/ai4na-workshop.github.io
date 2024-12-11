@@ -7,18 +7,47 @@ permalink: /submissions/
 # image_caption: 'Photo by [Bruce Dixon](https://unsplash.com/photos/3M9WJQVHzog) on [Unsplash](https://unsplash.com/)'
 ---
 
-### Key Dates
+
+
+## Key Dates
 
 **Submissions Open**: TBC
 
-**Submissions Close**: Monday, Feb 3 2025 11:59PM UTC-0
+**Submissions Close**: Monday, Feb 3 2025 11:59PM UTC-12
 
 **Notification**: Wednesday, 5 Mar 2025 
 
 **Workshop**: Sunday, 27 or Monday, 28 Apr 2025
 
-**Submission is done via** the [Venue on OpenReview](#)
 
+
+## Subject Areas
+> AI4NA aims to popularize AI applications for nucleic acids and introduce nucleic acid research challenges to the broader AI community.
+
+The topics focus on applications of AI and novel AI methods for RNA and DNA research including, but not limited to:
+- **Nucleic Acid Structure and Function:** *RNA secondary and tertiary structure prediction, RNA function analysis, NA interactions*
+
+- **Foundation and Generative Models for Nucleic Acids:** *(Multimodal) NA foundation models, Generative models for NAs*
+
+- **Nucleic Acids in Therapeutics:** *NA drug design and discovery, NA modification, NA mutations*
+
+- **Genomic Data Analysis;** *Genome reconstruction, Gene expression, Calling genetic variants, Pairwise and multiple NA sequence alignment, Single-cell transcriptomics and genomics*
+
+
+
+## Submission Instructions
+### TODO: 
+- two tracks
+
+- double blind
+
+- Presentation and Publication
+
+- We encourage submissions of
+
+- paper length
+
+- Submission is done via the [Venue on OpenReview](#)
 
 <div class="table-container">
 <table style="width: 100%; text-align: center;">
@@ -51,16 +80,10 @@ permalink: /submissions/
 **Attention**
 If you select the Overleaf template, you will need to download the project zip file for now and upload it as a new project. 
 
-### What's the workshop topic?
-> GEML aims to facilitate discussions among ML researchers on various topics within Genomics and related fields, including target and drug discovery, agronomy, and synthetic biology
+- The Use of Large Language Models (LLMs)
 
-We welcome a broad range of submissions, from dataset curation, analysis and benchmarking work highlighting opportunities and pitfalls of current ML applications in health and materials, to novel models and algorithms unlocking unprecedented capabilities.
+- Can I opt-out of the collated proceeding?
 
-We welcome all types of ML algorithms and models relevant for this problem space.
-
-Lastly, we aim to integrate two areas - Genomics and Machine Learning – as ML approaches in these areas can usually be adapted to one or the other discipline, and we want to encourage discussion between practitioners in the respective fields. 
-
-Need more inspiration? Have a look at the schedule to see who we invited, and our organizing committes to find out the people behind the workshop.
 
 #### Where do I submit?
 Submission to the GEML 2024 workshop  will be entirely electronic, via OpenReview. 
@@ -109,6 +132,12 @@ You will have the opportunity to submit a "camera ready" version of your poster/
 While the workshop is non-archival, we will collate camera-ready submissions into a proceeding available on this website for later download.
 
 You can opt-out of having your camera-ready submission included by selecting this option on the submission form post-acceptance.
+
+Withdrawal Policy
+
+
+
+## Q&A
 
 ### Is there a cost associated to the submission?
 While submitting is free, if you are selected for a poster or a talk, you'll need to purchase an ICML 2024 ticket in order to attend the workshop. 
