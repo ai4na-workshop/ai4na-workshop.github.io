@@ -1,17 +1,21 @@
 ---
 layout: page
-title: 🔒 Submissions to open soon!
-description: The GEML Workshop will accept submissions if we get accepted at NeurIPS
+title: Submissions to open soon!
+description: We invite submissions to the 1st AI for Nucleic Acids Workshop at ICLR 2025.
 permalink: /submissions/
 #image: '/images/01-2.jpg'
 # image_caption: 'Photo by [Bruce Dixon](https://unsplash.com/photos/3M9WJQVHzog) on [Unsplash](https://unsplash.com/)'
 ---
 
+### Key Dates
+
 **Submissions Open**: TBC
 
-**Submissions Close**: TBC
+**Submissions Close**: Monday, Feb 3 2025 11:59PM UTC-0
 
-**Notification**: TBC
+**Notification**: Wednesday, 5 Mar 2025 
+
+**Workshop**: Sunday, 27 or Monday, 28 Apr 2025
 
 **Submission is done via** the [Venue on OpenReview](#)
 
@@ -19,20 +23,20 @@ permalink: /submissions/
 <div class="table-container">
 <table style="width: 100%; text-align: center;">
     <tr style="font-weight: bold; color: white; background-color: black;">
-        <td>Overleaf Template</td>
-        <td>Google Docs Template</td>
+        <td>Full Paper Overleaf Template</td>
+        <td>Tiny Paper Overleaf Template</td>
         <td> 🚀 Submission Link</td>
     </tr>
     <tr>
         <td>
             <!--<a href="https://www.overleaf.com/latex/templates/ml4lms-at-icml24-template/vrwkwmsgtqcs">-->
-            <a href="https://www.overleaf.com/read/txvrdpghbcnz#a0e022">
+            <a href="https://www.overleaf.com/read/mcfjyvcryvqd#8cfe86">
                 <img src="/images/overleaf.png" style="all: unset; width: 35%; transition: filter 0.3s;" onmouseover="this.style.filter='grayscale(100%)'" onmouseout="this.style.filter='none'">
             </a> 
         </td>
         <td>
-            <a href="https://docs.google.com/document/d/1NVDui2Fx2EgLm0rBNSQh9-390sa6JFmkbjNhGqPW4m8/edit#heading=h.jmbeny24wlay">
-                <img src="/images/gdocs.png" style="all: unset; width: 20%; transition: filter 0.3s;" onmouseover="this.style.filter='grayscale(100%)'" onmouseout="this.style.filter='none'">
+            <a href="https://www.overleaf.com/read/hbyqxmhvhhdv#8515b3">
+                <img src="/images/overleaf.png" style="all: unset; width: 35%; transition: filter 0.3s;" onmouseover="this.style.filter='grayscale(100%)'" onmouseout="this.style.filter='none'">
             </a>
         </td>
                 <td>
