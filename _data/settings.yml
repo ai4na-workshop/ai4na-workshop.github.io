@@ -82,7 +82,8 @@ hero:
 # Logos Settings
 logos:
   enable: true
-  logos__title: Thank you to our sponsors!
+  logos__title: Sponsors
+  logos__description: Thank you to our sponsors!
 
 logo__items:
   - name: ONT
