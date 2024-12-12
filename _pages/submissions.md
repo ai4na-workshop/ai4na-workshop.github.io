@@ -7,53 +7,84 @@ permalink: /submissions/
 # image_caption: 'Photo by [Bruce Dixon](https://unsplash.com/photos/3M9WJQVHzog) on [Unsplash](https://unsplash.com/)'
 ---
 
+<h2 style="margin-bottom: 0;">Key Dates</h2>
 
-
-## Key Dates
-
-**Submissions Open**: TBC
-
-**Submissions Close**: Monday, Feb 3 2025 11:59PM UTC-12
-
-**Notification**: Wednesday, 5 Mar 2025 
-
+**Submissions Open**: TBC<br>
+**Submissions Close**: Monday, 3 Feb 2025 11:59PM UTC-12<br>
+**Notification**: Wednesday, 5 Mar 2025<br>
+**Camera-ready deadline:** TBC<br>
 **Workshop**: Sunday, 27 or Monday, 28 Apr 2025
 
 
+<h2 style="margin-bottom: 0;">Subject Areas</h2>
 
-## Subject Areas
 > AI4NA aims to popularize AI applications for nucleic acids and introduce nucleic acid research challenges to the broader AI community.
 
-The topics focus on applications of AI and novel AI methods for RNA and DNA research including, but not limited to:
+<p style="margin-bottom: 10px;">The topics focus on applications of AI and novel AI methods for RNA and DNA research including, but not limited to:</p>
 - **Nucleic Acid Structure and Function:** *RNA secondary and tertiary structure prediction, RNA function analysis, NA interactions*
-
 - **Foundation and Generative Models for Nucleic Acids:** *(Multimodal) NA foundation models, Generative models for NAs*
-
 - **Nucleic Acids in Therapeutics:** *NA drug design and discovery, NA modification, NA mutations*
+- **Genomic Data Analysis:** *Genome reconstruction, Gene expression, Calling genetic variants, Pairwise and multiple NA sequence alignment, Single-cell transcriptomics and genomics*
 
-- **Genomic Data Analysis;** *Genome reconstruction, Gene expression, Calling genetic variants, Pairwise and multiple NA sequence alignment, Single-cell transcriptomics and genomics*
+<h2 style="margin-bottom: 0;">Submission Instructions</h2>
+
+<p style="margin-bottom: 10px;">AI4NA considers two types of submissions:</p>
+
+- **Full-Paper Submissions** --- AI4NA seeks for high-quality full-paper submissions that fit the workshop scope.
+- **Tiny-Paper Submissions** --- AI4NA will host the [Tiny Paper](https://iclr.cc/Conferences/2025/CallForTinyPapers) submission track as a 
+part of diversity, equity, and inclusion (DEI) initiative. This way AI4NA is offering opportunities for underrepresented, 
+underprivileged, and first-time submitters to share their work at the workshop.
+
+<h4 style="margin-bottom: 0;">Full-Paper Submissions</h4>
+<p style="margin-bottom: 10px;">Point 1</p>
+<p style="margin-bottom: 10px;">Point 2</p>
+Point 3
 
 
+<h4 style="margin-bottom: 0;">Tiny-Paper Submissions</h4>
+<p style="margin-bottom: 10px;">Point 1</p>
+<p style="margin-bottom: 10px;">Point 2</p>
+Point 3
 
-## Submission Instructions
-### TODO: 
-- two tracks
+<h4 style="margin-bottom: 0;">Double blind reviewing</h4>
+<p style="margin-bottom: 10px;">Submissions will be double blind: 
+reviewers cannot see author names when conducting reviews, 
+and authors cannot see reviewer names. Having papers on ArXiv 
+is allowed per the dual submission policy outlined below.</p>
 
-- double blind
+Authors can revise their paper as many times as needed up to the
+paper submission deadline. Changes to the paper will not be allowed
+while the paper is being reviewed.
 
-- Presentation and Publication
 
-- We encourage submissions of
+<h4 style="margin-bottom: 0;">Presentation and Publication</h4>
+Accepted papers will be showcased as posters during the workshop, 
+with a few chosen for spotlight presentations based on reviewer feedbacks. 
+At least one contributed talk slot (2 talks) will be dedicated to 
+Tiny-Paper submission track. While the workshop is non-archival and does
+not publish proceedings, authors of accepted papers will have the 
+option to make their work available through the workshop website. 
 
-- paper length
+<h4 style="margin-bottom: 10px;">We encourage submissions of:</h4>
+- Novel research currently under submission.
+- Promising work-in-progress results seeking feedback.
+- Forward-thinking position papers initiating community discussion.
 
-- Submission is done via the [Venue on OpenReview](#)
+
+<h4 style="margin-bottom: 0;">Style files and Templates</h4>
+
+<p style="margin-bottom: 10px;">To prepare your submission to AI4NA,
+please use the LaTeX style files provided here. Please do not alter
+the style in these templates – in particular, do not compress the 
+paper format by reducing the vertical spaces or the page margins.</p>
+
+Submissions will be entirely electronic and done through [OpenReview](#).
 
 <div class="table-container">
 <table style="width: 100%; text-align: center;">
     <tr style="font-weight: bold; color: white; background-color: black;">
-        <td>Full Paper Overleaf Template</td>
-        <td>Tiny Paper Overleaf Template</td>
+        <td>Full-Paper Overleaf Template</td>
+        <td>Tiny-Paper Overleaf Template</td>
         <td> 🚀 Submission Link</td>
     </tr>
     <tr>
@@ -78,30 +109,25 @@ The topics focus on applications of AI and novel AI methods for RNA and DNA rese
 </div>
 
 **Attention**
-If you select the Overleaf template, you will need to download the project zip file for now and upload it as a new project. 
+If you select the Overleaf template, you will need to download the project zip file and upload it as a new project. 
 
-- The Use of Large Language Models (LLMs)
+
+<h4 style="margin-bottom: 0;">The Use of Large Language Models (LLMs)</h4>
+
+The use of LLMs is allowed as a general-purpose assist tool.
+Authors and reviewers should understand that they take full 
+responsibility for the contents written under their name, 
+including content generated by LLMs that could be construed 
+as plagiarism or scientific misconduct (e.g., fabrication of facts).
+LLMs are not eligible for authorship.
+
+-----------------------
+
 
 - Can I opt-out of the collated proceeding?
 
 
-#### Where do I submit?
-Submission to the GEML 2024 workshop  will be entirely electronic, via OpenReview. 
 
-Do it via the [GEML venue via OpenReview](#)
-
-### What can I submit?
-- You can submit either a poster or free text (e.g. long abstract, summary style, or short paper).
-
-- This workshop will adopt a double-blind review process. 
-
-- Do not include author information, acknowledgements, or any other identifying information in your initial submission.
-
-- Poster and free text submissions must be in PDF format.
-
-- For posters, see the official instructions on the ICML website (workshop posters).
-
-- For free text submissions, please adhere to the guidelines below. We provide both a Google Docs and LaTeX template for you to base your free text submission on. Please do not alter the style in these templates – in particular, do not compress the paper format by reducing the vertical spaces or the page margins.
 
 ### What can I get out of submitting?
 All accepted submissions (including free text) can submit a poster for in-person and online presentation. Accepted posters and/or free text will be collated in an informal proceeding.
@@ -114,16 +140,6 @@ Students from underrepresented communities submitting free text and accepted int
 
 ### Free text submission guidelines
 - Initial submissions can be up to 5 pages long. This limit excludes data availability statements, references and appendices, which can take unlimited space. But the reviewers are not required to read appendices. Accepted papers can be up to 6 pages long, not including acknowledgements, data availability statements, references and appendices.
-
-- Font should be 10 point Times (9 point for table and figure captions). Vertical line spacing should be 11 points.
-
-- Place figure captions under the figure (and omit titles from inside the graphic file itself). Place table captions over the table.
-
-- References must include page numbers whenever possible and be as complete as possible. Place multiple citations in chronological order.
-
-- Do not alter the style templates provided below; in particular, do not compress the paper format by reducing the vertical spaces or the page margins.
-
-- Keep your abstract brief and self-contained, one paragraph and roughly 4–6 sentences / 250 words.
 
 ### What about the camera ready version?
 You will have the opportunity to submit a "camera ready" version of your poster/free text after notification of acceptance.
@@ -148,17 +164,10 @@ Yes! The workshop is open to anyone attending ICML 2024.
 ### Can I review submissions?
 Yes! We are looking for helping hands (all levels of seniority) in reviewing submissions. Reviewers will be listed on the website. If you submit something yourself, please make sure to disclose this in our reviewer form!
 
-### What's the reviewing process?
-We aim to have 3-4 people look at each submission. Approve/reject recommendations are mandatory, but we encourage comments and more detailed feedback.
-
 ### Is that true we're eligible to win prizes?
 Yes! Thanks to NVIDIA's generous sponsorship we have 4 prizes
 
 Check the [Prizes Page](/prizes) for more details
-
-### IQ Capital Fast-track conversations
-Once decisions are made on June 17th, IQ Capital will review the accepted submissions and select the Most Commercially Exciting Research Papers. Up to three papers demonstrating high commercialization potential — such as those that could evolve into startups or marketable products—will be selected by IQ Capital for fast-track funding discussions. The selection is solely at the discretion of IQ Capital, and the organisers will have no influence on their criteria or decision-making process.
-
 
 ### I still have questions!
 Reach out at: workshop {at} 
