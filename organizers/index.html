@@ -1,62 +1,12 @@
 ---
 layout: default
-title: Organizing and Steering Committees
+title: Organizing Committees
 ---
-
-<!-- Organizing Committee Section -->
-<!-- <div class="container">
-  <div class="page-section-head">
-    <h1 class="page-title">{{ site.data.settings.organizers__title }}</h1>
-    <p class="page-description">{{ site.data.settings.organizers__description }}</p>
-  </div>
-</div>
-
-<div class="organizers container animate">
-  <div class="row">
-    {% for organizer in site.data.settings.organizers__items %}
-    <div class="organizer col col-4 col-d-6 col-t-12">
-      <div class="organizer__content">
-        <a href="{{ organizer.link }}" target="_blank">
-          <img src="{{ organizer.image }}" alt="{{ organizer.name }}" class="organizer__image">
-        </a>
-        <h3 class="organizer__name">{{ organizer.name }}</h3>
-        <p class="organizer__designation">{{ organizer.designation }}</p>
-        <p class="organizer__content">{{ organizer.content }}</p>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-</div> -->
-
-{% include section-testimonials.html %}
-
-<!-- Steering Committee Section -->
-<!-- <div class="container">
-  <div class="page-section-head">
-    <h1 class="page-title">{{ site.data.settings.testimonial__title }}</h1>
-    <p class="page-description">{{ site.data.settings.testimonial__description }}</p>
-  </div>
-</div>
-
-<div class="steering-committee container animate">
-  <div class="row">
-    {% for member in site.data.settings.testimonial__items %}
-    <div class="steering-member col col-4 col-d-6 col-t-12">
-      <div class="steering-member__content">
-        <a href="{{ member.link }}" target="_blank">
-          <img src="{{ member.image }}" alt="{{ member.name }}" class="steering-member__image">
-        </a>
-        <h3 class="steering-member__name">{{ member.name }}</h3>
-        <p class="steering-member__designation">{{ member.designation }}</p>
-        <p class="steering-member__content">{{ member.content }}</p>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-</div> -->
 
 {% include section-organizers.html %}
 
 
-<!-- Program Committee Section -->
+{% include section-testimonials.html %}
+
+
 {% include section-program.html %}
