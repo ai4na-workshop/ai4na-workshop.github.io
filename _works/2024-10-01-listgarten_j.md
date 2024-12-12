@@ -4,7 +4,7 @@ description: Description
 category: Panelist
 date: 2022-01-09 08:01:35 +0300
 role: Role
-image: 'https://www.theladders.com/wp-content/uploads/business-conference-190730.jpg'
+image: /images/speakers_panelists/Jennifer_Listgarten.jpg
 image_caption: ''
 order: 6
 ---
