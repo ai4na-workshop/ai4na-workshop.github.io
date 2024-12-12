@@ -82,7 +82,8 @@ hero:
 # Logos Settings
 logos:
   enable: true
-  logos__title: Thank you to our sponsors!
+  logos__title: Sponsors
+  logos__description: Thank you to our sponsors!
 
 logo__items:
   - name: ONT
@@ -137,129 +138,19 @@ panelists:
 testimonials:
   enable: true
 
-testimonial__title: Steering Committee
+testimonial__title: Senior Organizers
 testimonial__description: Rallies the community, establishes and maintains event credibility by endorsing the workshop and setting the scope and vision as senior advisors.
 
 testimonial__items:
-  - name: Prof. Dr. Aviv Regev
-    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
-    designation: Genentech - Vice President and Head of Research and Early Development, member at the Broad Institute of MIT and Harvard (on leave), Professor at MIT (on leave)
-    link: "#"
-    content: Prof. Dr. Aviv Regev is Vice President and Head of Research and Early Development at Genentech. She is also a member at the Broad Institute of MIT and Harvard (on leave) and a Professor at MIT (on leave).
-
-  - name: Prof. Dr. Tina Hernandez-Boussard
-    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
-    designation: Stanford University - Associate Dean of Research and Professor of Medicine, Biomedical Data Sciences, Surgery and Epidemiology & Population Health (by courtesy)
-    link: "#"
-    content: Prof. Dr. Tina Hernandez-Boussard is the Associate Dean of Research and Professor of Medicine, Biomedical Data Sciences, Surgery and Epidemiology & Population Health (by courtesy) at Stanford University.
-
-  - name: Prof. Dr. Jill P. Mesirov
-    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
-    designation: UC San Diego - Associate Vice Chancellor for Computational Health Sciences and Professor of Medicine
-    link: "#"
-    content: Prof. Dr. Jill P. Mesirov is the Associate Vice Chancellor for Computational Health Sciences and Professor of Medicine at UC San Diego.
-
-  - name: Prof. Dr. Sandrine Dudoit
-    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
-    designation: UC Berkeley - Professor of Biostatistics and Statistics and Chair of the Graduate Group in Biostatistics
-    link: "#"
-    content: Prof. Dr. Sandrine Dudoit is a Professor of Biostatistics and Statistics and Chair of the Graduate Group in Biostatistics at UC Berkeley.
-
-  - name: Prof. Dr. Ester Sabino
-    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
-    designation: University of Sao Paulo - Professor, Department of Pathology at University of Sao Paulo Medical School
-    link: "#"
-    content: Prof. Dr. Ester Sabino is a Professor in the Department of Pathology at the University of Sao Paulo Medical School.
-
-  - name: Prof. Dr. Daphne Koller
-    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
-    designation: Insitro - CEO & Co-Founder, Adjunct Computer Science Professor at Stanford
-    link: "#"
-    content: Prof. Dr. Daphne Koller is the CEO & Co-Founder of Insitro and an Adjunct Computer Science Professor at Stanford.
-
-  - name: Prof. Dr. Abdoulaye Banire Diallo
-    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
-    designation: U. du Québec à Montréal - Professor, Director of the Bioinformatics Lab
-    link: "#"
-    content: Prof. Dr. Abdoulaye Banire Diallo is a Professor and Director of the Bioinformatics Lab at the University of Québec à Montréal.
-
-  - name: Dr. Anthony Costa
-    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
-    designation: NVIDIA - Director of Digital Biology & Life Sciences Group Lead
-    link: "#"
-    content: Dr. Anthony Costa is the Director of Digital Biology & Life Sciences Group Lead at NVIDIA.
-
-  - name: Prof. Dr. Rajeev Varshney
-    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
-    designation: Murdoch University - Professor, Food Futures Institute, Centre for Crop & Food Innovation
-    link: "#"
-    content: Prof. Dr. Rajeev Varshney is a Professor at the Food Futures Institute, Centre for Crop & Food Innovation at Murdoch University.
-
-  - name: Dr. Lindsay Edwards
-    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
-    designation: Relation Therapeutics - Vice President of Platform & CTO
-    link: "#"
-    content: Dr. Lindsay Edwards is the Vice President of Platform & CTO at Relation Therapeutics.
-
-  - name: Dr. Tommaso Biancalani
-    image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
-    designation: Genentech - Sr Director & Head Of AI For Research Biology, AI/ML, Computational Science
-    link: "#"
-    content: Dr. Tommaso Biancalani is the Senior Director & Head Of AI For Research Biology, AI/ML, Computational Science at Genentech.
-
-# Ogranizers Section
-organizers:
-  enable: true
-
-organizers__title: Organizing Committee
-organizers__description: Dedicated to community outreach, workshop logistics, and managing submissions & reviews.
-
-organizers__items:
-  - name: Agata Kilar
-    image: /images/organizers/Agata_Kilar.jpg
-    designation: 
-    link: "#"
-    content: content
-
   - name: Bruno Trentini
     image: /images/organizers/Bruno_Trentini.jpeg
-    designation: 
+    designation: University of Oxford    
     link: "#"
     content: content
 
-  - name: Bryan Hooi
-    image: /images/organizers/Bryan_Hooi.jpg
-    designation: 
-    link: "#"
-    content: content
-
-  - name: Chaitanya Joshi
-    image: /images/organizers/Chaitanya_Joshi.jpeg
-    designation: 
-    link: "#"
-    content: content
-
-  - name: Elena Rivas
-    image: /images/organizers/Elena_Rivas_2.jpeg
-    designation: 
-    link: "#"
-    content: content
-
-  - name: Fran Supek
-    image: /images/organizers/Fran_Supek.jpeg
-    designation: 
-    link: "#"
-    content: content
-
-  - name: Ivona Martinovic
-    image: /images/organizers/Ivona_Martinovic.jpeg
-    designation: 
-    link: "#"
-    content: content
-
-  - name: Lovro Vrcek
-    image: /images/organizers/Lovro_Vrcek_2.png
-    designation: 
+  - name: Max Ward
+    image: /images/organizers/Max_Ward.webp
+    designation: The University of Western Australia
     link: "#"
     content: content
 
@@ -269,29 +160,141 @@ organizers__items:
     link: "#"
     content: Maria is an Assistant Professor of Computer Science and Life Sciences at EPFL, affiliated with the EPFL Institute of Bioengineering. Her research focuses on machine learning for biomedical research. She co-organized the ICLR’24 Workshop on Machine Learning for Genomics Explorations, ICML’23 Workshop on Computational Biology, and NeurIPS ‘23 Workshop on AI for Science. Maria will mainly handle the Overleaf/Doc template, submission guidelines, and speaker relations.
 
-  - name: Max Ward
-    image: /images/organizers/Max_Ward.webp
-    designation: 
+  - name: Bryan Hooi
+    image: /images/organizers/Bryan_Hooi.jpg
+    designation: National University of Singapore
     link: "#"
     content: content
 
-  - name: Mile Sikic
-    image: /images/organizers/Mile_Sikic_2.png
-    designation: 
+  - name: Fran Supek
+    image: /images/organizers/Fran_Supek.jpeg
+    designation: University of Copenhagen
     link: "#"
     content: content
 
   - name: Pietro Lio
     image: /images/organizers/Pietro_Lio.jpeg
-    designation: 
+    designation: University of Cambridge
+    link: "#"
+    content: content
+
+  - name: Elena Rivas
+    image: /images/organizers/Elena_Rivas_2.jpeg
+    designation: Harvard University
+    link: "#"
+    content: content
+
+  - name: Mile Sikic
+    image: /images/organizers/Mile_Sikic_2.png
+    designation: "Genome Institute of Singapore (A*STAR)\nUniversity of Zagreb"
+    link: "#"
+    content: content
+
+
+  # - name: Prof. Dr. Aviv Regev
+  #   image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+  #   designation: Genentech - Vice President and Head of Research and Early Development, member at the Broad Institute of MIT and Harvard (on leave), Professor at MIT (on leave)
+  #   link: "#"
+  #   content: Prof. Dr. Aviv Regev is Vice President and Head of Research and Early Development at Genentech. She is also a member at the Broad Institute of MIT and Harvard (on leave) and a Professor at MIT (on leave).
+
+  # - name: Prof. Dr. Tina Hernandez-Boussard
+  #   image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+  #   designation: Stanford University - Associate Dean of Research and Professor of Medicine, Biomedical Data Sciences, Surgery and Epidemiology & Population Health (by courtesy)
+  #   link: "#"
+  #   content: Prof. Dr. Tina Hernandez-Boussard is the Associate Dean of Research and Professor of Medicine, Biomedical Data Sciences, Surgery and Epidemiology & Population Health (by courtesy) at Stanford University.
+
+  # - name: Prof. Dr. Jill P. Mesirov
+  #   image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+  #   designation: UC San Diego - Associate Vice Chancellor for Computational Health Sciences and Professor of Medicine
+  #   link: "#"
+  #   content: Prof. Dr. Jill P. Mesirov is the Associate Vice Chancellor for Computational Health Sciences and Professor of Medicine at UC San Diego.
+
+  # - name: Prof. Dr. Sandrine Dudoit
+  #   image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+  #   designation: UC Berkeley - Professor of Biostatistics and Statistics and Chair of the Graduate Group in Biostatistics
+  #   link: "#"
+  #   content: Prof. Dr. Sandrine Dudoit is a Professor of Biostatistics and Statistics and Chair of the Graduate Group in Biostatistics at UC Berkeley.
+
+  # - name: Prof. Dr. Ester Sabino
+  #   image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+  #   designation: University of Sao Paulo - Professor, Department of Pathology at University of Sao Paulo Medical School
+  #   link: "#"
+  #   content: Prof. Dr. Ester Sabino is a Professor in the Department of Pathology at the University of Sao Paulo Medical School.
+
+  # - name: Prof. Dr. Daphne Koller
+  #   image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+  #   designation: Insitro - CEO & Co-Founder, Adjunct Computer Science Professor at Stanford
+  #   link: "#"
+  #   content: Prof. Dr. Daphne Koller is the CEO & Co-Founder of Insitro and an Adjunct Computer Science Professor at Stanford.
+
+  # - name: Prof. Dr. Abdoulaye Banire Diallo
+  #   image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+  #   designation: U. du Québec à Montréal - Professor, Director of the Bioinformatics Lab
+  #   link: "#"
+  #   content: Prof. Dr. Abdoulaye Banire Diallo is a Professor and Director of the Bioinformatics Lab at the University of Québec à Montréal.
+
+  # - name: Dr. Anthony Costa
+  #   image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+  #   designation: NVIDIA - Director of Digital Biology & Life Sciences Group Lead
+  #   link: "#"
+  #   content: Dr. Anthony Costa is the Director of Digital Biology & Life Sciences Group Lead at NVIDIA.
+
+  # - name: Prof. Dr. Rajeev Varshney
+  #   image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+  #   designation: Murdoch University - Professor, Food Futures Institute, Centre for Crop & Food Innovation
+  #   link: "#"
+  #   content: Prof. Dr. Rajeev Varshney is a Professor at the Food Futures Institute, Centre for Crop & Food Innovation at Murdoch University.
+
+  # - name: Dr. Lindsay Edwards
+  #   image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+  #   designation: Relation Therapeutics - Vice President of Platform & CTO
+  #   link: "#"
+  #   content: Dr. Lindsay Edwards is the Vice President of Platform & CTO at Relation Therapeutics.
+
+  # - name: Dr. Tommaso Biancalani
+  #   image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
+  #   designation: Genentech - Sr Director & Head Of AI For Research Biology, AI/ML, Computational Science
+  #   link: "#"
+  #   content: Dr. Tommaso Biancalani is the Senior Director & Head Of AI For Research Biology, AI/ML, Computational Science at Genentech.
+
+# Ogranizers Section
+organizers:
+  enable: true
+
+organizers__title: Junior Organizers
+organizers__description: Dedicated to community outreach, workshop logistics, and managing submissions & reviews.
+
+organizers__items:
+  - name: Ivona Martinovic
+    image: /images/organizers/Ivona_Martinovic.jpeg
+    designation: "Genome Institute of Singapore (A*STAR)\nNational University of Singapore"
+    link: "#"
+    content: content
+
+  - name: Lovro Vrcek
+    image: /images/organizers/Lovro_Vrcek_2.png
+    designation: "Genome Institute of Singapore (A*STAR)\nUniversity of Zagreb"
+    link: "#"
+    content: content
+
+  - name: Chaitanya Joshi
+    image: /images/organizers/Chaitanya_Joshi.jpeg
+    designation: University of Cambridge
     link: "#"
     content: content
 
   - name: Tin Vlasic
     image: /images/organizers/Tin_Vlasic.jpg
-    designation: 
+    designation: Genome Institute of Singapore (A*STAR)
     link: "#"
     content: content
+
+  - name: Agata Kilar
+    image: /images/organizers/Agata_Kilar.jpg
+    designation: Harvard University
+    link: "#"
+    content: content
+
 
   # - name: Aïcha BenTaieb
   #   image: "https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg"
@@ -380,7 +383,7 @@ organizers__items:
 #-------------------------------
 # Program Committee Section
 programs:
-  enable: true
+  enable: false
 
 programs__title: Program Committee
 programs__description: Contributing to defining speakers, sponsors, the website and reviewing submissions.
