@@ -7,7 +7,7 @@ permalink: /submissions/
 # image_caption: 'Photo by [Bruce Dixon](https://unsplash.com/photos/3M9WJQVHzog) on [Unsplash](https://unsplash.com/)'
 ---
 
-<h2 style="margin-bottom: 0;">Key Dates</h2>
+<h2 style="margin-bottom: 5px;">Key Dates</h2>
 
 **Submissions Open**: TBC<br>
 **Submissions Close**: Monday, 3 Feb 2025 11:59PM UTC-12<br>
@@ -26,8 +26,7 @@ permalink: /submissions/
 - **Nucleic Acids in Therapeutics:** *NA drug design and discovery, NA modification, NA mutations*
 - **Genomic Data Analysis:** *Genome reconstruction, Gene expression, Calling genetic variants, Pairwise and multiple NA sequence alignment, Single-cell transcriptomics and genomics*
 
-<h2 style="margin-bottom: 0;">Submission Instructions</h2>
-
+<h2 style="margin-bottom: 5px;">Submission Instructions</h2>
 <p style="margin-bottom: 10px;">AI4NA considers two types of submissions:</p>
 
 - **Full-Paper Submissions** --- AI4NA seeks for high-quality full-paper submissions that fit the workshop scope.
@@ -36,49 +35,109 @@ part of diversity, equity, and inclusion (DEI) initiative. This way AI4NA is off
 underprivileged, and first-time submitters to share their work at the workshop.
 
 <h4 style="margin-bottom: 0;">Full-Paper Submissions</h4>
-<p style="margin-bottom: 10px;">Point 1</p>
-<p style="margin-bottom: 10px;">Point 2</p>
-Point 3
+<p style="margin-bottom: 10px;">Submitted full papers can be up to 5 
+    pages long, not including Software and Data, References and Appendix.
+    Any paper exceeding this length will automatically be rejected.</p>
+<p style="margin-bottom: 10px;">Authors may use as many pages of appendices
+    (after the bibliography) as they wish, but reviewers are not required 
+    to read the appendix.</p>
+<p style="margin-bottom: 10px;">Do not include author information, 
+    author contributions or acknowledgments in your initial submission.</p>
+<p style="margin-bottom: 10px;">References must include page numbers 
+    whenever possible and be as complete as possible. Place multiple 
+    citations in chronological order.</p>
+<p style="margin-bottom: 10px;">Keep your abstract brief and 
+    self-contained, one paragraph and roughly 4-6 sentences. 
+    The title should have content words capitalized.</p>
+<p>Authors are advised to use the Full-Paper AI4NA LaTeX style
+    adjusted from the ICLR 2025 LaTeX style files obtainable at 
+    the Style Files and Templates section below. </p>
 
 
 <h4 style="margin-bottom: 0;">Tiny-Paper Submissions</h4>
-<p style="margin-bottom: 10px;">Point 1</p>
-<p style="margin-bottom: 10px;">Point 2</p>
-Point 3
+<p style="margin-bottom: 10px;">Write a paper with the same structure as seen 
+    in full papers, but with at most 2 pages of main text (including title and
+    abstract). Software and Data, 
+    URM Statement, References, and Appendices sections do not count towards 
+    the page limit, but we do not recommend dissecting a regular-length 
+    paper into a Tiny Paper by moving the majority of the content into 
+    appendices. Any paper exceeding 2 pages of main text will automatically
+    be rejected.</p>
+<p style="margin-bottom: 10px;">It is recommended to have 1-2 figures, 
+    1 table, and 4-5 sections. But authors are free to use their own 
+    structure.</p>
+<p style="margin-bottom: 10px;">As the Tiny Papers is a Diversity,
+    Equity and Inclusion (DEI) initiative, we require every submission 
+    to have at least one key author (its first or last author) that meets 
+    the underrepresented minority (URM) criteria. 
+    Authors don't have to reveal how they qualify, and may just 
+    self-identify that they qualify.</p>
+<p style="margin-bottom: 10px;">Authors are advised to use the Tiny-Paper
+    AI4NA LaTeX style adjusted from the ICLR 2025 LaTeX style files 
+    obtainable at the Style Files and Templates section below. </p>
+<p style="margin-bottom: 0;">Despite the wide range of topics that 
+    could benefit from the Tiny-Paper format, we focus the type of 
+    submissions to be the following:</p>
+<ul style="margin-bottom: 10px;">
+    <li style="margin-bottom: 0;"> An implementation and experimentation of a novel 
+            (not published elsewhere) yet simple idea, 
+            or a modest and self-contained theoretical result </li>
+    <li style="margin-bottom: 0;"> A follow-up experiment to or re-analysis of a previously 
+            published paper </li>
+    <li style="margin-bottom: 0;"> A new perspective on a previously published paper </li>
+</ul>
+<p style="margin-bottom: 10px;">Submissions have to include a "URM Statement"
+    section which acklnowledges meeting the URM criteria. See the 
+    corresponding section in our provided Tiny-Paper LaTex teamplate
+    for examples.</p>
+<p style="margin-bottom: 0;"> The URM criteria typically refers to someone 
+    whose age, gender, sexual orientation, racial or ethnic makeup, 
+    or identity is far from the majority members in the community. Based on
+    the <a href="https://iclr.cc/Conferences/2024/CallForTinyPapers" target="_blank">ICLR Guidelines</a>,
+    here is a list of examples of author characteristics which were
+    typically underrepresented:</p>
+<ul style="margin-bottom: 10px;">
+    <li style="margin-bottom: 0;"> Age: outside the range of 30-50 years</li>
+    <li style="margin-bottom: 0;"> Gender: does not identify as cis-male</li>
+    <li style="margin-bottom: 0;"> Sexual orientation: does not identify as heterosexual</li>
+    <li style="margin-bottom: 0;"> Geographical: not located in North America,
+                                    Western Europe and UK, or East Asia</li>
+    <li style="margin-bottom: 0;"> Race: non-White</li>
+    <li style="margin-bottom: 0;"> Person with a disability</li>
+</ul>
+<p style="margin-bottom: 0;"> In addition, underprivileged researchers 
+    and first-time submitters also qualify:</p>
+<ul>
+    <li style="margin-bottom: 0;"> Underprivileged: not affiliated with
+                                    a funded organization or team whose primary 
+                                    goal is research</li>
+    <li style="margin-bottom: 0;"> First-time submitters: have never submitted 
+                                    to ICLR or similar conferences
+</li>
+</ul>
 
-<h4 style="margin-bottom: 0;">Double blind reviewing</h4>
+<h4 style="margin-bottom: 0;">Double Blind Reviewing</h4>
 <p style="margin-bottom: 10px;">Submissions will be double blind: 
 reviewers cannot see author names when conducting reviews, 
 and authors cannot see reviewer names. Having papers on ArXiv 
 is allowed per the dual submission policy outlined below.</p>
-
-Authors can revise their paper as many times as needed up to the
+<p>Authors can revise their paper as many times as needed up to the
 paper submission deadline. Changes to the paper will not be allowed
-while the paper is being reviewed.
-
-
-<h4 style="margin-bottom: 0;">Presentation and Publication</h4>
-Accepted papers will be showcased as posters during the workshop, 
-with a few chosen for spotlight presentations based on reviewer feedbacks. 
-At least one contributed talk slot (2 talks) will be dedicated to 
-Tiny-Paper submission track. While the workshop is non-archival and does
-not publish proceedings, authors of accepted papers will have the 
-option to make their work available through the workshop website. 
-
+while the paper is being reviewed.</p>
+ 
 <h4 style="margin-bottom: 10px;">We encourage submissions of:</h4>
 - Novel research currently under submission.
 - Promising work-in-progress results seeking feedback.
 - Forward-thinking position papers initiating community discussion.
 
 
-<h4 style="margin-bottom: 0;">Style files and Templates</h4>
-
+<h4 style="margin-bottom: 0;">Style Files and Templates</h4>
 <p style="margin-bottom: 10px;">To prepare your submission to AI4NA,
 please use the LaTeX style files provided here. Please do not alter
 the style in these templates – in particular, do not compress the 
 paper format by reducing the vertical spaces or the page margins.</p>
 
-Submissions will be entirely electronic and done through [OpenReview](#).
+Submissions will be entirely electronic and done through [OpenReview](https://openreview.net/).
 
 <div class="table-container">
 <table style="width: 100%; text-align: center;">
@@ -100,9 +159,14 @@ Submissions will be entirely electronic and done through [OpenReview](#).
             </a>
         </td>
                 <td>
-            <a href="https://openreview.net/group?id=ICML.cc/2024/Workshop/ML4LMS&referrer=%5BHomepage%5D(%2F)#tab-your-consoles">
-                <img src="/images/open_review.jpeg" style="all: unset; width: 20%; transition: filter 0.3s;" onmouseover="this.style.filter='grayscale(100%)'" onmouseout="this.style.filter='none'">
-            </a>
+            <!--<a href="https://openreview.net/group?id=ICML.cc/2024/Workshop/ML4LMS&referrer=%5BHomepage%5D(%2F)#tab-your-consoles"> 
+                    <img src="/images/open_review.jpeg" style="all: unset; width: 20%; transition: filter 0.3s;" onmouseover="this.style.filter='grayscale(100%)'" onmouseout="this.style.filter='none'">
+                </a>
+            -->
+            <!---<a href="#" target="_blank">
+                Coming soon!
+            </a>--->
+            Coming soon!
         </td>
     </tr>
 </table>
@@ -111,9 +175,7 @@ Submissions will be entirely electronic and done through [OpenReview](#).
 **Attention**
 If you select the Overleaf template, you will need to download the project zip file and upload it as a new project. 
 
-
 <h4 style="margin-bottom: 0;">The Use of Large Language Models (LLMs)</h4>
-
 The use of LLMs is allowed as a general-purpose assist tool.
 Authors and reviewers should understand that they take full 
 responsibility for the contents written under their name, 
@@ -121,53 +183,52 @@ including content generated by LLMs that could be construed
 as plagiarism or scientific misconduct (e.g., fabrication of facts).
 LLMs are not eligible for authorship.
 
------------------------
+<h4 style="margin-bottom: 0;">Camera-Ready Version</h4>
+<p style="margin-bottom: 10px;">Accepted Full Papers can be up to 6 pages
+long, not including Software and Data, Author Contributions,
+Acknowledgments, References and Appendix, to allow
+authors to address reviewer comments.</p>
+<p>Accepted Tiny Papers have to remain 2 pages
+long, not including Software and Data, Author Contributions,
+Acknowledgments, URM Statement, References and Appendix.</p>
+
+<h4 style="margin-bottom: 0;">Presentation and Publication</h4>
+Accepted papers will be showcased as posters during the workshop, 
+with a few chosen for spotlight presentations based on reviewer feedbacks. 
+At least one contributed talk slot (2 talks) will be dedicated to 
+Tiny-Paper submission track. While the workshop is non-archival and does
+not publish proceedings, authors of accepted papers will have the 
+option to make their work available through the workshop website.
+
+<h2 style="margin-bottom: 5px;">Author Benefits</h2>
+<h4 style="margin-bottom: 0;">Poster Presentation</h4>
+<p>All accepted submissions can submit a poster
+for in-person presentation. Authors of accepted papers will 
+have the option to make their posters available through the 
+workshop website for later download.</p>
+<h4 style="margin-bottom: 0;">Contributed Talk</h4>
+<p>Some submissions will be selected for
+    a contributed 10 minute talk.</p>
+<h4 style="margin-bottom: 0;">Prize</h4>
+<p>Some submissions will be selected 
+    for prizes. Thanks to NVIDIA sponsorship the best submission
+    will be highlighted and awarded by <b>NVIDIA RTX A6000 - 48GB!</b></p>
+<h4 style="margin-bottom: 0;">Travel Grant and/or Registration</h4>
+<p>Authors from underrepresented communities and/or who need financial
+    assistance accepted into the workshop can request financial assistance
+    to attend AI4NA, which will be granted based on availability of funds.
+    We will release a form soon so you may sign up.</p>
 
 
-- Can I opt-out of the collated proceeding?
+<h2 style="margin-bottom: 5px;">Attending AI4NA</h2>
+<p style="margin-bottom: 10px;">While submitting is free, if you are selected for a poster or
+a talk, you'll need to register at <a href="https://iclr.cc/Register2" target="_blank">ICLR 2025</a> in order 
+to attend the workshop.</p>
 
+You can also attend AI4NA without submitting. The workshop is
+open to anyone attending ICLR 2025 with a ticket for workshops.
 
-
-
-### What can I get out of submitting?
-All accepted submissions (including free text) can submit a poster for in-person and online presentation. Accepted posters and/or free text will be collated in an informal proceeding.
-
-Some submissions will be selected for a contributed 10 minute talk (see schedule).
-
-Some submissions will be selected for prizes (TBD).
-
-Students from underrepresented communities submitting free text and accepted into the workshop can request financial assistance to attend ICML, which will be granted based on availability of funds.
-
-### Free text submission guidelines
-- Initial submissions can be up to 5 pages long. This limit excludes data availability statements, references and appendices, which can take unlimited space. But the reviewers are not required to read appendices. Accepted papers can be up to 6 pages long, not including acknowledgements, data availability statements, references and appendices.
-
-### What about the camera ready version?
-You will have the opportunity to submit a "camera ready" version of your poster/free text after notification of acceptance.
-
-### Can I opt-out of the collated proceeding?
-While the workshop is non-archival, we will collate camera-ready submissions into a proceeding available on this website for later download.
-
-You can opt-out of having your camera-ready submission included by selecting this option on the submission form post-acceptance.
-
-Withdrawal Policy
-
-
-
-## Q&A
-
-### Is there a cost associated to the submission?
-While submitting is free, if you are selected for a poster or a talk, you'll need to purchase an ICML 2024 ticket in order to attend the workshop. 
-
-### Can I attend without submitting?
-Yes! The workshop is open to anyone attending ICML 2024.
-
-### Can I review submissions?
-Yes! We are looking for helping hands (all levels of seniority) in reviewing submissions. Reviewers will be listed on the website. If you submit something yourself, please make sure to disclose this in our reviewer form!
-
-### Is that true we're eligible to win prizes?
-Yes! Thanks to NVIDIA's generous sponsorship we have 4 prizes
-
-Check the [Prizes Page](/prizes) for more details
-
-### I still have questions!
-Reach out at: workshop {at} 
+<h2 style="margin-bottom: 5px;">Reviewers</h2>
+We are looking for helping hands (all levels of seniority) in reviewing submissions.
+Reviewers will be listed on the website. You can find our reviewer form
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSffOqB69EjcDN9E_dJ_lvSRMKg7NBCKTkWc7afWa8j0-jOZ_w/viewform" target="_blank">here</a>!
