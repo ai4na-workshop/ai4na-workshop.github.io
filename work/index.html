@@ -1,15 +1,17 @@
 ---
 layout: default
-title: Speakers
-description: Here are the full list of speakers of our workshop
+title1: Speakers
+description1: Here is the full list of speakers of our workshop
+title2: Panelists
+description2: Here is the full list of panelists of our workshop
 ---
 
 <div class="container">
   <div class="page-section-head">
-    <h1 class="page-title">{% if page.title %}{{ page.title }}{% else %}{{ site.data.settings.work.work__title }}{% endif %}</h1>
-    {% if page.description %}
-      <p class="page-description">{{ page.description }}</p>
-    {% else site.data.settings.work.work__description %}
+    <h1 class="page-title">{% if page.title1 %}{{ page.title1 }}{% else %}{{ site.data.settings.work.work__title }}{% endif %}</h1>
+    {% if page.description1 %}
+      <p class="page-description">{{ page.description1 }}</p>
+    {% else site.data.settings.work.work__description1 %}
       <p class="page-description">{{ site.data.settings.work.work__description }}</p>
     {% endif %}
   </div>
@@ -17,7 +19,8 @@ description: Here are the full list of speakers of our workshop
 
 <div class="work-page container animate">
   <div class="row">
-    {% for work in site.works reversed %}
+    {% for work in site.works %}  <!-- used to be reversed after site.works -->
+      {% unless work.category == "Panelist" %}
       <article class="work col col-4 col-d-6 col-t-12">
         <div class="work__content">
           <a href="{{ work.url }}" class="work__image">
@@ -34,6 +37,44 @@ description: Here are the full list of speakers of our workshop
           </div>
         </div>
       </article>
+      {% endunless %}
+    {% endfor %}
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="page-section-head">
+    <h1 class="page-title">{% if page.title2 %}{{ page.title2 }}{% else %}{{ site.data.settings.panelist.panelist__title }}{% endif %}</h1>
+    {% if page.description2 %}
+      <p class="page-description">{{ page.description2 }}</p>
+    {% else site.data.settings.panelist.panelist__description2 %}
+      <p class="page-description">{{ site.data.settings.panelist.panelist__description }}</p>
+    {% endif %}
+  </div>
+</div>
+
+<div class="work-page container animate">
+  <div class="row">
+    {% for work in site.works %}  <!-- used to be reversed after site.works -->
+      {% if work.category == "Panelist" %}
+      <article class="work col col-4 col-d-6 col-t-12">
+        <div class="work__content">
+          <a href="{{ work.url }}" class="work__image">
+            <img class="lazy" data-src="{{ work.image }}" alt="{{ work.title }}">
+          </a>
+          <div class="work__info">
+            {% if work.category %}
+            <div class="work__category">{{ work.category }}</div>
+            {% endif %}
+            <h3 class="work__title"><a href="{{ work.url }}">{{ work.title }}</a></h3>
+            {% if work.description %}
+            <p class="work__description">{{ work.description }}</p>
+            {% endif %}
+          </div>
+        </div>
+      </article>
+      {% endif %}
     {% endfor %}
   </div>
 </div>
