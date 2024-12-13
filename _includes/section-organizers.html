@@ -15,6 +15,7 @@
 
         <div class="row">
         {% for organizers__item in site.data.settings.organizers__items %}
+        <a href="{{organizers__item.link }}" target="_blank" rel="noopener noreferrer" class="testimonial-item-link">
           <div class="testimonial-item col col-4 col-d-6 col-t-12">
             <div class="testimonial-content">
               <div class="client-meta">
@@ -43,6 +44,7 @@
               {% endif %} -->
             </div>
           </div>
+        </a>
         {% endfor %}
         </div>
 
@@ -52,3 +54,33 @@
 </div>
 <!-- end s -->
 <!-- {% endif %}
+
+
+<a href="{{ testimonial__item.link }}" target="_blank" rel="noopener" class="testimonial-item-link">
+  <div class="testimonial-item col col-4 col-d-6 col-t-12">
+    <div class="testimonial-content">
+      <div class="client-meta">
+        {% if testimonial__item.image %}
+          <div class="image-container">
+            <img 
+              class="client-avatar lazy" 
+              data-src="{{ testimonial__item.image | relative_url }}" 
+              alt="{{ testimonial__item.name }}" 
+              loading="lazy" 
+              height="32px" 
+              width="32px"
+            >
+          </div> 
+        {% endif %}
+        <div class="client-info">
+          {% if testimonial__item.name %}
+            <h3 class="client-name">{{ testimonial__item.name }}</h3>
+          {% endif %}
+          {% if testimonial__item.designation %}
+            <p class="client-designation">{{ testimonial__item.designation }}</p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</a>

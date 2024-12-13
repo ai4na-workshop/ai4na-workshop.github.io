@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Agenda
-description: Agenda for the full day. All sessions focused on ML for Molecules, Big and Small 
+title: Schedule
+description: Agenda for the full day
 ---
 
 <div class="container">
@@ -12,10 +12,14 @@ description: Agenda for the full day. All sessions focused on ML for Molecules, 
     {% else site.data.settings.blog__settings.blog__description %}
       <p class="page-description">{{ site.data.settings.blog__settings.blog__description }}</p>
     {% endif %}
+    
+  </div>
+  <div class="container">
+    <h1>To be announced!</h1>
   </div>
 </div>
 
-<div class="container">
+<!-- <div class="container">
   <div class="row">
     <div class="col col-12">
       <div class="section-small">
@@ -27,18 +31,18 @@ description: Agenda for the full day. All sessions focused on ML for Molecules, 
             {% include article.html %}
           {% endfor %}
            
-      <!-- 
+      
         {% if site.posts.size > 0 %}
           {% for post in paginator.posts offset: 0  %}
             {% include article.html %}
           {% endfor %}
         {% endif %}
-      --> 
+      
         
         </div>
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
  {% include pagination.html %} 

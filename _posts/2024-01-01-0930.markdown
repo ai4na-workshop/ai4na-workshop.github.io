@@ -10,7 +10,5 @@ tags: [Life Sciences, Keynote]
 order: 18
 ---
 
-**Levine**
-
 ## Talk Title
 Talk abstract
