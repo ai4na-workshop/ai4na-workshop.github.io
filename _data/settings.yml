@@ -51,7 +51,7 @@ menu__settings:
 # Author Settings
 author:
   author__name: AI4NA
-  author__bio: AI4NA aims to facilitate discussions among ML researchers on various topics within Genomics and related fields, including target and drug discovery, agronomy, and synthetic biology
+  author__bio: This workshop aims to spotlight nucleic acids as the next frontier for AI research. By bringing together experts from machine learning and biology, we will explore how AI can address key challenges in nucleic acids research, such as RNA tertiary structure prediction, understanding nucleic acid interactions, and designing bespoke RNA/DNA molecules with therapeutic potential.
   author__avatar: images/other/dna.svg
 
 social:
@@ -73,7 +73,7 @@ hero:
   hero__title: AI4NA Workshop 
   hero__workshopname: 'Artificial Intelligence for Nucleic Acids'
   hero__subtitle: ICLR'25 - Apr (TBC)th, Singapore
-  hero__description: AI4NA aims to facilitate discussions among ML researchers on various topics within Genomics and related fields, including target and drug discovery, agronomy, and synthetic biology
+  hero__description: This workshop aims to spotlight nucleic acids as the next frontier for AI research. By bringing together experts from machine learning and biology, we will explore how AI can address key challenges in nucleic acids research, such as RNA tertiary structure prediction, understanding nucleic acid interactions, and designing bespoke RNA/DNA molecules with therapeutic potential.
   hero__image: images/other/singapore-merlion.jpg
   # hero__image: https://upload.wikimedia.org/wikipedia/commons/f/f1/Singapore_Merlion.jpg
   # hero__image: "https://wallpaper.forfun.com/fetch/b4/b477aa17c628ebc4cf68cbdc091e9b0d.jpeg"
