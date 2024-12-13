@@ -50,6 +50,7 @@
   --light-gray: #f0f0f0;
   --gray: #9e9e9e;
   --dark: #111016;
+  --blue-gray: #bdc8db;
 
   // Background Color
   --background-color: var(--dark);
@@ -83,3 +84,7 @@
   // Syntax Highlighting
   --syntax-highlighting-background: #080b12;
 }
+
+// .force-black {
+//   color: black !important; /* Force black color regardless of theme */
+// }

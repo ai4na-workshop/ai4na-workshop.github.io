@@ -31,6 +31,11 @@
   a.myLink:hover::after {
       background: var(--primary-color) /* green; /* Change to green on hover */
   }
+
+  .force-black {
+    color: black !important; /* Force black color regardless of theme */
+  }
+
   </style>
 
 
@@ -102,7 +107,7 @@
           {% endif %}-->
           </div>
 
-          <div style="border: 0px solid rgb(39, 11, 152); background-color: rgba(255, 255, 255, 0.605); border-radius: 12px; padding: 3%; margin: 2%;">
+          <div style="border: 0px solid rgb(39, 11, 152); background-color: rgba(255, 255, 255, 0.605); border-radius: 12px; padding: 3%; margin: 2%;" class="force-black">
             <!-- First Div for Announcements -->
             <div style="text-align: left; margin-bottom: 0px;">
                 <h3>📣  Important Announcements </h3>
@@ -111,13 +116,18 @@
             <!-- Second Div with the first link -->
             <div style="margin-left: 2%;">
               <ul>
-                <li><a href="hhttps://forms.gle/qp7bFmvmtDq2GAh98" class="myLink">
+                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSffOqB69EjcDN9E_dJ_lvSRMKg7NBCKTkWc7afWa8j0-jOZ_w/viewform" target="_blank" rel="noopener noreferrer" class="myLink">
                   Register your interest in volunteering to review papers</a></li>
 
-              <li><a href="{{ '/submissions' | relative_url }}" class="myLink">
-                Submissions Open! </a></li>
-              <li><a href="{{ '/breakout' | relative_url }}" class="myLink">
-                Check Breakout Session Notes </a></li>
+                <li><a href="{{ '/submissions' | relative_url }}" class="myLink">
+                  Submissions will open soon! </a></li>
+
+                <li><p>
+                  Follow us on <a href="https://x.com/ai4na_workshop" target="_blank" rel="noopener noreferrer" class="myLink">Twitter/X</a> 
+                  and <a href="https://bsky.app/profile/ai4na-workshop.bsky.social" target="_blank" rel="noopener noreferrer" class="myLink">Bluesky</a>!
+                </p></li>
+                <!-- <li><a href="{{ '/breakout' | relative_url }}" class="myLink">
+                  Check Breakout Session Notes </a></li> -->
               </ul>
               
             </div>

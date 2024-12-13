@@ -52,7 +52,7 @@ menu__settings:
 author:
   author__name: AI4NA
   author__bio: AI4NA aims to facilitate discussions among ML researchers on various topics within Genomics and related fields, including target and drug discovery, agronomy, and synthetic biology
-  author__avatar: '/images/logo_chem.png'
+  author__avatar: images/other/dna.svg
 
 social:
 #- {icon: "ion-logo-twitter", link: "https://twitter.com"}
@@ -74,7 +74,8 @@ hero:
   hero__workshopname: 'Artificial Intelligence for Nucleic Acids'
   hero__subtitle: ICLR'25 - Apr (TBC)th, Singapore
   hero__description: AI4NA aims to facilitate discussions among ML researchers on various topics within Genomics and related fields, including target and drug discovery, agronomy, and synthetic biology
-  hero__image: https://upload.wikimedia.org/wikipedia/commons/f/f1/Singapore_Merlion.jpg
+  hero__image: images/other/singapore-merlion.jpg
+  # hero__image: https://upload.wikimedia.org/wikipedia/commons/f/f1/Singapore_Merlion.jpg
   # hero__image: "https://wallpaper.forfun.com/fetch/b4/b477aa17c628ebc4cf68cbdc091e9b0d.jpeg"
 
 
@@ -253,7 +254,7 @@ blog__settings:
 
 #-------------------------------
 # Footer Settings
-footer__background__image: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Marina_Bay%2C_Financial_District_and_Singapore_River_%2835622190292%29.jpg"
+footer__background__image: /images/other/singapore-skyline.jpg
 
 #-------------------------------
 # Contact Settings
