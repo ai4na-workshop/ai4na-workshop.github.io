@@ -117,21 +117,21 @@ mailchimp:
 work:
   enable: true
   work__title: Speakers and Panelists
-  work__description: Leading researchers from Industry and Academia will be at the workshop (listed alphabetically by the last name).
+  # work__description: Leading researchers from Industry and Academia will be at the workshop (listed alphabetically by the last name).
 
 #-------------------------------
 # Speakers Settings
 speakers:
   enable: true
   speakers__title: Speakers
-  speakers__description: Leading researchers from Industry and Academia will be at the workshop (listed alphabetically by the last name).
+  # speakers__description: Leading researchers from Industry and Academia will be at the workshop (listed alphabetically by the last name).
 
 #-------------------------------
 # Panelists Settings
 panelists:
   enable: true
   panelists__title: Panelists
-  panelists__description: Leading researchers from Industry and Academia will be at the workshop (listed alphabetically by the last name).
+  # panelists__description: Leading researchers from Industry and Academia will be at the workshop (listed alphabetically by the last name).
 
 
 #-------------------------------
