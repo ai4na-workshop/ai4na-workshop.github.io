@@ -260,6 +260,7 @@ footer__background__image: /images/other/singapore-skyline.jpg
 # Contact Settings
 contact:
   email: ai4na.workshop@gmail.com  # workshop@ml4lms.bio # Add your form_id
+  form_id: "https://formspree.io/f/movqoapb"
   description: If you have any questions, please do reach out to the organizers # Add a description of your form
   title: Contact Us
 
