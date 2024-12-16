@@ -51,8 +51,8 @@ menu__settings:
 # Author Settings
 author:
   author__name: AI4NA
-  author__bio: AI4NA aims to facilitate discussions among ML researchers on various topics within Genomics and related fields, including target and drug discovery, agronomy, and synthetic biology
-  author__avatar: '/images/logo_chem.png'
+  author__bio: This workshop aims to spotlight nucleic acids as the next frontier for AI research. By bringing together experts from machine learning and biology, we will explore how AI can address key challenges in nucleic acids research, such as RNA tertiary structure prediction, understanding nucleic acid interactions, and designing bespoke RNA/DNA molecules with therapeutic potential.
+  author__avatar: images/other/dna.svg
 
 social:
 #- {icon: "ion-logo-twitter", link: "https://twitter.com"}
@@ -73,8 +73,9 @@ hero:
   hero__title: AI4NA Workshop 
   hero__workshopname: 'Artificial Intelligence for Nucleic Acids'
   hero__subtitle: ICLR'25 - Apr (TBC)th, Singapore
-  hero__description: AI4NA aims to facilitate discussions among ML researchers on various topics within Genomics and related fields, including target and drug discovery, agronomy, and synthetic biology
-  hero__image: https://upload.wikimedia.org/wikipedia/commons/f/f1/Singapore_Merlion.jpg
+  hero__description: This workshop aims to spotlight nucleic acids as the next frontier for AI research. By bringing together experts from machine learning and biology, we will explore how AI can address key challenges in nucleic acids research, such as RNA tertiary structure prediction, understanding nucleic acid interactions, and designing bespoke RNA/DNA molecules with therapeutic potential.
+  hero__image: images/other/singapore-merlion.jpg
+  # hero__image: https://upload.wikimedia.org/wikipedia/commons/f/f1/Singapore_Merlion.jpg
   # hero__image: "https://wallpaper.forfun.com/fetch/b4/b477aa17c628ebc4cf68cbdc091e9b0d.jpeg"
 
 
@@ -86,13 +87,14 @@ logos:
   logos__description: Thank you to our sponsors!
 
 logo__items:
-  - name: ONT
-    link: https://nanoporetech.com/
-    image: /images/sponsors/ONT.png
-  
   - name: Nvidia
     link: https://www.nvidia.com/
     image: /images/sponsors/Nvidia_logo.jpeg
+
+  - name: ONT
+    link: https://nanoporetech.com/
+    image: /images/sponsors/ONT.png
+
 
   # - name: TBC
   #   link: https://thumbs.dreamstime.com/b/to-be-announced-red-rubber-stamp-over-white-background-86701643.jpg
@@ -116,21 +118,21 @@ mailchimp:
 work:
   enable: true
   work__title: Speakers and Panelists
-  work__description: Leading researchers from Industry and Academia will be at the workshop (listed alphabetically by the last name).
+  # work__description: Leading researchers from Industry and Academia will be at the workshop (listed alphabetically by the last name).
 
 #-------------------------------
 # Speakers Settings
 speakers:
   enable: true
   speakers__title: Speakers
-  speakers__description: Leading researchers from Industry and Academia will be at the workshop (listed alphabetically by the last name).
+  # speakers__description: Leading researchers from Industry and Academia will be at the workshop (listed alphabetically by the last name).
 
 #-------------------------------
 # Panelists Settings
 panelists:
   enable: true
   panelists__title: Panelists
-  panelists__description: Leading researchers from Industry and Academia will be at the workshop (listed alphabetically by the last name).
+  # panelists__description: Leading researchers from Industry and Academia will be at the workshop (listed alphabetically by the last name).
 
 
 #-------------------------------
@@ -253,12 +255,13 @@ blog__settings:
 
 #-------------------------------
 # Footer Settings
-footer__background__image: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Marina_Bay%2C_Financial_District_and_Singapore_River_%2835622190292%29.jpg"
+footer__background__image: /images/other/singapore-skyline.jpg
 
 #-------------------------------
 # Contact Settings
 contact:
   email: ai4na.workshop@gmail.com  # workshop@ml4lms.bio # Add your form_id
+  form_id: "https://formspree.io/f/movqoapb"
   description: If you have any questions, please do reach out to the organizers # Add a description of your form
   title: Contact Us
 
