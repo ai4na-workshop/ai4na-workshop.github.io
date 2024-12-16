@@ -87,13 +87,14 @@ logos:
   logos__description: Thank you to our sponsors!
 
 logo__items:
-  - name: ONT
-    link: https://nanoporetech.com/
-    image: /images/sponsors/ONT.png
-  
   - name: Nvidia
     link: https://www.nvidia.com/
     image: /images/sponsors/Nvidia_logo.jpeg
+
+  - name: ONT
+    link: https://nanoporetech.com/
+    image: /images/sponsors/ONT.png
+
 
   # - name: TBC
   #   link: https://thumbs.dreamstime.com/b/to-be-announced-red-rubber-stamp-over-white-background-86701643.jpg
