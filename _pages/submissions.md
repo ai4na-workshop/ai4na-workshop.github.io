@@ -221,6 +221,7 @@ workshop website for later download.</p>
 
 
 <h2 style="margin-bottom: 5px;">Attending AI4NA</h2>
+<a id="attending-ai4na"></a>
 <p style="margin-bottom: 10px;">While submitting is free, if you are selected for a poster or
 a talk, you'll need to register at <a href="https://iclr.cc/Register2" target="_blank">ICLR 2025</a> in order 
 to attend the workshop.</p>
