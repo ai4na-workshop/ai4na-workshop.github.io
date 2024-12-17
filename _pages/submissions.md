@@ -203,9 +203,9 @@ option to make their work available through the workshop website.
 <h2 style="margin-bottom: 5px;">Author Benefits</h2>
 <h4 style="margin-bottom: 0;">Poster Presentation</h4>
 <p>All accepted submissions can submit a poster
-for in-person presentation. Authors of accepted papers will 
-have the option to make their posters available through the 
-workshop website for later download.</p>
+    for in-person presentation. Authors of accepted papers will 
+    have the option to make their posters available through the 
+    workshop website for later download.</p>
 <h4 style="margin-bottom: 0;">Contributed Talk</h4>
 <p>Some submissions will be selected for
     a contributed 10 minute talk.</p>
@@ -214,10 +214,10 @@ workshop website for later download.</p>
     for prizes. Thanks to NVIDIA sponsorship the best submission
     will be highlighted and awarded by <b>NVIDIA RTX A6000 - 48GB!</b></p>
 <h4 style="margin-bottom: 0;">Travel Grant and/or Registration</h4>
-<p>Authors from underrepresented communities and/or who need financial
-    assistance accepted into the workshop can request financial assistance
-    to attend AI4NA, which will be granted based on availability of funds.
-    We will release a form soon so you may sign up.</p>
+<p>Authors from underrepresented communities or those requiring 
+    financial assistance, whose work is accepted into the workshop, 
+    can request support to attend AI4NA. Assistance will be provided 
+    based on the availability of funds.</p>
 
 
 <h2 style="margin-bottom: 5px;">Attending AI4NA</h2>
