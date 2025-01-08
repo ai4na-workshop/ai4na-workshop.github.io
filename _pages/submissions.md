@@ -10,7 +10,7 @@ permalink: /submissions/
 <h2 style="margin-bottom: 5px;">Key Dates</h2>
 
 **Submissions Open**: TBC<br>
-**Submissions Close**: Monday, 3 Feb 2025 11:59PM UTC-12<br>
+**Submissions Close**: Monday, 10 Feb 2025 11:59PM UTC-12<br>
 **Notification**: Wednesday, 5 Mar 2025<br>
 **Camera-ready deadline:** TBC<br>
 **Workshop**: Sunday, 27 or Monday, 28 Apr 2025
@@ -30,12 +30,10 @@ permalink: /submissions/
 <p style="margin-bottom: 10px;">AI4NA considers two types of submissions:</p>
 
 - **Full-Paper Submissions** --- AI4NA seeks for high-quality full-paper submissions that fit the workshop scope.
-- **Tiny-Paper Submissions** --- AI4NA will host the [Tiny Paper](https://iclr.cc/Conferences/2025/CallForTinyPapers) submission track as a 
-part of diversity, equity, and inclusion (DEI) initiative. This way AI4NA is offering opportunities for underrepresented, 
-underprivileged, and first-time submitters to share their work at the workshop.
+- **Tiny-Paper Submissions** --- This year, ICLR is discontinuing the separate “Tiny Papers” track, and is instead requiring each workshop to accept short (3–5 pages in ICLR format, exact page length to be determined by each workshop) paper submissions, with an eye towards inclusion; see [https://iclr.cc/Conferences/2025/CallForTinyPapers](https://iclr.cc/Conferences/2025/CallForTinyPapers) for more details. Authors of these papers will be earmarked for potential funding from ICLR, but need to submit a separate application for Financial Assistance that evaluates their eligibility. This application for Financial Assistance to attend ICLR 2025 will become available on [https://iclr.cc/Conferences/2025/](https://iclr.cc/Conferences/2025/) at the beginning of February and close on March 2nd.
 
 <h4 style="margin-bottom: 0;">Full-Paper Submissions</h4>
-<p style="margin-bottom: 10px;">Submitted full papers can be up to 5 
+<p style="margin-bottom: 10px;">Submitted full papers can be up to 6 
     pages long, not including Software and Data, References and Appendix.
     Any paper exceeding this length will automatically be rejected.</p>
 <p style="margin-bottom: 10px;">Authors may use as many pages of appendices
@@ -56,12 +54,12 @@ underprivileged, and first-time submitters to share their work at the workshop.
 
 <h4 style="margin-bottom: 0;">Tiny-Paper Submissions</h4>
 <p style="margin-bottom: 10px;">Write a paper with the same structure as seen 
-    in full papers, but with at most 2 pages of main text (including title and
+    in full papers, but with at most 3 pages of main text (including title and
     abstract). Software and Data, 
     URM Statement, References, and Appendices sections do not count towards 
     the page limit, but we do not recommend dissecting a regular-length 
     paper into a Tiny Paper by moving the majority of the content into 
-    appendices. Any paper exceeding 2 pages of main text will automatically
+    appendices. Any paper exceeding 3 pages of main text will automatically
     be rejected.</p>
 <p style="margin-bottom: 10px;">It is recommended to have 1-2 figures, 
     1 table, and 4-5 sections. But authors are free to use their own 
@@ -184,11 +182,11 @@ as plagiarism or scientific misconduct (e.g., fabrication of facts).
 LLMs are not eligible for authorship.
 
 <h4 style="margin-bottom: 0;">Camera-Ready Version</h4>
-<p style="margin-bottom: 10px;">Accepted Full Papers can be up to 6 pages
+<p style="margin-bottom: 10px;">Accepted Full Papers can be up to 7 pages
 long, not including Software and Data, Author Contributions,
 Acknowledgments, References and Appendix, to allow
 authors to address reviewer comments.</p>
-<p>Accepted Tiny Papers have to remain 2 pages
+<p>Accepted Tiny Papers have to remain 3 pages
 long, not including Software and Data, Author Contributions,
 Acknowledgments, URM Statement, References and Appendix.</p>
 
