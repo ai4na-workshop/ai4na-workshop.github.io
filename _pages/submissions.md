@@ -194,8 +194,9 @@ Acknowledgments, URM Statement, References and Appendix.</p>
 Accepted papers will be showcased as posters during the workshop, 
 with a few chosen for spotlight presentations based on reviewer feedbacks. 
 At least one contributed talk slot (2 talks) will be dedicated to 
-Tiny-Paper submission track. While the workshop is non-archival and does
-not publish proceedings, authors of accepted papers will have the 
+Tiny-Paper submission track. While the workshop is non-archival 
+(only title and author names of accepted submissions will be posted publicly)
+and does not publish proceedings, authors of accepted papers will have the 
 option to make their work available through the workshop website and 
 AI4NA OpenReview Venue.
 
