@@ -196,7 +196,8 @@ with a few chosen for spotlight presentations based on reviewer feedbacks.
 At least one contributed talk slot (2 talks) will be dedicated to 
 Tiny-Paper submission track. While the workshop is non-archival and does
 not publish proceedings, authors of accepted papers will have the 
-option to make their work available through the workshop website.
+option to make their work available through the workshop website and 
+AI4NA OpenReview Venue.
 
 <h2 style="margin-bottom: 5px;">Author Benefits</h2>
 <h4 style="margin-bottom: 0;">Poster Presentation</h4>
