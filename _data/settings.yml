@@ -146,7 +146,7 @@ testimonial__description: Rally the community, establish and maintain event cred
 testimonial__items:
   - name: Bruno Trentini
     image: /images/organizers/Bruno_Trentini_2.jpeg
-    designation: "NVIDIA\nUniversity of Oxford"    
+    designation: "NVIDIA,\nUniversity of Oxford"    
     link: "https://www.linkedin.com/in/btrentini"
     content: content
 
