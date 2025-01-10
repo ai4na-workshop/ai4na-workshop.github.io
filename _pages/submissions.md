@@ -9,7 +9,7 @@ permalink: /submissions/
 
 <h2 style="margin-bottom: 5px;">Key Dates</h2>
 
-**Submissions Open**: TBC<br>
+**Submissions Open**: Sunday 12 Jan 2025<br>
 **Submissions Close**: Monday, 10 Feb 2025 11:59PM UTC-12<br>
 **Notification**: Wednesday, 5 Mar 2025<br>
 **Camera-ready deadline:** TBC<br>
@@ -136,6 +136,7 @@ the style in these templates – in particular, do not compress the
 paper format by reducing the vertical spaces or the page margins.</p>
 
 Submissions will be entirely electronic and done through [OpenReview](https://openreview.net/).
+If you are creating account on OpenReview, we recommend using an institutional email.
 
 <div class="table-container">
 <table style="width: 100%; text-align: center;">
@@ -157,14 +158,12 @@ Submissions will be entirely electronic and done through [OpenReview](https://op
             </a>
         </td>
                 <td>
-            <!--<a href="https://openreview.net/group?id=ICML.cc/2024/Workshop/ML4LMS&referrer=%5BHomepage%5D(%2F)#tab-your-consoles"> 
+            <a href="https://openreview.net/group?id=ICLR.cc/2025/Workshop/AI4NA"> 
                     <img src="/images/open_review.jpeg" style="all: unset; width: 20%; transition: filter 0.3s;" onmouseover="this.style.filter='grayscale(100%)'" onmouseout="this.style.filter='none'">
                 </a>
-            -->
             <!---<a href="#" target="_blank">
                 Coming soon!
             </a>--->
-            Coming soon!
         </td>
     </tr>
 </table>
@@ -210,15 +209,15 @@ AI4NA OpenReview Venue.
 <p>Some submissions will be selected for
     a contributed 10 minute talk.</p>
 <h4 style="margin-bottom: 0;">Prize</h4>
-<p>Some submissions will be selected 
-    for prizes. Thanks to NVIDIA sponsorship the best submission
-    will be highlighted and awarded by <b>NVIDIA RTX A6000 - 48GB!</b></p>
+<p>Prizes will be awarded to select submissions, with the top 
+    submission receiving special recognition. Thanks to NVIDIA's 
+    sponsorship, the author of the best submission will be honoured
+    with an <b>NVIDIA RTX A6000 - 48GB</b>!</p>
 <h4 style="margin-bottom: 0;">Travel Grant and/or Registration</h4>
 <p>Authors from underrepresented communities or those requiring 
     financial assistance, whose work is accepted into the workshop, 
     can request support to attend AI4NA. Assistance will be provided 
     based on the availability of funds.</p>
-
 
 <h2 style="margin-bottom: 5px;">Attending AI4NA</h2>
 <a id="attending-ai4na"></a>
