@@ -12,7 +12,7 @@ permalink: /submissions/
 **Submissions Open**: Sunday, 12 Jan 2025<br>
 **Submissions Close**: Monday, 10 Feb 2025, 11:59PM UTC-12<br>
 **Notification**: Wednesday, 5 Mar 2025<br>
-**Camera-ready deadline:** Tuesday, 15 Apr, 2025, 11:59PM UTC-12.<br>
+**Camera-ready deadline:** Tuesday, 15 Apr 2025, 11:59PM UTC-12.<br>
 **Workshop**: Sunday, 27 or Monday, 28 Apr 2025
 
 
