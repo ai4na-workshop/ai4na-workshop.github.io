@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Submissions to open soon!
+title: Submissions are open!
 description: We invite submissions to the 1st AI for Nucleic Acids Workshop at ICLR 2025.
 permalink: /submissions/
 #image: '/images/01-2.jpg'
@@ -9,10 +9,10 @@ permalink: /submissions/
 
 <h2 style="margin-bottom: 5px;">Key Dates</h2>
 
-**Submissions Open**: Sunday 12 Jan 2025<br>
-**Submissions Close**: Monday, 10 Feb 2025 11:59PM UTC-12<br>
+**Submissions Open**: Sunday, 12 Jan 2025<br>
+**Submissions Close**: Monday, 10 Feb 2025, 11:59PM UTC-12<br>
 **Notification**: Wednesday, 5 Mar 2025<br>
-**Camera-ready deadline:** TBC<br>
+**Camera-ready deadline:** Tuesday, 15 Apr 2025, 11:59PM UTC-12.<br>
 **Workshop**: Sunday, 27 or Monday, 28 Apr 2025
 
 
@@ -25,6 +25,17 @@ permalink: /submissions/
 - **Foundation and Generative Models for Nucleic Acids:** *(Multimodal) NA foundation models, Generative models for NAs*
 - **Nucleic Acids in Therapeutics:** *NA drug design and discovery, NA modification, NA mutations*
 - **Genomic Data Analysis:** *Genome reconstruction, Gene expression, Calling genetic variants, Pairwise and multiple NA sequence alignment, Single-cell transcriptomics and genomics*
+
+<h2 style="margin-bottom: 5px;">Other AI for Science Workshops</h2>
+<p style="margin-bottom: 0;">If you feel that your work is not a good 
+thematic fit for the AI4NA workshop, consider submitting to one of the
+other AI for science workshops at ICLR 2025, such as:</p>
+<ul style="margin-bottom: 10px;">
+    <li style="margin-bottom: 0;"> <a href="https://iclragenticai.github.io/" target="_blank">Towards Agentic AI for Science: Hypothesis Generation, Comprehension, Quantification, and Validation</a> </li> 
+    <li style="margin-bottom: 0;"> <a href="https://www.gembio.ai/" target="_blank">Generative and Experimental Perspectives for Biomolecular Design</a> </li>
+    <li style="margin-bottom: 0;"> <a href="https://multiscale-ai.github.io/" target="_blank">Machine Learning Multiscale Processes</a> 
+    </li>
+</ul>
 
 <h2 style="margin-bottom: 5px;">Submission Instructions</h2>
 <p style="margin-bottom: 10px;">AI4NA considers two types of submissions:</p>
