@@ -35,6 +35,8 @@ other AI for science workshops at ICLR 2025, such as:</p>
     <li style="margin-bottom: 0;"> <a href="https://www.gembio.ai/" target="_blank">Generative and Experimental Perspectives for Biomolecular Design</a> </li>
     <li style="margin-bottom: 0;"> <a href="https://multiscale-ai.github.io/" target="_blank">Machine Learning Multiscale Processes</a> 
     </li>
+    <li style="margin-bottom: 0;"> <a href="https://www.climatechange.ai/events/iclr2025" target="_blank">Tackling Climate Change with Machine Learning</a> 
+    </li>
 </ul>
 
 <h2 style="margin-bottom: 5px;">Submission Instructions</h2>
@@ -229,9 +231,29 @@ AI4NA OpenReview Venue.
     financial assistance, whose work is accepted into the workshop, 
     can request support to attend AI4NA. Assistance will be provided 
     based on the availability of funds.</p>
+<a id="nat-methods-parthership"></a>
+<h4 style="margin-bottom: 0;">Partnership with <i>Nature Methods</i></h4>
+<p style="margin-bottom: 10px;">AI4NA is partnering with
+    <a href="https://www.nature.com/nmeth/" target="_blank"><i>Nature Methods</i></a> 
+    to offer an opportunity for high-quality, novel submissions with strong 
+    biological validation for consideration in their journal.</p>
+<p style="margin-bottom: 10px;"><i>Nature Methods</i> is a leading journal from Nature Portfolio 
+    that focuses on publishing novel methods and significant enhancements 
+    to basic research techniques in the life sciences. Emphasizing practical
+    relevance and the advancement of biological applications, the journal
+    highlights method developments, performance comparisons, and resources 
+    for a broad, interdisciplinary research audience.</p>
+<p> We are thrilled to collaborate with <i>Nature Methods</i> for ICLR 2025. 
+    Authors submitting to AI4NA who wish to have their work considered for 
+    potential publication in <i>Nature Methods</i> can indicate their interest 
+    after the acceptance notification. Following AI4NA’s acceptance 
+    notifications, selected authors will be invited to submit their 
+    manuscripts to <i>Nature Methods</i>. <i>Nature Methods</i> Editors will 
+    collaborate with AI4NA reviewers and additional expert reviewers 
+    to ensure a rigorous and high-quality evaluation.</p>
 
-<h2 style="margin-bottom: 5px;">Attending AI4NA</h2>
 <a id="attending-ai4na"></a>
+<h2 style="margin-bottom: 5px;">Attending AI4NA</h2>
 <p style="margin-bottom: 10px;">While submitting is free, if you are selected for a poster or
 a talk, you'll need to register at <a href="https://iclr.cc/Register2" target="_blank">ICLR 2025</a> in order 
 to attend the workshop.</p>
