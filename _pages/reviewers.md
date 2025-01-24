@@ -83,6 +83,10 @@ not necessarily novel) should not be rejected for this reason only.</p>
     why in the review.</li>
 </ul>
 
+<h4 style="margin-bottom: 0;">First Time Reviewers</h4>
+If you're reviewing for the first time, you can additionally refer to ICLR's official guidelines
+for insights and examples <a href="https://iclr.cc/Conferences/2025/ReviewerGuide#Reviewing%20instructions" target="_blank">here</a>.
+
 <h4 style="margin-bottom: 0;">The Use of Large Language Models (LLMs)</h4>
 The use of LLMs to write full reviews is not allowed. LLM written reviews are easy to spot and the program committee will 
 be rejecting such reviews. You may use LLMs as a writing assistance tool, for example to correct grammar. Reviewers should
