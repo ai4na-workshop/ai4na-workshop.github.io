@@ -9,8 +9,8 @@ permalink: /submissions/
 
 <h2 style="margin-bottom: 5px;">Key Dates</h2>
 
-**Submissions Open**: Sunday, 12 Jan 2025<br>
-**Submissions Close**: Monday, 10 Feb 2025, 11:59PM UTC-12<br>
+**Submissions open**: Sunday, 12 Jan 2025<br>
+**Submissions close**: Monday, 10 Feb 2025, 11:59PM UTC-12<br>
 **Notification**: Wednesday, 5 Mar 2025<br>
 **Camera-ready deadline:** Tuesday, 15 Apr 2025, 11:59PM UTC-12.<br>
 **Workshop**: Sunday, 27 or Monday, 28 Apr 2025
@@ -30,12 +30,14 @@ permalink: /submissions/
 <p style="margin-bottom: 0;">If you feel that your work is not a good 
 thematic fit for the AI4NA workshop, consider submitting to one of the
 other AI for science workshops at ICLR 2025, such as:</p>
-<ul style="margin-bottom: 10px;">
+<ul>
     <li style="margin-bottom: 0;"> <a href="https://iclragenticai.github.io/" target="_blank">Towards Agentic AI for Science: Hypothesis Generation, Comprehension, Quantification, and Validation</a> </li> 
     <li style="margin-bottom: 0;"> <a href="https://www.gembio.ai/" target="_blank">Generative and Experimental Perspectives for Biomolecular Design</a> </li>
     <li style="margin-bottom: 0;"> <a href="https://multiscale-ai.github.io/" target="_blank">Machine Learning Multiscale Processes</a> 
     </li>
     <li style="margin-bottom: 0;"> <a href="https://www.climatechange.ai/events/iclr2025" target="_blank">Tackling Climate Change with Machine Learning</a> 
+    </li>
+    <li> <a href="https://mlgenx.github.io/" target="_blank">Machine Learning for Genomics Explorations</a> 
     </li>
 </ul>
 
