@@ -31,6 +31,10 @@
 
 .logos__image {
   width: auto; /* Set a fixed width for all logos */
+  background-color: white; /* Adds a white background */
+  padding: 8px; /* Adds spacing inside the rectangle */
+  // border-radius: 3px; /* Optional: Rounds the corners */
+  display: inline-block; /* Ensures proper spacing */
   //filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(179deg) brightness(0%) contrast(0%);
 
   @media (max-width: $mobile) {
