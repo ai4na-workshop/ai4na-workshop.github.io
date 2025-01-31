@@ -13,7 +13,7 @@ permalink: /submissions/
 **Submissions close**: Monday, 10 Feb 2025, 11:59PM UTC-12<br>
 **Notification**: Wednesday, 5 Mar 2025<br>
 **Camera-ready deadline:** Tuesday, 15 Apr 2025, 11:59PM UTC-12.<br>
-**Workshop**: Sunday, 27 or Monday, 28 Apr 2025
+**Workshop**: Monday, 28 Apr 2025
 
 
 <h2 style="margin-bottom: 0;">Subject Areas</h2>
@@ -234,7 +234,8 @@ AI4NA OpenReview Venue.
     can request support to attend AI4NA. Assistance will be provided 
     based on the availability of funds.</p>
 <a id="nat-methods-parthership"></a>
-<h4 style="margin-bottom: 0;">Partnership with <i>Nature Methods</i></h4>
+<h4 style="margin-bottom: 5;">Partnership with <i>Nature Methods</i></h4>
+<img src="/images/sponsors/NATmeth_logo.png" class="logos__image" style="width: 100%;">
 <p style="margin-bottom: 10px;">AI4NA is partnering with
     <a href="https://www.nature.com/nmeth/" target="_blank"><i>Nature Methods</i></a> 
     to offer an opportunity for high-quality, novel submissions with strong 

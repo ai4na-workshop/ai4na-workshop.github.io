@@ -40,6 +40,10 @@
 
 .dark-mode {
   .logos__image {
-    filter: invert(100%) sepia(32%) saturate(304%) hue-rotate(200deg) brightness(115%) contrast(88%);
+    // filter: invert(100%) sepia(32%) saturate(304%) hue-rotate(200deg) brightness(115%) contrast(88%);
+    background-color: white; /* Adds a white background */
+    padding: 8px; /* Adds spacing inside the rectangle */
+    border-radius: 6px; /* Optional: Rounds the corners */
+    display: inline-block; /* Ensures proper spacing */
   }
 }
