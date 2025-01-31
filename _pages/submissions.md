@@ -235,7 +235,7 @@ AI4NA OpenReview Venue.
     based on the availability of funds.</p>
 <a id="nat-methods-parthership"></a>
 <h4 style="margin-bottom: 5;">Partnership with <i>Nature Methods</i></h4>
-<img src="/images/sponsors/NATmeth_logo.png" class="logos__image" style="width: 100%;">
+<img src="/images/sponsors/NATmeth_logo.png" class="logos__image" style="width: 70%;">
 <p style="margin-bottom: 10px;">AI4NA is partnering with
     <a href="https://www.nature.com/nmeth/" target="_blank"><i>Nature Methods</i></a> 
     to offer an opportunity for high-quality, novel submissions with strong 
