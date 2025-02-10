@@ -23,11 +23,11 @@ submission with equal care.</p>
 
 <h2 style="margin-bottom: 5px;">Important Dates</h2>
 **Submissions close**: ~~Monday, 10 Feb 2025~~ Thursday, 13 Feb 2025, 11:59PM UTC-12<br>
-**Area chairs and reviewers bidding begin**: Tuesday, 11 Feb 2025<br>
-**Area chairs and reviewers bidding end**: Thursday, 13 Feb 2025, 11:59PM UTC-12<br>
-**Review period begin**: Friday, 14 Feb 2025<br>
-**Review period end**: Thursday, 27 Feb 2025, 11:59PM UTC-12<br>
-**Area chairs meta-review begin**: Friday, 28 Feb 2025<br>
+**Area chairs and reviewers bidding begin**: Friday, 14 Feb 2025<br>
+**Area chairs and reviewers bidding end**: Saturday, 15 Feb 2025, 11:59PM UTC-12<br>
+**Review period begin**: Sunday, 16 Feb 2025<br>
+**Review period end**: Friday, 28 Feb 2025, 11:59PM UTC-12<br>
+**Area chairs meta-review begin**: Saturday, 1 Mar 2025<br>
 **Area chairs meta-review end**: Monday, 3 Mar 2025, 11:59PM UTC-12<br>
 **Notification of acceptance**: Wednesday, 5 Mar 2025
 
