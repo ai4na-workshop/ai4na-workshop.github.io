@@ -22,7 +22,7 @@ it is eventually accepted by AI4NA, or not. Therefore it is important to treat e
 submission with equal care.</p>
 
 <h2 style="margin-bottom: 5px;">Important Dates</h2>
-**Submissions close**: Monday, 10 Feb 2025, 11:59PM UTC-12<br>
+**Submissions close**: ~~Monday, 10 Feb 2025~~ Thursday, 13 Feb 2025, 11:59PM UTC-12<br>
 **Area chairs and reviewers bidding begin**: Tuesday, 11 Feb 2025<br>
 **Area chairs and reviewers bidding end**: Thursday, 13 Feb 2025, 11:59PM UTC-12<br>
 **Review period begin**: Friday, 14 Feb 2025<br>
