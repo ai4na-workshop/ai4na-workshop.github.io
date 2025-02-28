@@ -1,6 +1,6 @@
 ---
 title: Jakob Uszkoreit
-description: Co-founder of Inceptive
+description: CEO & Co-founder of Inceptive
 category: Panelist
 date: 2022-01-09 08:01:35 +0300
 # role: Title
