@@ -228,11 +228,14 @@ AI4NA OpenReview Venue.
     submission receiving special recognition. Thanks to NVIDIA's 
     sponsorship, the author of the best submission will be honoured
     with an <b>NVIDIA RTX A6000 - 48GB</b>!</p>
+<a id="travel-grants"></a>
 <h4 style="margin-bottom: 0;">Travel Grant and/or Registration</h4>
 <p>Authors from underrepresented communities or those requiring 
     financial assistance, whose work is accepted into the workshop, 
     can request support to attend AI4NA. Assistance will be provided 
-    based on the availability of funds.</p>
+    based on the availability of funds. To apply, please complete
+    <a href="https://docs.google.com/forms/d/1JDObwzDlRrJLYQ6-hokBkb402hijY8FHO1rqMdXkVwM/preview" target="_blank">this form</a> 
+    by March 10, AoE.</p>
 <a id="nat-methods-parthership"></a>
 <h4 style="margin-bottom: 5;">Partnership with <i>Nature Methods</i></h4>
 <img src="/images/sponsors/NATmeth_logo.png" class="logos__image" style="width: 70%;">
