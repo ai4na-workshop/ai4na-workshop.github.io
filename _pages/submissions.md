@@ -234,7 +234,7 @@ AI4NA OpenReview Venue.
     financial assistance, whose work is accepted into the workshop, 
     can request support to attend AI4NA. Assistance will be provided 
     based on the availability of funds. To apply, please complete
-    <a href="https://docs.google.com/forms/d/1JDObwzDlRrJLYQ6-hokBkb402hijY8FHO1rqMdXkVwM/preview" target="_blank">this form</a> 
+    <a href="https://forms.gle/2KVaYmEepBuZyT327" target="_blank">this form</a> 
     by March 10, AoE.</p>
 <a id="nat-methods-parthership"></a>
 <h4 style="margin-bottom: 5;">Partnership with <i>Nature Methods</i></h4>
