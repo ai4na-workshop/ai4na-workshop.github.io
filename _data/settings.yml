@@ -241,10 +241,19 @@ organizers__items:
 #-------------------------------
 # Program Committee Section
 programs:
-  enable: false
+  enable: true
 
 programs__title: Program Committee
-programs__description: Contributing to defining speakers, sponsors, the website and reviewing submissions.
+programs__description: Serving as reviewers and area chairs
+
+
+#-------------------------------
+# Thanks Section
+thanks:
+  enable: true
+
+thanks__title: Special Thanks
+thanks__description: To our Area Chairs
 
 
 #-------------------------------
