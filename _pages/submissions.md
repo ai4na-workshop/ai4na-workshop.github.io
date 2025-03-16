@@ -214,6 +214,27 @@ and does not publish proceedings, authors of accepted papers will have the
 option to make their work available through the workshop website and 
 AI4NA OpenReview Venue.
 
+<a id="poster-instructions"></a>
+<h4 style="margin-bottom: 0;">Poster Instructions</h4>
+<p style="margin-bottom: 10px;">Posters should include poster title, 
+    followed by authors' names, institution and corresponding e-mail. Please 
+    also include name of the workshop, i.e., "ICLR 2025 Workshop on AI 
+    for Nucleic Acids (AI4NA)."</p>
+<p style="margin-bottom: 0;">Workshop poster size:</p>
+<ul style="margin-bottom: 10px;">
+    <li style="margin-bottom: 0;">Maximum size allowed for printing is 
+        A1 or 61cm x 91cm (24in x 36in) width/height. Due to limited wall 
+        space workshop posters need to be in the portrait format.</li>
+</ul>
+<p style="margin-bottom: 0;">Poster printing:</p>
+<ul>
+    <li style="margin-bottom: 0;">You can print your poster using any service you want.</li>
+    <li style="margin-bottom: 0;">ICLR offers an optional poster printing service 
+        with delivery to the convention center. Please find the workshop poster order form
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeymkgqJXjwrcI2OBt6KpB8D9XHFVhL2YScg7BGr1Fd_3aWpQ/viewform" 
+        target="_blank">here</a>.</li>
+</ul>
+
 <h2 style="margin-bottom: 5px;">Author Benefits</h2>
 <h4 style="margin-bottom: 0;">Poster Presentation</h4>
 <p>All accepted submissions can submit a poster
@@ -236,6 +257,7 @@ AI4NA OpenReview Venue.
     based on the availability of funds. To apply, please complete
     <a href="https://forms.gle/2KVaYmEepBuZyT327" target="_blank">this form</a> 
     by March 10, AoE.</p>
+
 <a id="nat-methods-parthership"></a>
 <h4 style="margin-bottom: 5;">Partnership with <i>Nature Methods</i></h4>
 <img src="/images/sponsors/NATmeth_logo.png" class="logos__image" style="width: 70%;">
