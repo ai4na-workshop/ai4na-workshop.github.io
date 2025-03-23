@@ -1,14 +1,13 @@
 ---
 layout: post
-schedule: 15:20-15:40
+schedule: 16:05-17:05
 date: 2022-07-26 09:00:00 +0300
-# image: 'https://thesource.sa.ua.edu/wp-content/uploads/sites/57/2021/09/person-generic.jpeg' 
-title: Keynote Speaker
-author: Speaker
-description: Expert in Life Sciences
-tags: [Life Sciences, Keynote]
+image: /images/other/poster.webp
+title: Poster Session 2
+# description: Expert in Life Sciences
+# tags: [Life Sciences, Keynote]
 order: 6
 ---
 
-## Talk Title
-Talk abstract
+<!-- ## Talk Title -->
+<!-- Talk abstract -->

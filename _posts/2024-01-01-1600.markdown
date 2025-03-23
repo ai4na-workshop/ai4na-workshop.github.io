@@ -1,14 +1,16 @@
 ---
 layout: post
-schedule: 16:00-16:40
+schedule: 17:35-17:55
 date: 2022-07-26 09:00:00 +0300
-# image: 'https://thesource.sa.ua.edu/wp-content/uploads/sites/57/2021/09/person-generic.jpeg' 
-title: Keynote Speaker
-author: Speaker
-description: Expert in Life Sciences
-tags: [Life Sciences, Keynote]
+image: /images/other/contributed.webp
+title: Contributed Talks 3
+description: Two contributed talks by the paper authors
+# tags: [Life Sciences, Keynote]
 order: 4
 ---
 
-## Talk Title
-Talk abstract
+### 1. InfoSEM: A Deep Generative Model with Informative Priors for Gene Regulatory Network Inference
+Tianyu Cui, Song-Jun Xu, Artem Moskalev, Shuwei Li, Tommaso Mansi, **Mangal Prakash**, Rui Liao
+
+### 2. From Mutation to Degradation: Predicting Nonsense-Mediated Decay with NMDEP
+**Ali Saadat**, Jacques Fellay

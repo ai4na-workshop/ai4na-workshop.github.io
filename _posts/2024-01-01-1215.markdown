@@ -1,14 +1,13 @@
 ---
 layout: post
-schedule: 12:15-14:00
+schedule: 13:45-14:15
 date: 2022-07-26 09:00:00 +0300
-# image: 'https://thesource.sa.ua.edu/wp-content/uploads/sites/57/2021/09/person-generic.jpeg' 
-title: Keynote Speaker
-author: Speaker
-description: Expert in Life Sciences
-tags: [Life Sciences, Keynote]
+image: /images/speakers_panelists/Wengong_Jin.webp
+title: Wengong Jin
+# description: Expert in Life Sciences
+# tags: [Life Sciences, Keynote]
 order: 11
 ---
 
-## Talk Title
-Talk abstract
+<!-- ## Talk Title -->
+<!-- Talk abstract -->
