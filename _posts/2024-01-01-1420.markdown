@@ -1,14 +1,16 @@
 ---
 layout: post
-schedule: 14:20-14:40
+schedule: 14:45-15:05
 date: 2022-07-26 09:00:00 +0300
-# image: 'https://thesource.sa.ua.edu/wp-content/uploads/sites/57/2021/09/person-generic.jpeg' 
-title: Keynote Speaker
-author: Speaker
-description: Expert in Life Sciences
-tags: [Life Sciences, Keynote]
+image: /images/other/contributed.webp
+title: Contributed Talks 2
+description: Two contributed talks by the paper authors
+# tags: [Life Sciences, Keynote]
 order: 9
 ---
 
-## Talk Title
-Talk abstract
+### 1. (Tiny) HARMONY: A Multi-Representation Framework for RNA Property Prediction
+**Junjie Xu**, Artem Moskalev, Tommaso Mansi, Mangal Prakash, Rui Liao
+
+### 2. RiboGen: RNA Sequence and Structure Co-Generation with Equivariant Multiflow
+**Dana Rubin**, Allan Dos Santos Costa, Joseph Jacobson, Manvitha Ponnapati

@@ -27,7 +27,9 @@ layout: default
             <img class="lazy" data-src="{{site.data.settings.author.author__avatar}}" alt="{{site.data.settings.author.author__name}}">
           </a>-->
           <div class="post-meta__bottom"> 
-            <a class="post-author-name" href="{{site.baseurl}}/about/">{{ site.data.settings.author.author__name }}</a>
+            <!--  Begin - change the line below if you wish to add links to the speaker profiles -->
+            <!-- <a class="post-author-name" href="{{site.baseurl}}/about/">{{ site.data.settings.author.author__name }}</a> -->
+             <!-- End -->
             <!-- 
               <span class="post-date"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time> – {% assign words = page.content | number_of_words %} {% if words < 360 %} 1 min read {% else %} {{ words | divided_by:180 }} min read {% endif %}</span>
             -->
@@ -55,8 +57,10 @@ layout: default
     {{ content }}
   </article>
 </div>
-<!-- end post 
+<!-- end post -->
 
+
+<!-- Comment out everything below if you don't want to have previous/next -->
 <div class="container animate">
   <div class="post__navigation">
     {% if page.previous.url %}

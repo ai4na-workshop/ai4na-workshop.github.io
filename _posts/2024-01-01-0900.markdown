@@ -2,13 +2,12 @@
 layout: post
 schedule: 09:00-09:10
 date: 2022-07-26 09:00:00 +0300
-# image: 'https://thesource.sa.ua.edu/wp-content/uploads/sites/57/2021/09/person-generic.jpeg' 
+image: /images/other/opening.webp
 title: Opening Remarks
-author: Speaker
-# description: Expert in Life Sciences
+description: Outlining the agenda for the day
 # tags: [Life Sciences, Keynote]
 order: 19
 ---
 
-<!-- ## Further details coming soon -->
-<!-- Further details coming soon -->
+## Opening Remarks
+In this session the organizers will welcome attendees, outline the agenda for the day, housekepping announcements. 

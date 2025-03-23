@@ -107,7 +107,7 @@
 .post-description,
 .page-description {
   margin-bottom: 0;
-  font-size: 21px;
+  font-size: 0px;  // Increase if you want to show description when you open a page
   color: var(--text-alt-color);
 
   @media (max-width: $wide) {
