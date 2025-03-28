@@ -27,8 +27,8 @@ menu__settings:
       url: '/organizers/'
     - title: 'Schedule'
       url: '/agenda/'
-    # - title: 'Accepted Papers'
-    #   url: '/accepted/'
+    - title: 'Accepted Papers'
+      url: '/accepted/'
     # - title: 'Submissions'
     #   url: '/submissions/'
   #  - title: 'Prizes'
@@ -258,6 +258,15 @@ thanks:
 
 thanks__title: Special Thanks
 thanks__description: To our Area Chairs
+
+
+#-------------------------------
+# Thanks Section
+accepted:
+  enable: true
+
+accepted__title: Accepter Papers
+accepted__description: Accepted Papers
 
 
 #-------------------------------

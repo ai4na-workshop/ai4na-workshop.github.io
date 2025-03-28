@@ -11,3 +11,97 @@ order: 13
 
 <!-- ## Talk Title -->
 <!-- Talk abstract -->
+
+
+<!-- <head>
+  <style>
+    .person-list {
+      font-family: sans-serif;
+      max-width: 80%;
+      margin: 30px auto;
+    }
+    .person {
+      margin-bottom: 16px;
+      padding: 10px 12px;
+      background-color: #f7f7f7;
+      border-radius: 8px;
+    }
+    .person-name {
+      font-weight: bold;
+      font-size: 16px;
+      color: #333;
+    }
+    .person-affiliation {
+      font-size: 14px;
+      color: #555;
+      margin-top: 4px;
+    }
+  </style>
+</head>
+
+<div class="person-list">
+  <div class="person">
+    <div class="person-name">1. Bayesian Approximation of RNA Folding Times</div>
+    <div class="person-affiliation">Dominik Scheuer, Frederic Runge, Jörg K.H. Franke, Michael T. Wolfinger, Christoph Flamm, Frank Hutter</div>
+  </div>
+  <div class="person">
+    <div class="person-name">Grace Yeo</div>
+    <div class="person-affiliation">Genome Institute of Singapore, A*STAR</div>
+  </div>
+  <div class="person">
+    <div class="person-name">Jonathan Goeke</div>
+    <div class="person-affiliation">Genome Institute of Singapore, A*STAR</div>
+  </div>
+  <div class="person">
+    <div class="person-name">Maciej Antczak</div>
+    <div class="person-affiliation">Technical University of Poznan</div>
+  </div>
+  <div class="person">
+    <div class="person-name">Marcin Magnus</div>
+    <div class="person-affiliation">Harvard University</div>
+  </div>
+  <div class="person">
+    <div class="person-name">Tim Stuart</div>
+    <div class="person-affiliation">Genome Institute of Singapore, A*STAR</div>
+  </div>
+  <div class="person">
+    <div class="person-name">Yang Li</div>
+    <div class="person-affiliation">University of Michigan - Ann Arbor</div>
+  </div>
+  <div class="person">
+    <div class="person-name">Dominik Stanojević</div>
+    <div class="person-affiliation">University of Zagreb</div>
+  </div>
+  <div class="person">
+    <div class="person-name">Eugene F. Baulin</div>
+    <div class="person-affiliation">IIMCB Warsaw</div>
+  </div>
+  <div class="person">
+    <div class="person-name">Leon Rauschning</div>
+    <div class="person-affiliation">Technische Universität München</div>
+  </div>
+  <div class="person">
+    <div class="person-name">Marcell Veiner</div>
+    <div class="person-affiliation">Universitat de Barcelona</div>
+  </div>
+  <div class="person">
+    <div class="person-name">Martin Schmitz</div>
+    <div class="person-affiliation">National University of Singapore</div>
+  </div>
+  <div class="person">
+    <div class="person-name">Nigel Chou</div>
+    <div class="person-affiliation">Genome Institute of Singapore, A*STAR</div>
+  </div>
+  <div class="person">
+    <div class="person-name">Rafael Josip Penić</div>
+    <div class="person-affiliation">University of Zagreb</div>
+  </div>
+  <div class="person">
+    <div class="person-name">Sara Bakić</div>
+    <div class="person-affiliation">National University of Singapore</div>
+  </div>
+  <div class="person">
+    <div class="person-name">Yuk Kei Wan</div>
+    <div class="person-affiliation">Genome Institute of Singapore, A*STAR</div>
+  </div>
+</div> -->
