@@ -2,12 +2,12 @@
 layout: post
 schedule: 10:45-11:15
 date: 2022-07-26 09:00:00 +0300
-image: /images/speakers_panelists/Charlotte_Bunne.jpg
-title: Charlotte Bunne
-description: "Virtual Cells and Digital Twins: AI in Personalized Medicine"
+image: /images/speakers_panelists/Stephan_Eismann.jpeg
+title: Stephan Eismann
+# description: Expert in Life Sciences
 # tags: [Life Sciences, Keynote]
 order: 14
 ---
 
-## Virtual Cells and Digital Twins: AI in Personalized Medicine
-The future of medicine lies in personalization - delivering treatments precisely matched to each patient's unique biology. This talk explores how our research on artificial intelligence aims to transform this vision into reality through computational approaches that span molecular, cellular, and tissue scales. Recent breakthroughs in AI architectures have enabled the processing of complex biological data from diverse experimental technologies, leading to a future where AI systems can integrate vast amounts of biomedical data to guide clinical decisions. By creating detailed computational models of patient biology, medical teams may better understand disease mechanisms and test treatment options. The talk will address both the challenges and opportunities in developing AI systems, how to build and deploy them such that can effectively navigate the complexity of human biology and clinical constraints, ultimately contributing to a new era in personalized medicine guided by comprehensive, multi-scale analysis of patient data.
+<!-- ## Talk Title -->
+<!-- Talk abstract -->
