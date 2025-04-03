@@ -4,16 +4,16 @@ schedule: 11:15-12:15
 date: 2022-07-26 09:00:00 +0300
 image: /images/other/poster.webp
 title: Poster Session 1
-# description: Expert in Life Sciences
+description: " "
 # tags: [Life Sciences, Keynote]
 order: 13
 ---
 
-<!-- ## Talk Title -->
-<!-- Talk abstract -->
+<!-- ## Talk Title
+Talk abstract -->
 
 
-<!-- <head>
+<head>
   <style>
     .person-list {
       font-family: sans-serif;
@@ -40,68 +40,106 @@ order: 13
 </head>
 
 <div class="person-list">
-  <div class="person">
-    <div class="person-name">1. Bayesian Approximation of RNA Folding Times</div>
-    <div class="person-affiliation">Dominik Scheuer, Frederic Runge, Jörg K.H. Franke, Michael T. Wolfinger, Christoph Flamm, Frank Hutter</div>
-  </div>
-  <div class="person">
-    <div class="person-name">Grace Yeo</div>
-    <div class="person-affiliation">Genome Institute of Singapore, A*STAR</div>
-  </div>
-  <div class="person">
-    <div class="person-name">Jonathan Goeke</div>
-    <div class="person-affiliation">Genome Institute of Singapore, A*STAR</div>
-  </div>
-  <div class="person">
-    <div class="person-name">Maciej Antczak</div>
-    <div class="person-affiliation">Technical University of Poznan</div>
-  </div>
-  <div class="person">
-    <div class="person-name">Marcin Magnus</div>
-    <div class="person-affiliation">Harvard University</div>
-  </div>
-  <div class="person">
-    <div class="person-name">Tim Stuart</div>
-    <div class="person-affiliation">Genome Institute of Singapore, A*STAR</div>
-  </div>
-  <div class="person">
-    <div class="person-name">Yang Li</div>
-    <div class="person-affiliation">University of Michigan - Ann Arbor</div>
-  </div>
-  <div class="person">
-    <div class="person-name">Dominik Stanojević</div>
-    <div class="person-affiliation">University of Zagreb</div>
-  </div>
-  <div class="person">
-    <div class="person-name">Eugene F. Baulin</div>
-    <div class="person-affiliation">IIMCB Warsaw</div>
-  </div>
-  <div class="person">
-    <div class="person-name">Leon Rauschning</div>
-    <div class="person-affiliation">Technische Universität München</div>
-  </div>
-  <div class="person">
-    <div class="person-name">Marcell Veiner</div>
-    <div class="person-affiliation">Universitat de Barcelona</div>
-  </div>
-  <div class="person">
-    <div class="person-name">Martin Schmitz</div>
-    <div class="person-affiliation">National University of Singapore</div>
-  </div>
-  <div class="person">
-    <div class="person-name">Nigel Chou</div>
-    <div class="person-affiliation">Genome Institute of Singapore, A*STAR</div>
-  </div>
-  <div class="person">
-    <div class="person-name">Rafael Josip Penić</div>
-    <div class="person-affiliation">University of Zagreb</div>
-  </div>
-  <div class="person">
-    <div class="person-name">Sara Bakić</div>
-    <div class="person-affiliation">National University of Singapore</div>
-  </div>
-  <div class="person">
-    <div class="person-name">Yuk Kei Wan</div>
-    <div class="person-affiliation">Genome Institute of Singapore, A*STAR</div>
-  </div>
-</div> -->
+  <a href="https://openreview.net/forum?id=cOwOJNJijB" class="person-link">
+    <div class="person">
+      <div class="person-name">Bayesian Approximation of RNA Folding Times</div>
+      <div class="person-affiliation">Dominik Scheuer, Frederic Runge, Jörg K.H. Franke, Michael T. Wolfinger, Christoph Flamm, Frank Hutter</div>
+    </div>
+  </a>
+  <a href="https://openreview.net/forum?id=ttfiQcMeFB" class="person-link">
+    <div class="person">
+      <div class="person-name">SPACE: Your Genomic Profile Predictor is a Powerful DNA Foundation Model</div>
+      <div class="person-affiliation">Jiwei Zhu, Zhao Yang, Bing Su</div>
+    </div>
+  </a>
+  <a href="https://openreview.net/forum?id=CMJCXng7iH" class="person-link">
+    <div class="person">
+      <div class="person-name">Flexible Models of Functional Annotations to Variant Effects using Accelerated Linear Algebra</div>
+      <div class="person-affiliation">Alan Nawzad Amin, Andres Potapczynski, Andrew Gordon Wilson</div>
+    </div>
+  </a>
+  <a href="https://openreview.net/forum?id=isFwELED4Y" class="person-link">
+    <div class="person">
+      <div class="person-name">arowana: a transformer-based training framework for RNA basecalling and modification detection</div>
+      <div class="person-affiliation">Yuk Kei Wan, Christopher Hendra, Bing Shao Chia, Wei Leong Chew, Jonathan Goeke</div>
+    </div>
+  </a>
+  <a href="https://openreview.net/forum?id=Gj2vR7Wm2k" class="person-link">
+    <div class="person">
+      <div class="person-name">A Comprehensive Library for RNA Structure-Function Modeling</div>
+      <div class="person-affiliation">Luis Wyss, Vincent Mallet, Carlos Oliver, Wissam Karroucha, Karsten Borgwardt</div>
+    </div>
+  </a>
+  <a href="https://openreview.net/forum?id=oDTBI7z52K" class="person-link">
+    <div class="person">
+      <div class="person-name">EvoFlow-RNA: Generating and Representing non-coding RNA with a Language Model</div>
+      <div class="person-affiliation">Sawan Patel, Fred Zhangzhi Peng, Keith Fraser, Adam David Friedman, Pranam Chatterjee, Sherwood Yao</div>
+    </div>
+  </a>
+  <a href="https://openreview.net/forum?id=j6ODUDw4vN" class="person-link">
+    <div class="person">
+      <div class="person-name">Crypto-ncRNA: Non-coding RNA (ncRNA) Based Encryption Algorithm</div>
+      <div class="person-affiliation">WangXu, YiquanWang, Tin-Yeh Huang</div>
+    </div>
+  </a>
+  <a href="https://openreview.net/forum?id=W2AECt1quM" class="person-link">
+    <div class="person">
+      <div class="person-name">Decision Tree Induction with Dynamic Feature Generation: A Framework for Interpretable DNA Sequence Analysis</div>
+      <div class="person-affiliation">Nicolas Huynh, Krzysztof Kacprzyk, Ryan M Sheridan, David L. Bentley, Mihaela van der Schaar</div>
+    </div>
+  </a>
+  <a href="https://openreview.net/forum?id=H04OPUn6QC" class="person-link">
+    <div class="person">
+      <div class="person-name">FFPEnet: Somatic variant calling in FFPE tumor samples using deep transfer learning</div>
+      <div class="person-affiliation">Kiran Krishnamachari, Anders Jacobsen Skanderup</div>
+    </div>
+  </a>
+  <a href="https://openreview.net/forum?id=TgMOKcaHUW" class="person-link">
+    <div class="person">
+      <div class="person-name">Zero-Shot Extrapolation in State-Space Models for Long-Range Genomics</div>
+      <div class="person-affiliation">Matvei Popov, Aymen Kallala, Anirudha Ramesh</div>
+    </div>
+  </a>
+  <a href="https://openreview.net/forum?id=hv6hbk1yJR" class="person-link">
+    <div class="person">
+      <div class="person-name">ProtRNA: A Protein-derived RNA Language Model by Cross-Modality Transfer Learning</div>
+      <div class="person-affiliation">Ruoxi Zhang, Ben Ma, Gang Xu, Jianpeng Ma</div>
+    </div>
+  </a>
+  <a href="https://openreview.net/forum?id=7MU9Rl5xZE" class="person-link">
+    <div class="person">
+      <div class="person-name">Character-level Tokenizations as Powerful Inductive Biases for RNA Foundational Models</div>
+      <div class="person-affiliation">Adrian Morales-Pastor, Raquel Vázquez-Reza, Miłosz Wieczór, Clàudia Valverde, Manel Gil-Sorribes, Bertran Miquel-Oliver, Alvaro Ciudad Serrano, Alexis Molina</div>
+    </div>
+  </a>
+  <a href="https://openreview.net/forum?id=m3Ig4gzdxT" class="person-link">
+    <div class="person">
+      <div class="person-name">Protriever: End-to-End Differentiable Protein Homology Search for Fitness Prediction</div>
+      <div class="person-affiliation">Ruben Weitzman, Peter Mørch Groth, Aoi Otani, Yarin Gal, Debora Susan Marks, Pascal Notin</div>
+    </div>
+  </a>
+  <a href="https://openreview.net/forum?id=DTTuwBG3XJ" class="person-link">
+    <div class="person">
+      <div class="person-name">Campolina: A Deep Neural Framework for Accurate Segmentation of Nanopore Signals</div>
+      <div class="person-affiliation">Sara Bakić, Kresimir Friganovic, Bryan Hooi, Mile Sikic</div>
+    </div>
+  </a>
+  <a href="https://openreview.net/forum?id=Nu8l2N1Frv" class="person-link">
+    <div class="person">
+      <div class="person-name">Re-purposing GNNome: Genome Assembly Postprocessing (GAP)</div>
+      <div class="person-affiliation">Joshua Emmanuel Teo, Martin Schmitz</div>
+    </div>
+  </a>
+  <a href="https://openreview.net/forum?id=1EtiANvJbD" class="person-link">
+    <div class="person">
+      <div class="person-name">VirProBERT: A Sequence Language Model for Predicting Viral Hosts</div>
+      <div class="person-affiliation">Blessy Antony, Maryam Haghani, Anuj Karpatne, T. Murali</div>
+    </div>
+  </a>
+  <a href="https://openreview.net/forum?id=QiNk4dOiBE" class="person-link">
+    <div class="person">
+      <div class="person-name">MoXGATE: Modality-Aware Cross-Attention for Multi-Omic Gastrointestinal Cancer Subtype Classification</div>
+      <div class="person-affiliation">Sajib Acharjee Dip</div>
+    </div>
+  </a>
+</div>

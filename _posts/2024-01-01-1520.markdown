@@ -4,10 +4,144 @@ schedule: 16:05-17:05
 date: 2022-07-26 09:00:00 +0300
 image: /images/other/poster.webp
 title: Poster Session 2
-# description: Expert in Life Sciences
+description: " "
 # tags: [Life Sciences, Keynote]
 order: 6
 ---
 
-<!-- ## Talk Title -->
-<!-- Talk abstract -->
+<head>
+  <style>
+    .person-list {
+      font-family: sans-serif;
+      max-width: 80%;
+      margin: 30px auto;
+    }
+    .person {
+      margin-bottom: 16px;
+      padding: 10px 12px;
+      background-color: #f7f7f7;
+      border-radius: 8px;
+    }
+    .person-name {
+      font-weight: bold;
+      font-size: 16px;
+      color: #333;
+    }
+    .person-affiliation {
+      font-size: 14px;
+      color: #555;
+      margin-top: 4px;
+    }
+  </style>
+</head>
+
+<div class="person-list">
+  <a href="https://openreview.net/forum?id=TvBuXU1J2K" class="person-link">
+    <div class="person">
+      <div class="person-name">InfoSEM: A Deep Generative Model with Informative Priors for Gene Regulatory Network Inference</div>
+      <div class="person-affiliation">Tianyu Cui, Song-Jun Xu, Artem Moskalev, Shuwei Li, Tommaso Mansi, Mangal Prakash, Rui Liao</div>
+    </div>
+  </a>
+  <a href="https://openreview.net/forum?id=mhjF7jgMGp" class="person-link">
+    <div class="person">
+      <div class="person-name">HyperGenie: A method for predicting enzymatic gene essentiality using hypergraph neural networks and genome-scale metabolic models</div>
+      <div class="person-affiliation">Panayiotis Ioannou, Iulia Duta, Suraj Verma, Pietro Cicuta, Pietro Lio, Claudio Angione</div>
+    </div>
+  </a>
+  <a href="https://openreview.net/forum?id=IY2TGzyk3z" class="person-link">
+    <div class="person">
+      <div class="person-name">Benchmarking Fine-Tuned RNA Language Models for Branch Point Prediction</div>
+      <div class="person-affiliation">Pablo Rodenas Ruiz, Ali Saadat, Timothy T. Tran, Oliver Müller Smedt, Peng Zhang, Jacques Fellay</div>
+    </div>
+  </a>
+  <a href="https://openreview.net/forum?id=SwscPWreeG" class="person-link">
+    <div class="person">
+      <div class="person-name">RNAlign: Alignment of tumor and cell line transcriptomes using conditional VAEs</div>
+      <div class="person-affiliation">Jacob Alvarez, Kiran Krishnamachari, Anders Jacobsen Skanderup</div>
+    </div>
+  </a>
+  <a href="https://openreview.net/forum?id=nzUsRhtnBa" class="person-link">
+    <div class="person">
+      <div class="person-name">HARMONY: A Multi-Representation Framework for RNA Property Prediction</div>
+      <div class="person-affiliation">Junjie Xu, Artem Moskalev, Tommaso Mansi, Mangal Prakash, Rui Liao</div>
+    </div>
+  </a>
+  <a href="https://openreview.net/forum?id=1YZXtSrydl" class="person-link">
+    <div class="person">
+      <div class="person-name">From Mutation to Degradation: Predicting Nonsense-Mediated Decay with NMDEP</div>
+      <div class="person-affiliation">Ali Saadat, Jacques Fellay</div>
+    </div>
+  </a>
+  <a href="https://openreview.net/forum?id=6yQL13G6Aa" class="person-link">
+    <div class="person">
+      <div class="person-name">On inputs to deep learning for RNA 3D structure prediction</div>
+      <div class="person-affiliation">Marcell Szikszai, Marcin Magnus, Sachin Kadyan, Elena Rivas</div>
+    </div>
+  </a>
+  <a href="https://openreview.net/forum?id=ITpCmDhSfu" class="person-link">
+    <div class="person">
+      <div class="person-name">Gumbel-Softmax Score and Flow Matching for Discrete Biological Sequence Generation</div>
+      <div class="person-affiliation">Sophia Tang, Yinuo Zhang, Alexander Tong, Pranam Chatterjee</div>
+    </div>
+  </a>
+  <a href="https://openreview.net/forum?id=mhTwQmNTQA" class="person-link">
+    <div class="person">
+      <div class="person-name">siRNA-mRNA dual diffusion model for RNAi drug design</div>
+      <div class="person-affiliation">Zhiqi Ma, Xubin Zheng</div>
+    </div>
+  </a>
+  <a href="https://openreview.net/forum?id=ouMoBqgjfj" class="person-link">
+    <div class="person">
+      <div class="person-name">GENATATOR: de novo Gene Annotation With DNA Language Model</div>
+      <div class="person-affiliation">Aleksei Shmelev, Artem Shadskiy, Yuri Kuratov, Mikhail Burtsev, Olga Kardymon, Veniamin Fishman</div>
+    </div>
+  </a>
+  <a href="https://openreview.net/forum?id=sqMg7dWIl8" class="person-link">
+    <div class="person">
+      <div class="person-name">Accelerating Aptamer Discovery using a Transformer Based T-5 Model: A Preliminary Study</div>
+      <div class="person-affiliation">Soniya, Runjhun Saran Narayan, Apurva Narayan</div>
+    </div>
+  </a>
+  <a href="https://openreview.net/forum?id=QhuhGYyqso" class="person-link">
+    <div class="person">
+      <div class="person-name">Understanding DNA Discrete Diffusion for Engineering Regulatory DNA Sequences</div>
+      <div class="person-affiliation">Anirban Sarkar, Yijie Kang, Nirali Somia, Peter K Koo</div>
+    </div>
+  </a>
+  <a href="https://openreview.net/forum?id=DGs7lmqkkU" class="person-link">
+    <div class="person">
+      <div class="person-name">Enhancing DNA Foundation Models to Address Masking Inefficiencies</div>
+      <div class="person-affiliation">Monireh Safari, Pablo Andres Millan Arias, Scott C. Lowe, Lila Kari, Angel X Chang, Graham W. Taylor</div>
+    </div>
+  </a>
+  <a href="https://openreview.net/forum?id=9vGR0p0gIa" class="person-link">
+    <div class="person">
+      <div class="person-name">Long-range gene expression prediction with token alignment of large language model</div>
+      <div class="person-affiliation">Edouardo Honig, Huixin Zhan, Zijun Frank Zhang, Ying Nian Wu</div>
+    </div>
+  </a>
+  <a href="https://openreview.net/forum?id=U6S4XMbfxt" class="person-link">
+    <div class="person">
+      <div class="person-name">scContrast: A contrastive learning based approach for encoding single-cell gene expression data</div>
+      <div class="person-affiliation">Winston Yuxiang Li, Ghulam Murtaza, Ritambhara Singh</div>
+    </div>
+  </a>
+  <a href="https://openreview.net/forum?id=YNwg2fR15R" class="person-link">
+    <div class="person">
+      <div class="person-name">Differentiable Folding for Nearest Neighbor Model Optimization</div>
+      <div class="person-affiliation">Ryan Krueger, Sharon Aviran, David Mathews, Jeffrey Zuber, Max Ward</div>
+    </div>
+  </a>
+  <a href="https://openreview.net/forum?id=5OU9Z99v4m" class="person-link">
+    <div class="person">
+      <div class="person-name">RNAGym: Benchmarks for RNA Fitness and Structure Prediction</div>
+      <div class="person-affiliation">Rohit Arora, Murphy Angelo, Christian Andrew Choe, Aaron W Kollasch, Fiona Qu, Courtney A. Shearer, Ruben Weitzman, Artem Gazizov, Sarah Gurev, Erik Xie, Debora Susan Marks, Pascal Notin</div>
+    </div>
+  </a>
+  <a href="https://openreview.net/forum?id=Xp1IfvT8Gd" class="person-link">
+    <div class="person">
+      <div class="person-name">RiboGen: RNA Sequence and Structure Co-Generation with Equivariant Multiflow</div>
+      <div class="person-affiliation">Dana Rubin, Allan Dos Santos Costa, Joseph Jacobson, Manvitha Ponnapati</div>
+    </div>
+  </a>
+</div>
