@@ -70,6 +70,12 @@ Talk abstract -->
       <div class="person-affiliation">Luis Wyss, Vincent Mallet, Carlos Oliver, Wissam Karroucha, Karsten Borgwardt</div>
     </div>
   </a>
+    <a href="https://openreview.net/forum?id=IY2TGzyk3z" class="person-link">
+    <div class="person">
+      <div class="person-name">Benchmarking Fine-Tuned RNA Language Models for Branch Point Prediction</div>
+      <div class="person-affiliation">Pablo Rodenas Ruiz, Ali Saadat, Timothy T. Tran, Oliver Müller Smedt, Peng Zhang, Jacques Fellay</div>
+    </div>
+  </a>
   <a href="https://openreview.net/forum?id=oDTBI7z52K" class="person-link">
     <div class="person">
       <div class="person-name">EvoFlow-RNA: Generating and Representing non-coding RNA with a Language Model</div>
