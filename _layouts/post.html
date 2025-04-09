@@ -69,10 +69,10 @@ layout: default
         <img class="lazy" data-src="{{site.baseurl}}{{page.previous.image}}" alt="{{ page.title }}">
       </a>
       <div class="prev__box">
-        <span class="post__nav post__nav__prev">Older post</span>
+        <span class="post__nav post__nav__prev">Previous</span>
         <h2 class="post__nav__title"><a href="{{page.previous.url}}">{{page.previous.title}}</a></h2>
         <p class="post__nav__excerpt">
-          {% if page.description %}{{ page.description }}{% else %}{{ page.content | strip_html | truncate: 160 }}{%
+          {% if page.previous.description %}{{ page.previous.description }}{%
           endif %}
         </p>
       </div>
@@ -82,10 +82,10 @@ layout: default
     {% if page.next.url %}
     <div class="post__next">
       <div class="next__box">
-        <span class="post__nav post__nav__next">Newer post</span>
+        <span class="post__nav post__nav__next">Next</span>
         <h2 class="post__nav__title"><a href="{{page.next.url}}">{{page.next.title}}</a></h2>
         <p class="post__nav__excerpt">
-          {% if page.description %}{{ page.description }}{% else %}{{ page.content | strip_html | truncate: 160 }}{%
+          {% if page.next.description %}{{ page.next.description }}{%
           endif %}
         </p>
       </div>

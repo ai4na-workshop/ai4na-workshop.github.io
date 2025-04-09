@@ -13,46 +13,12 @@
           <h2 class="section__small__title">{{ site.data.settings.logos.logos__description }}</h2>
         </div>
 
-        
-        <!-- <ul class="logos__list list-reset">
-          {% for logo in site.data.settings.logo__items %}
-          <li class="logos__item">
-            <a href="{{ logo.link }}" class="logos__link" rel="noopener">
-              {% if logo.name == "IQCAPITAL" %}
-              <img src="{{ logo.image }}" alt="{{ logo.name }}" class="logos__image" style="height: 72px;">
-              {% else %}
-                <img src="{{ logo.image }}" alt="{{ logo.name }}" class="logos__image">
-              {% endif %}
-            
-            </a>
-          </li>
-          {% endfor %}
-        </ul> -->
-
-        
-        <!-- <ul class="logos__list list-reset">
-          {% for logo in site.data.settings.logo__items | slice(0,1) %}
-          <li class="logos__item">
-            <a href="{{ logo.link }}" class="logos__link" rel="noopener">
-              {% if logo.name == "IQCAPITAL" %}
-              <img src="{{ logo.image }}" alt="{{ logo.name }}" class="logos__image" style="height: 72px;">
-            {% elsif logo.name == "PFIZER" %}
-              <img src="{{ logo.image }}" alt="{{ logo.name }}" class="logos__image" style="height: 52px;">
-            {% elsif logo.name == "SANDBOXAQ" %}
-              <img src="{{ logo.image }}" alt="{{ logo.name }}" class="logos__image" style="height: 52px;">
-            {% else %}
-              <img src="{{ logo.image }}" alt="{{ logo.name }}" class="logos__image">
-            {% endif %}
-            </a>
-          </li>
-          {% endfor %}
-        </ul> --> 
 
         <ul class="logos__list list-reset">
           {% for logo in site.data.settings.logo__items | slice(0,1) %}
           <li class="logos__item">
             <a href="{{ logo.link }}" class="logos__link" rel="noopener">
-              <img src="{{ logo.image }}" alt="{{ logo.name }}" class="logos__image" width="50%"> 
+              <img src="{{ logo.image }}" alt="{{ logo.name }}" class="logos__image"> 
             </a>
           </li>
           {% endfor %}

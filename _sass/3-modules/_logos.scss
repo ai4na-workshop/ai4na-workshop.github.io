@@ -4,13 +4,24 @@
   border-top: none;
 }
 
+// .logos__list {
+//   display: grid;
+//   grid-template-columns: repeat(4, 1fr); /* 4 logos per row */
+//   gap: 20px; /* Adjust the gap between logos as needed */
+//   list-style: none; /* Remove default list styling */
+//   padding: 0;
+//   margin: 0;
+// }
+
 .logos__list {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 logos per row */
-  gap: 20px; /* Adjust the gap between logos as needed */
-  list-style: none; /* Remove default list styling */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* spacing between logos */
   padding: 0;
-  margin: 0;
+  margin: 2rem 0;
+  list-style: none;
 }
 
 .logos__item {
@@ -30,7 +41,13 @@
 }
 
 .logos__image {
-  width: auto; /* Set a fixed width for all logos */
+  // width: auto; /* Set a fixed width for all logos */
+  width: auto;             /* Don't force a specific width */
+  height: auto;            /* Let the image scale naturally */
+  max-width: 220px;    /* Max size on large screens */
+  min-width: 80px;     /* Min size on small screens */
+  max-height: 220px;    /* Max size on large screens */
+  min-height: 80px;
   background-color: white; /* Adds a white background */
   padding: 8px; /* Adds spacing inside the rectangle */
   // border-radius: 3px; /* Optional: Rounds the corners */

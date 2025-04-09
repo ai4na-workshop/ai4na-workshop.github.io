@@ -4,10 +4,10 @@ schedule: 09:40-10:10
 date: 2022-07-26 09:00:00 +0300
 image: /images/speakers_panelists/Sam_Davis.jpg
 title:  Sam Davis
-# description: Expert in Life Sciences
+description: "From Molecules to Meaning: AI at the Heart of Nanopore Sequencing"
 # tags: [Life Sciences, Keynote]
 order: 17
 ---
 
-<!-- ## Talk Title -->
-<!-- Talk abstract -->
+## From Molecules to Meaning: AI at the Heart of Nanopore Sequencing
+Oxford Nanopore offers a single platform for sequencing native DNA and RNA molecules in real time. At the heart of this platform is AI — transforming raw signal data into rich biological insights. This talk explores how Oxford Nanopore brings cutting-edge AI and machine learning research into production, powering the next generation of multiomic analysis.
