@@ -1,12 +1,12 @@
 ---
 layout: post
-schedule: 17:05-17:35
+schedule: 17:05-17:55
 date: 2022-07-26 09:00:00 +0300
-image: /images/speakers_panelists/Yang_Zhang.jpg
-title: Zhang Yang
+image: /images/other/panel.webp
+title: Panel Discussion
 # description: Expert in Life Sciences
 # tags: [Life Sciences, Keynote]
-order: 5
+order: 4
 ---
 
 <!-- ## Talk Title -->

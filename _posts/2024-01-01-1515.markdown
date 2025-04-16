@@ -1,12 +1,12 @@
 ---
 layout: post
-schedule: 17:35-17:55
+schedule: 15:45-16:05
 date: 2022-07-26 09:00:00 +0300
 image: /images/other/contributed.webp
 title: Contributed Talks 3
 description: Two contributed talks by the paper authors
 # tags: [Life Sciences, Keynote]
-order: 4
+order: 6
 ---
 
 ### 1. InfoSEM: A Deep Generative Model with Informative Priors for Gene Regulatory Network Inference
