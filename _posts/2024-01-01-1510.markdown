@@ -3,7 +3,7 @@ layout: post
 schedule: 15:15-15:45
 date: 2022-07-26 09:00:00 +0300
 image: 'https://thesource.sa.ua.edu/wp-content/uploads/sites/57/2021/09/person-generic.jpeg'
-title: Speaker - TBC
+title: Grace Yeo
 # description: Expert in Life Sciences
 # tags: [Life Sciences, Keynote]
 order: 7
