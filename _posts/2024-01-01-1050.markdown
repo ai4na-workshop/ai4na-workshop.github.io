@@ -4,10 +4,10 @@ schedule: 10:45-11:15
 date: 2022-07-26 09:00:00 +0300
 image: /images/speakers_panelists/Stephan_Eismann.jpeg
 title: Stephan Eismann
-# description: Expert in Life Sciences
+description: AI for RNA-Targeted Small Molecule Drug Discovery
 # tags: [Life Sciences, Keynote]
 order: 14
 ---
 
-<!-- ## Talk Title -->
-<!-- Talk abstract -->
+## AI for RNA-Targeted Small Molecule Drug Discovery
+Targeting RNA with small molecules promises to unlock therapeutic targets that are difficult to drug at the protein level. A better understanding of RNA structure can help enable the design of RNA-targeted therapies, but creating accurate computational tools for 3D RNA structure prediction is complicated by the scarcity of experimental structural data. This talk describes our approaches to address this challenge in a machine-learning context, including ATOM-1, a foundation model trained on extensive chemical probing data, and its application in drug discovery at Atomic AI.git add 
