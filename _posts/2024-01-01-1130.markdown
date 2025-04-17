@@ -4,10 +4,10 @@ schedule: 12:15-13:45
 date: 2022-07-26 09:00:00 +0300
 image: /images/other/lunch.webp
 title: Lunch Break
-# description: Expert in Life Sciences
+description: Light lunch will be provided, thanks to our sponsors!
 # tags: [Life Sciences, Keynote]
 order: 12
 ---
 
-<!-- ## Talk Title -->
+## Light lunch will be provided, thanks to our sponsors!
 <!-- Talk abstract -->
