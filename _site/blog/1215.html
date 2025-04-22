@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Wengong Jin</title>
-  <meta name='description' content='AI4NA Workshop @ ICLR'25'>
+  <meta name='description' content='Learning to Generate and Score Protein-RNA Complexes'>
 
   <link rel="canonical" href="http://localhost:4000/blog/1215">
   <link rel="alternate" type="application/rss+xml" title="AI4NA" href="/feed.xml">
@@ -15,16 +15,12 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Wengong Jin – AI4NA">
-  <meta name="twitter:description" content="
-
-">
+  <meta name="twitter:description" content="Learning to Generate and Score Protein-RNA Complexes">
   <meta name="twitter:image:src" content="http://localhost:4000/images/speakers_panelists/Wengong_Jin.webp">
 
   <!-- Facebook OpenGraph -->
   <meta property="og:title" content="Wengong Jin – AI4NA">
-  <meta property="og:description" content="
-
-">
+  <meta property="og:description" content="Learning to Generate and Score Protein-RNA Complexes">
   <meta property="og:image" content="http://localhost:4000/images/speakers_panelists/Wengong_Jin.webp">
 
   <!-- Fonts -->
@@ -143,6 +139,8 @@
       <h1 class="post-title">Wengong Jin</h1>
 
       <!--  -->
+        <!-- <div class="post-description">Learning to Generate and Score Protein-RNA Complexes</div> -->
+      <!--  -->
 
       <div class="post-meta">
         <div class="post-meta__left">
@@ -175,8 +173,8 @@
 <!-- begin post -->
 <div class="container animate">
   <article class="post">
-    <!-- ## Talk Title -->
-<!-- Talk abstract -->
+    <h2 id="learning-to-generate-and-score-protein-rna-complexes">Learning to Generate and Score Protein-RNA Complexes</h2>
+<p>The growing significance of RNA engineering in diverse biological applications has spurred interest in developing AI methods for structure-based RNA design. While diffusion models have excelled in protein design, adapting them for RNA presents new challenges due to RNA’s conformational flexibility and the computational cost of fine-tuning large structure prediction models. In this talk, we present an RNA design workflow with two main components: RNAFlow (generation)and pTMEnergy (scoring). RNAFLow is a flow matching model for protein-conditioned RNA sequence-structure co-generation. Its denoising network integrates an RNA inverse folding model and a pre-trained RosettaFold2NA network for generation of RNA sequences and structures. The integration of inverse folding in the structure denoising process allows us to simplify training by fixing the structure prediction network. PTMEnergy is an unsupervised binding energy prediction model for scoring designed protein-RNA complexes. PTMEnergy leverages the joint Energy-based Model (JEM) framework to convert AlphaFold3’s pAE confidence prediction head into an energy-based model. Compared to AlphaFold3’s ipTM score that operates on a fixed scale, pTMEnergy is continuous and able to capture fine-grained energy differences. We evaluate RNAFlow and pTMEnergy on a set of comprehensive benchmarks and show their superior performance to existing methods, unlocking new avenues for biomolecular interaction scoring and design.</p>
 
   </article>
 </div>
