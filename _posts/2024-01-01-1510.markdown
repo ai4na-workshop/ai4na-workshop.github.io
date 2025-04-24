@@ -2,12 +2,12 @@
 layout: post
 schedule: 15:15-15:45
 date: 2022-07-26 09:00:00 +0300
-image: 'https://thesource.sa.ua.edu/wp-content/uploads/sites/57/2021/09/person-generic.jpeg'
+image: /images/speakers_panelists/grace.png
 title: Grace Yeo
-# description: Expert in Life Sciences
+description: "Towards multimodal tissue models: Predicting spatial transcriptomics from whole-slide imaging"
 # tags: [Life Sciences, Keynote]
 order: 7
 ---
 
-<!-- ## Talk Title -->
-<!-- Talk abstract -->
+## Towards multimodal tissue models: Predicting spatial transcriptomics from whole-slide imaging
+Recent advances in self-supervised foundation models for computational cancer histopathology have shown great promise for prediction of clinical phenotypes from routine hematoxylin and eosin (H&E)-stained images. However, application of these models in the context of discovery, for example for identification of novel biomarkers, remains challenging as this typically requires linking whole-slide imaging (WSI) to historically scarce molecular data. Spatial omics (SO) presents new opportunities to improve histopathology models for making molecular predictions about the tumor microenvironment. In this talk, I will present work on benchmarking tile-level foundation models for generating spatial transcriptomic profiles from H&E images. Our results demonstrate that models fine-tuned on SO data are transferable to new datasets. Fine-tuned models also enable interpretable de novo domain segmentation that does not require labor-intensive pathology annotations. Bridging the gap between histopathology imaging and molecular data offers a powerful approach for improving digital pathology workflows and accelerating biomarker discovery.
