@@ -6,20 +6,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>AI4NA</title>
+  <title>Awards</title>
   <meta name='description' content='AI4NA Workshop @ ICLR'25'>
 
-  <link rel="canonical" href="http://localhost:4000/blog/page/3/">
+  <link rel="canonical" href="http://localhost:4000/awards/">
   <link rel="alternate" type="application/rss+xml" title="AI4NA" href="/feed.xml">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content=" – AI4NA">
+  <meta name="twitter:title" content="Awards – AI4NA">
   <meta name="twitter:description" content="">
   <meta name="twitter:image:src" content="">
 
   <!-- Facebook OpenGraph -->
-  <meta property="og:title" content=" – AI4NA">
+  <meta property="og:title" content="Awards – AI4NA">
   <meta property="og:description" content="">
   <meta property="og:image" content="">
 
@@ -107,7 +107,7 @@
               
                 
                 <li class="nav__item">
-                  <a href="/awards/" class="nav__link">Awards</a>
+                  <a href="/awards/" class="nav__link active-link">Awards</a>
                 </li>
                 
               
@@ -135,559 +135,104 @@
 
   <!-- begin content -->
   <main class="content" aria-label="Content">
-    
+    <!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .award-section {
+        width: 80%;
+        max-width: 1200px;
+        margin: 40px auto;
+        padding: 2rem;
+        }
 
-<style>
-  a.myLink {
-      text-decoration: none; /* Remove default underline */
-      color: black; /* Set text color */
-      position: relative; /* Positioning context for the pseudo-element */
-      display: inline; /* Ensure it's an inline element */
-  }
+        .award-card {
+        padding: 1.5rem 1rem;
+        text-align: center;
+        }
+
+        .award-card h2 {
+        margin-bottom: 0.5rem;
+        font-size: 1.75rem;
+        }
+
+        .paper-title {
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+        }
+
+        .prize {
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        color: gray;
+        }
+
+        .authors {
+        font-style: italic;
+        color: gray;
+        }
+
+        .award-divider {
+        border: none;
+        border-top: 2px solid #ccc;
+        margin: 2rem 0;
+        }
+
+        .paper-title a {
+        color: inherit;
+        text-decoration: none;
+        }
+
+        .paper-title a:hover {
+        text-decoration: underline;
+        }
+
+        .first h2 { color: #d4af37; }  /* gold */
+        .second h2 { color: #c0c0c0; } /* silver */
+        .third h2 { color: #cd7f32; }  /* bronze */
+    </style>
+  </head>
+
+<section class="award-section">
+    <div class="award-card first">
+      <h2>🥇 First Prize</h2>
+      <p class="prize">NVIDIA RTX A6000 - 48GB</p>
+      <h3 class="paper-title">
+      <a href="https://openreview.net/forum?id=Xp1IfvT8Gd" target="_blank" rel="noopener noreferrer">
+        RiboGen: RNA Sequence and Structure Co-Generation with Equivariant Multiflow
+      </a></h3>
+      <p class="authors">Dana Rubin, Allan Dos Santos Costa, Manvitha Ponnapati, Jospeh Jacobson</p>
+    </div>
   
-  a.myLink:hover {
-      text-decoration: none; /* Ensure no default hover underline appears */
-  }
+    <hr class="award-divider">
   
-  a.myLink:hover::after,
-  a.myLink:hover {
-      color: var(--primary-color) /* // green; /* Change text and underline to green on hover */ 
-  }
+    <div class="award-card second">
+      <h2>🥈 Second Prize</h2>
+      <p class="prize">1,200 USD</p>
+      <h3 class="paper-title">
+        <a href="https://openreview.net/forum?id=CMJCXng7iH" target="_blank" rel="noopener noreferrer">
+            Flexible Models of Functional Annotations to Variant Effects using Accelerated Linear Algebra
+        </a>
+      </h3>
+      <p class="authors">Alan Nawzad Amin, Andres Potapczynski, Andrew Gordon Wilson</p>
+    </div>
   
-  a.myLink::after {
-      content: ''; /* Necessary for the pseudo-element to work */
-      position: absolute; /* Position absolutely within the relative parent */
-      width: 100%; /* Full width of the text */
-      height: 1px; /* Height of the underline */
-      background: black; /* Initial color of the underline */
-      left: 0; /* Align to the left edge of the parent */
-      bottom: -2px; /* Position below the text */
-      transition: background-color 0.3s; /* Smooth transition for color change */
-  }
+    <hr class="award-divider">
   
-  a.myLink:hover::after {
-      background: var(--primary-color) /* green; /* Change to green on hover */
-  }
-
-  .force-black {
-    color: black !important; /* Force black color regardless of theme */
-  }
-
-  </style>
-
-
-<!-- begin hero -->
-<section class="hero">
-  <div class="container">
-    <div class="row">
-
-      <div class="col col-6 col-d-12">
-        
-        <div class="hero__left">
-        <!--  
-          <div class="hero__avatar">
-            <img class="lazy" data-src="images/other/dna.svg" alt="AI4NA">
-          </div>-->
-          
-          <h1 class="hero__description">Artificial Intelligence for Nucleic Acids</h1> 
-
-          <h2 class="hero__title">AI4NA Workshop</h2>
-
-
-         <h4 style="color: #EE2536;">ICLR'25 - Monday, Apr 28th <br> Singapore EXPO, Opal 103-104        </h4> 
-        <!-- <h3 class="hero__description">ICLR'25 - Apr (TBC)th, Singapore</h3> 
-        -->
-          <p class="hero__description">This workshop aims to spotlight nucleic acids as the next frontier for AI research. By bringing together experts from machine learning and biology, we will explore how AI can address key challenges in nucleic acids research, such as RNA tertiary structure prediction, understanding nucleic acid interactions, and designing bespoke RNA/DNA molecules with therapeutic potential.</p>
-
-          <div class="hero__subscribe">
-
-            <!-- <!DOCTYPE html>
-            <br>
-            <h3> Interested in attending our workshop?</h3>
-            <form id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate class="subscribe-form validate" action="https://script.google.com/macros/s/AKfycbweKWTluJUb-MAmJdOEZjp76UZjv_gCcJZGM-_8vjNkzdBhwPafZR_b56rMU0oMkYq6/exec" method="POST">
-              
-              <div class="form-row">
-                <label class="screen-reader-text" for="email">Email:</label>
-                <input class="subscribe-email required email" type="email" name="email" id="email" placeholder="Your full name...">
-              </div>
-            
-              <div class="form-row">
-                <label class="screen-reader-text" for="name">Your name:</label>
-                <input class="subscribe-email required email" type="text" name="name" id="name" required placeholder="Your email (optional)...">
-              </div>
-                
-              <div class="form-row">
-                <label class="hero__description" for="attendance">I am attending in person</label>
-                <input type="checkbox" id="attendance" name="attendance" value="Yes">
-              </div>
-            
-              <div class="form-row">
-                <button class="button button--primary subscribe-button" id="membedded-subscribe" type="submit" name="subscribe">Register Interest</button>
-              </div>
-              <p id="message" style="display:none;"></p> 
-            </form> -->
-            
-
-<!-- 
-            <h3> Interested in attending our workshop?</h3>
-              <form class="subscribe-form validate" action="https://bio.us22.list-manage.com/subscribe/post?u=c11b5cdfac933324ba6b81e53&amp;id=b2be655647&amp;f_id=0045cbe1f0" method="post" id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate>
-                <label class="screen-reader-text" for="mce-EMAIL">Email address</label>
-                <input class="subscribe-email required email" id="mce-EMAIL" type="text" name="EMAIL"
-                placeholder="Your email address...">
-                <button class="button button--primary subscribe-button" id="membedded-subscribe" type="submit" name="subscribe">Register Interest</button>
-               </form>
-        </div>
-
-
-          -->
-          </div>
-
-          <div style="border: 0px solid rgb(39, 11, 152); background-color: rgba(255, 255, 255, 0.605); border-radius: 12px; padding: 3%; margin: 2%;" class="force-black">
-            <!-- First Div for Announcements -->
-            <div style="text-align: left; margin-bottom: 0px;">
-                <h3>📣  Important Announcements </h3>
-            </div>
-        
-            <!-- Second Div with the first link -->
-            <div style="margin-left: 2%;">
-              <ul>
-                <li><a href="/awards" class="myLink">
-                  Check out the awarded papers!</a></li>
-
-                <!-- <li><a href="https://ai4na-workshop.github.io/submissions/#poster-instructions" target="_blank" rel="noopener noreferrer" class="myLink">
-                  Poster instructions are out! </a></li> -->
-
-                <!-- <li><a href="https://ai4na-workshop.github.io/submissions/#travel-grants" target="_blank" rel="noopener noreferrer" class="myLink">
-                  Apply here for financial support! </a></li> -->
-
-                <li><a href="/submissions#nat-methods-parthership" class="myLink">
-                  Partnership with <i>Nature Methods!</i></a></li>
-
-                <li><a href="/submissions#attending-ai4na" class="myLink">
-                  The workshop is open to everyone! </a></li>
-
-                <li><p>
-                  Follow us on <a href="https://x.com/ai4na_workshop" target="_blank" rel="noopener noreferrer" class="myLink">Twitter/X</a> 
-                  and <a href="https://bsky.app/profile/ai4na-workshop.bsky.social" target="_blank" rel="noopener noreferrer" class="myLink">Bluesky</a>!
-                </p></li>
-                <!-- <li><a href="/breakout" class="myLink">
-                  Check Breakout Session Notes </a></li> -->
-              </ul>
-              
-            </div>
-
-        </div>
-
-
-          
-          
-        </div>
-
-        
-      </div>
-
-      
-
-      <div class="col col-5 col-d-12">
-        <div class="hero__right">
-          <div class="hero__image">
-            <img class="lazy" data-src="images/other/singapore-merlion.jpg" alt="AI4NA's Picture">
-          </div>
-        </div>
-      </div>
-
+    <div class="award-card third">
+      <h2>🥉 Third Prize</h2>
+      <p class="prize">600 USD</p>
+      <h3 class="paper-title">
+        <a href="https://openreview.net/forum?id=1YZXtSrydl" target="_blank" rel="noopener noreferrer">
+        From Mutation to Degradation: Predicting Nonsense-Mediated Decay with NMDEP
+        </a>
+      </h3>
+      <p class="authors">Ali Saadat, Jacques Fellay</p>
     </div>
-  </div>
-</section>
-<!-- end hero -->
-
-
-
-<div class="container">
-    <div class="page-section-head">
-      <h1 class="page-title">Speakers</h1>
-      
-        <p class="page-description"></p>
-      
-    </div>
-  </div>
-  
-  <div class="work-page container animate">
-    <div class="row">
-        <!-- used to be reversed after site.works -->
-        
-        <article class="work col col-4 col-d-6 col-t-12">
-          <div class="work__content">
-            <a href="/work/bunne-c" class="work__image">
-              <img class="lazy" data-src="/images/speakers_panelists/Charlotte_Bunne.jpg" alt="Charlotte Bunne">
-            </a>
-            <div class="work__info">
-              
-              <div class="work__category">Speaker</div>
-              
-              <h3 class="work__title"><a href="/work/bunne-c">Charlotte Bunne</a></h3>
-              
-              <p class="work__description">Assistant Professor, EPFL</p>
-              
-            </div>
-          </div>
-        </article>
-        
-        <!-- used to be reversed after site.works -->
-        
-        <!-- used to be reversed after site.works -->
-        
-        <article class="work col col-4 col-d-6 col-t-12">
-          <div class="work__content">
-            <a href="/work/davis-s" class="work__image">
-              <img class="lazy" data-src="/images/speakers_panelists/Sam_Davis.jpg" alt="Sam Davis">
-            </a>
-            <div class="work__info">
-              
-              <div class="work__category">Speaker</div>
-              
-              <h3 class="work__title"><a href="/work/davis-s">Sam Davis</a></h3>
-              
-              <p class="work__description">Principal Scientist - Machine Learning, ONT</p>
-              
-            </div>
-          </div>
-        </article>
-        
-        <!-- used to be reversed after site.works -->
-        
-        <article class="work col col-4 col-d-6 col-t-12">
-          <div class="work__content">
-            <a href="/work/eismann-s" class="work__image">
-              <img class="lazy" data-src="/images/speakers_panelists/Stephan_Eismann.jpeg" alt="Stephan Eismann">
-            </a>
-            <div class="work__info">
-              
-              <div class="work__category">Speaker</div>
-              
-              <h3 class="work__title"><a href="/work/eismann-s">Stephan Eismann</a></h3>
-              
-              <p class="work__description">Head of ML, Atomic AI</p>
-              
-            </div>
-          </div>
-        </article>
-        
-        <!-- used to be reversed after site.works -->
-        
-        <article class="work col col-4 col-d-6 col-t-12">
-          <div class="work__content">
-            <a href="/work/jin-w" class="work__image">
-              <img class="lazy" data-src="/images/speakers_panelists/Wengong_Jin.webp" alt="Wengong Jin">
-            </a>
-            <div class="work__info">
-              
-              <div class="work__category">Speaker</div>
-              
-              <h3 class="work__title"><a href="/work/jin-w">Wengong Jin</a></h3>
-              
-              <p class="work__description">Assistant Professor, Northeastern University</p>
-              
-            </div>
-          </div>
-        </article>
-        
-        <!-- used to be reversed after site.works -->
-        
-        <!-- used to be reversed after site.works -->
-        
-        <article class="work col col-4 col-d-6 col-t-12">
-          <div class="work__content">
-            <a href="/work/shafin-k" class="work__image">
-              <img class="lazy" data-src="/images/speakers_panelists/Kishwar_Shafin_2.jpg" alt="Kishwar Shafin">
-            </a>
-            <div class="work__info">
-              
-              <div class="work__category">Speaker</div>
-              
-              <h3 class="work__title"><a href="/work/shafin-k">Kishwar Shafin</a></h3>
-              
-              <p class="work__description">Senior Research Scientist, Google</p>
-              
-            </div>
-          </div>
-        </article>
-        
-        <!-- used to be reversed after site.works -->
-        
-        <article class="work col col-4 col-d-6 col-t-12">
-          <div class="work__content">
-            <a href="/work/yeo-g" class="work__image">
-              <img class="lazy" data-src="/images/speakers_panelists/grace.png" alt="Grace Yeo">
-            </a>
-            <div class="work__info">
-              
-              <div class="work__category">Speaker</div>
-              
-              <h3 class="work__title"><a href="/work/yeo-g">Grace Yeo</a></h3>
-              
-              <p class="work__description">Junior Principal Investigator, GIS</p>
-              
-            </div>
-          </div>
-        </article>
-        
-        <!-- used to be reversed after site.works -->
-        
-      
-    </div>
-  </div>
-
-  <!-- <div class="container">
-    <div class="page-section-head">
-      <h1 class="page-title"></h1>
-      
-        <p class="page-description"></p>
-      
-    </div>
-  </div>
-  
-  <div class="work-page container animate">
-    <div class="row">
-      
-        
-      
-        
-        <article class="work col col-4 col-d-6 col-t-12">
-          <div class="work__content">
-            <a href="/work/chatterjee-p" class="work__image">
-              <img class="lazy" data-src="/images/speakers_panelists/Pranam_Chatterjee.jpeg" alt="Pranam Chatterjee">
-            </a>
-            <div class="work__info">
-              
-              <div class="work__category">Panelist</div>
-              
-              <h3 class="work__title"><a href="/work/chatterjee-p">Pranam Chatterjee</a></h3>
-              
-              <p class="work__description">Assistant Professor, Duke University / Co-Founder of Gameto, Inc. & UbiquiTx, Inc.</p>
-              
-            </div>
-          </div>
-        </article>
-        
-      
-        
-      
-        
-      
-        
-      
-        
-        <article class="work col col-4 col-d-6 col-t-12">
-          <div class="work__content">
-            <a href="/work/schwab-p" class="work__image">
-              <img class="lazy" data-src="/images/speakers_panelists/Patrick_Schwab.jpeg" alt="Patrick Schwab">
-            </a>
-            <div class="work__info">
-              
-              <div class="work__category">Panelist</div>
-              
-              <h3 class="work__title"><a href="/work/schwab-p">Patrick Schwab</a></h3>
-              
-              <p class="work__description">Senior Director of ML and AI, GSK.ai</p>
-              
-            </div>
-          </div>
-        </article>
-        
-      
-        
-      
-        
-      
-        
-        <article class="work col col-4 col-d-6 col-t-12">
-          <div class="work__content">
-            <a href="/work/uszkoreit-j" class="work__image">
-              <img class="lazy" data-src="/images/speakers_panelists/Jakob_ Uszkoreit.jpg" alt="Jakob Uszkoreit">
-            </a>
-            <div class="work__info">
-              
-              <div class="work__category">Panelist</div>
-              
-              <h3 class="work__title"><a href="/work/uszkoreit-j">Jakob Uszkoreit</a></h3>
-              
-              <p class="work__description">CEO & Co-founder of Inceptive</p>
-              
-            </div>
-          </div>
-        </article>
-        
-      
-    </div>
-  </div> -->
-
-<div class="container">
-    <div class="page-section-head">
-      <h1 class="page-title">Panelists</h1>
-      
-        <p class="page-description"></p>
-      
-    </div>
-  </div>
-  
-  <div class="work-page container animate">
-    <div class="row">
-        <!-- used to be reversed after site.works -->
-        
-        <!-- used to be reversed after site.works -->
-        
-        <article class="work col col-4 col-d-6 col-t-12">
-          <div class="work__content">
-            <a href="/work/chatterjee-p" class="work__image">
-              <img class="lazy" data-src="/images/speakers_panelists/Pranam_Chatterjee.jpeg" alt="Pranam Chatterjee">
-            </a>
-            <div class="work__info">
-              
-              <div class="work__category">Panelist</div>
-              
-              <h3 class="work__title"><a href="/work/chatterjee-p">Pranam Chatterjee</a></h3>
-              
-              <p class="work__description">Assistant Professor, Duke University / Co-Founder of Gameto, Inc. & UbiquiTx, Inc.</p>
-              
-            </div>
-          </div>
-        </article>
-        
-        <!-- used to be reversed after site.works -->
-        
-        <!-- used to be reversed after site.works -->
-        
-        <!-- used to be reversed after site.works -->
-        
-        <!-- used to be reversed after site.works -->
-        
-        <article class="work col col-4 col-d-6 col-t-12">
-          <div class="work__content">
-            <a href="/work/schwab-p" class="work__image">
-              <img class="lazy" data-src="/images/speakers_panelists/Patrick_Schwab.jpeg" alt="Patrick Schwab">
-            </a>
-            <div class="work__info">
-              
-              <div class="work__category">Panelist</div>
-              
-              <h3 class="work__title"><a href="/work/schwab-p">Patrick Schwab</a></h3>
-              
-              <p class="work__description">Senior Director of ML and AI, GSK.ai</p>
-              
-            </div>
-          </div>
-        </article>
-        
-        <!-- used to be reversed after site.works -->
-        
-        <!-- used to be reversed after site.works -->
-        
-        <!-- used to be reversed after site.works -->
-        
-        <article class="work col col-4 col-d-6 col-t-12">
-          <div class="work__content">
-            <a href="/work/uszkoreit-j" class="work__image">
-              <img class="lazy" data-src="/images/speakers_panelists/Jakob_ Uszkoreit.jpg" alt="Jakob Uszkoreit">
-            </a>
-            <div class="work__info">
-              
-              <div class="work__category">Panelist</div>
-              
-              <h3 class="work__title"><a href="/work/uszkoreit-j">Jakob Uszkoreit</a></h3>
-              
-              <p class="work__description">CEO & Co-founder of Inceptive</p>
-              
-            </div>
-          </div>
-        </article>
-        
-      
-    </div>
-  </div>
-
-
-
-<!-- begin logos -->
-<section class="section logos animate">
-  
-  <div class="container">
-    <div class="row">
-      
-      <div class="col col-12">
-        <h1 class="section__title">Sponsors</h1>  
-        <div class="section__info">
-          
-          <h2 class="section__small__title">Thank you to our sponsors!</h2>
-        </div>
-
-
-        <ul class="logos__list list-reset">
-          
-          <li class="logos__item">
-            <a href="https://www.nvidia.com/" class="logos__link" rel="noopener">
-              <img src="/images/sponsors/Nvidia_logo.jpeg" alt="Nvidia" class="logos__image"> 
-            </a>
-          </li>
-          
-          <li class="logos__item">
-            <a href="https://nanoporetech.com/" class="logos__link" rel="noopener">
-              <img src="/images/sponsors/ONT.png" alt="ONT" class="logos__image"> 
-            </a>
-          </li>
-          
-          <li class="logos__item">
-            <a href="https://inceptive.life/" class="logos__link" rel="noopener">
-              <img src="/images/sponsors/Inceptive.svg" alt="Inceptive" class="logos__image"> 
-            </a>
-          </li>
-          
-          <li class="logos__item">
-            <a href="https://oraclumcapital.com/" class="logos__link" rel="noopener">
-              <img src="/images/sponsors/Orca.svg" alt="Oraclum Capital" class="logos__image"> 
-            </a>
-          </li>
-          
-          <li class="logos__item">
-            <a href="https://www.gene.com/" class="logos__link" rel="noopener">
-              <img src="/images/sponsors/Genentech.jpg" alt="Genentech" class="logos__image"> 
-            </a>
-          </li>
-          
-        </ul> 
-
-      </div>
-    </div>
-  </div>
-</section>
-<!-- end logos -->
-
-
-<div class="form-box">
-    <div class="contact-head">
-    <h2 class="section__title">Contact Us</h2>
-    
-    <p class="contact-description">If you have any questions, please do reach out to the organizers</p>
-    
-    </div>
-    <form class="form" action=https://formspree.io/f/movqoapb method="POST">
-    <div class="form__group">
-        <label class="form__label screen-reader-text" for="form-name">Your Name</label>
-        <input class="form__input" id="form-name" type="text" name="name" placeholder="Name" required>
-    </div>
-    <div class="form__group">
-        <label class="form__label screen-reader-text" for="form-email">Your Email</label>
-        <input class="form__input" id="form-email" type="email" name="_replyto" placeholder="Email" required>
-    </div>
-    <div class="form__group">
-        <label class="form__label screen-reader-text" for="form-text">Your Message</label>
-        <textarea class="form__input" id="form-text" name="text" rows="7" placeholder="Message" required></textarea>
-    </div>
-    <div class="form__group">
-        <button class="button button--primary" type="submit">Send Message</button>
-    </div>
-    </form>
-  </div>
+  </section>
+</html>
 
   </main>
   <!-- end content -->

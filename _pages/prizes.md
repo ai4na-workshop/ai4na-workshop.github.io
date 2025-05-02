@@ -45,7 +45,7 @@ permalink: /prizes/
 <div class="table-container">
   <table>
     <tr><th>Award to</th><th>Prize</th><th>Image</th></tr>
-    <tr><td>Most Ambitious Submission</td><td>NVIDIA RTX 6000 Ada Generation Graphics Card </td><td><img src="/images/A6000.png" width="50%"></td></tr>
+    <tr><td>Best paper</td><td>NVIDIA RTX 6000 Ada Generation Graphics Card </td><td><img src="/images/A6000.png" width="50%"></td></tr>
     <tr><td>Translational Life Science highlight
 </td><td>RTX 2000 Ada Generation Graphics Card - NVIDIA</td><td><img src="/images/A2000.png" width="50%"></td></tr>
     <tr><td>Translational Material Science highlight

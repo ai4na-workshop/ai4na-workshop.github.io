@@ -1,0 +1,36 @@
+.award-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .award-card {
+    padding: 1.5rem 1rem;
+    text-align: center;
+  }
+  
+  .award-card h2 {
+    margin-bottom: 0.5rem;
+    font-size: 1.75rem;
+  }
+  
+  .paper-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .authors {
+    font-style: italic;
+    color: gray;
+  }
+  
+  .award-divider {
+    border: none;
+    border-top: 2px solid #ccc;
+    margin: 2rem 0;
+  }
+  
+  .first h2 { color: #d4af37; }  /* gold */
+  .second h2 { color: #c0c0c0; } /* silver */
+  .third h2 { color: #cd7f32; }  /* bronze */
